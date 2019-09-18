@@ -1,0 +1,73 @@
+{
+   "quiz" : [{
+        "question": "An entrepreneur from State A decided to sell hot sauce to the public labeling it Best Hot Sauce.A company incorporated in State B and headquartered inState C sued the entht $50,000 in damages and allegedthat the entrepreneur’ s use of the narepreneur in federal court in State C.The complaint sougme“ Best Hot Sauce",
+        "choices": ["No, because the company’s claim arises under federal law .No, because the company’s claim",
+            "No, because the entrepreneur waived the right to challenge subject-matter jurisdiction by not .",
+            "Yes, because although the claim arises under federal law, the amount in controversy is not satisfied.",
+            "Yes, because although there is diversity, the amount in controversy is not satisfied."],
+        "answer": "No, because the company’s claim arises under federal law .No, because the company’s claim",
+        "ansexplanation" :"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
+    }, 
+    {
+        "question": "The operational strategy must be in line with the",
+        "choices": [
+            "Department goals ",
+            "Organizational goals",
+            " Management goals ",
+            "None of the above"
+        ],
+        "answer": "Organizational goals",
+        "ansexplanation":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+    }, {
+        "question": "What does HTML stand for?",
+        "choices": ["Hyperlinks and Text Markup Language", "Hyper Text Markup Language", "Home Tool Markup Language"],
+        "answer": "Hyper Text Markup Language",
+        "ansexplanation":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+    },
+    {
+        "question": "Collaborative Planning, Forecasting, and Replenishment (CPFR) a Web based tool used to coordinate demand forecasting, ____________ and inventory replenishment between supply chaintrading partners.",
+        "choices": [
+            "Production and purchase planning ",
+            "Demand and supply planning",
+            "Quantitative forecasting ",
+            "Demand management "
+
+        ],
+        "answer": "Production and purchase planning ",
+        "ansexplanation":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+    },
+    {
+        "question": "Operations based strategy involves all activities except;Select correct option:",
+        "choices": [
+            "Supply chain management",
+            "Quick response to customer needs",
+            "Flexibility and inventory management",
+            "Identifying customer wants and needs"
+        ],
+        "answer": "Identifying customer wants and needs",
+        "ansexplanation":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+    },
+    {
+        "question": "As a manager, you have defined the purpose of the forecasts. What should be the next step in forecasting process?",
+        "choices": [
+            "Collecting and analyzing the appropriate data",
+            "Determining the purpose of the forecast",
+            "Choosing a forecasting technique",
+            "Setting up a time horizon or a time limit"
+        ],
+        "answer": "Setting up a time horizon or a time limit",
+        "ansexplanation":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+    },
+    {
+        "question": "Which one of the following refers to a decision environment in which relevant parameters have known values?",
+        "choices": [
+            "Certainty",
+            "Uncertainty",
+            "Risk",
+            "Bounded rationality"
+        ],
+        "answer": "Certainty",
+        "ansexplanation":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+    }]
+}
+

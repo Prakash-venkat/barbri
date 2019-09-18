@@ -1,0 +1,107 @@
+.add-student{
+    // .student-content{
+    //     width: 85%;
+    //     margin: 0 auto;
+    // }
+    .student-field{
+        margin-bottom: 1%;
+    }
+    .info-icon{
+        position: relative;
+        bottom: 30px;
+        left: 25px;
+        float: right;
+        color: #70a7cf
+    }
+    .custom-header h6{
+        font-weight: 600;
+    }
+    .custom-header-content{
+        width: 83%;
+        margin: 0 auto;
+    }
+    .custom-fields{
+        width: 64%;
+    margin: 0 auto;
+    }
+    .password-eye{
+        position: relative;
+    bottom: 31px;
+    left: 13px;
+    float: right;
+    color: #70a7cf;
+    background-color: white;
+    }
+} 
+
+// added by muthuraja(26/8/19)
+//admin students students-list
+
+  .admin-student-list{
+    .ReactTable .rt-tbody .rt-td{
+        word-break: break-all;
+    }
+    .student-total-first{
+        background-color: #0e6aae;
+        color: white;
+    }
+    .border{
+        max-width: unset;
+        flex: 1;
+    }
+    .student-total-first h1{
+        font-weight: 500;
+        font-size: 42px;
+      margin-bottom: 6%;
+        color: #ffffff;
+    }
+    .student-total-first h6{
+        font-weight: 500;
+        color: #ffffff;
+
+    }
+    .download-icon{
+        font-size: 36px;
+        margin-top: -6px;    }
+    .card-header > .nav {
+        display: -webkit-box;
+        margin-left: -20px;
+    }
+    .student-total{
+       // border: 1px solid #ccc;
+        .col{
+            padding: 4% !important;
+        }
+        .answers h2{
+            font-weight: 500;
+            color: #0e6aae;
+            margin-top: 8px;
+            margin-bottom: 0px;
+        }
+        .answers h5{
+            color: #6c757d;
+            font-size: 15px;
+            margin: 0px;
+        }
+        .answers h6{
+            color: #6c757d;
+            font-size: 100%;
+        }
+       
+    }
+    .search{
+            position: relative;
+            bottom: 31px;
+            left: -3px;
+            float: right;
+            font-weight: 600;
+            background-color: #ffffff;
+       }
+ }
+
+ .upload-student{
+     .dropzone_file{
+        height: 36px;
+        width: 187px;
+     }
+ }

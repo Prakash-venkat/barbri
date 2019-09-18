@@ -1,0 +1,264 @@
+{
+    "reports": [
+        {
+            "name": "Bob",
+            "date": "12-09-2019",
+            "barbriReference": "23232Ad",
+            "noOfAnswered": 23,
+            "percenetageOfAnswered": 23,
+            "exam": [
+                {
+                    "examName": "Exam1",
+                    "ExamDate": "02-23-2010",
+                    "noOfQuestions": 34,
+                    "score": 45
+                },
+                {
+                    "examName": "Exam2",
+                    "ExamDate": "02-23-2000",
+                    "noOfQuestions": 56,
+                    "score": 70
+                },
+                {
+                    "examName": "Exam3",
+                    "ExamDate": "02-23-2019",
+                    "noOfQuestions": 88,
+                    "score": 60
+                },
+                {
+                    "examName": "Exam4",
+                    "ExamDate": "02-23-2013",
+                    "noOfQuestions": 99,
+                    "score": 55
+                }
+            ],
+            "question": [
+                {
+                    "subject": "Contracts",
+                    "noOfQuestions": 34,
+                    "score": 23
+                },
+                {
+                    "subject": "Torts",
+                    "noOfQuestions": 56,
+                    "score": 12
+                },
+                {
+                    "subject": "Constitutional law",
+                    "noOfQuestions": 56,
+                    "score": 60
+                },
+                {
+                    "subject": "Civil",
+                    "noOfQuestions": 99,
+                    "score": 67
+                },
+                {
+                    "subject": "Criminal law",
+                    "noOfQuestions": 78,
+                    "score": 69
+                },
+                {
+                    "subject": "Evidence",
+                    "noOfQuestions": 98,
+                    "score": 91
+                }
+            ]
+        },
+        {
+            "name": "Cloe Decker",
+            "date": "12-09-2009",
+            "barbriReference": "2w232Ad",
+            "noOfAnswered": 25,
+            "percenetageOfAnswered": 12,
+            "exam": [
+                {
+                    "examName": "Exam1",
+                    "ExamDate": "02-23-2010",
+                    "noOfQuestions": 34,
+                    "score": 23
+                },
+                {
+                    "examName": "Exam2",
+                    "ExamDate": "02-23-2005",
+                    "noOfQuestions": 56,
+                    "score": 12
+                },
+                {
+                    "examName": "Exam3",
+                    "ExamDate": "02-23-2011",
+                    "noOfQuestions": 56,
+                    "score": 60
+                },
+                {
+                    "examName": "Exam4",
+                    "ExamDate": "02-23-2006",
+                    "noOfQuestions": 99,
+                    "score": 67
+                }
+            ],
+            "question": [
+                {
+                    "subject": "Contracts",
+                    "noOfQuestions": 50,
+                    "score": 50
+                },
+                {
+                    "subject": "Torts",
+                    "noOfQuestions": 60,
+                    "score": 90
+                },
+                {
+                    "subject": "Constitutional law",
+                    "noOfQuestions": 70,
+                    "score": 60
+                },
+                {
+                    "subject": "Civil",
+                    "noOfQuestions": 50,
+                    "score": 76
+                },
+                {
+                    "subject": "Criminal law",
+                    "noOfQuestions": 60,
+                    "score": 98
+                },
+                {
+                    "subject": "Evidence",
+                    "noOfQuestions": 50,
+                    "score": 91
+                }
+            ]
+        },
+        {
+            "name": "Marcus",
+            "date": "12-09-2000",
+            "barbriReference": "2w232Ad",
+            "noOfAnswered": 60,
+            "percenetageOfAnswered": 40,
+            "exam": [
+                {
+                    "examName": "Exam1",
+                    "ExamDate": "02-23-2010",
+                    "noOfQuestions": 34,
+                    "score": 34
+                },
+                {
+                    "examName": "Exam2",
+                    "ExamDate": "02-23-2000",
+                    "noOfQuestions": 56,
+                    "score": 12
+                },
+                {
+                    "examName": "Exam3",
+                    "ExamDate": "02-23-2019",
+                    "noOfQuestions": 56,
+                    "score": 45
+                },
+                {
+                    "examName": "Exam4",
+                    "ExamDate": "02-23-2013",
+                    "noOfQuestions": 99,
+                    "score": 67
+                }
+            ],
+            "question": [
+                {
+                    "subject": "Contracts",
+                    "noOfQuestions": 60,
+                    "score": 89
+                },
+                {
+                    "subject": "Torts",
+                    "noOfQuestions": 50,
+                    "score": 70
+                },
+                {
+                    "subject": "Constitutional law",
+                    "noOfQuestions": 70,
+                    "score": 91
+                },
+                {
+                    "subject": "Civil",
+                    "noOfQuestions": 100,
+                    "score": 67
+                },
+                {
+                    "subject": "Criminal law",
+                    "noOfQuestions": 78,
+                    "score": 69
+                },
+                {
+                    "subject": "Evidence",
+                    "noOfQuestions": 60,
+                    "score": 89
+                }
+            ]
+        },
+        {
+            "name": "pearl",
+            "date": "28-5-2018",
+            "barbriReference": "2w232Ad",
+            "noOfAnswered": 50,
+            "percenetageOfAnswered": 50,
+            "exam": [
+                {
+                    "examName": "Exam1",
+                    "ExamDate": "08-05-2018",
+                    "noOfQuestions": 50,
+                    "score": 34
+                },
+                {
+                    "examName": "Exam2",
+                    "ExamDate": "02-23-2000",
+                    "noOfQuestions": 60,
+                    "score": 40
+                },
+                {
+                    "examName": "Exam3",
+                    "ExamDate": "02-23-2019",
+                    "noOfQuestions": 50,
+                    "score": 35
+                },
+                {
+                    "examName": "Exam4",
+                    "ExamDate": "02-23-2013",
+                    "noOfQuestions": 50,
+                    "score": 50
+                }
+            ],
+            "question": [
+                {
+                    "subject": "Contracts",
+                    "noOfQuestions": 60,
+                    "score": 89
+                },
+                {
+                    "subject": "Torts",
+                    "noOfQuestions": 50,
+                    "score": 70
+                },
+                {
+                    "subject": "Constitutional law",
+                    "noOfQuestions": 70,
+                    "score": 91
+                },
+                {
+                    "subject": "Civil",
+                    "noOfQuestions": 100,
+                    "score": 67
+                },
+                {
+                    "subject": "Criminal law",
+                    "noOfQuestions": 78,
+                    "score": 69
+                },
+                {
+                    "subject": "Evidence",
+                    "noOfQuestions": 60,
+                    "score": 89
+                }
+            ]
+        }
+    ]
+}

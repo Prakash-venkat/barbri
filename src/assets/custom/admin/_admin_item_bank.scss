@@ -1,0 +1,286 @@
+//added by muthuraja(30/8/19)
+//item bank-list
+.item-bank-list{
+    .itembank-box-shadow{
+        box-shadow: 0px 1px rgba(0, 0, 0, 0.1);
+        margin: 0 -45px;
+      padding: 0 30px 15px 30px;
+    }
+    .ReactTable .rt-thead.-filters {
+   
+    display: none;
+}
+  .student-total-first{
+        background-color: #0e6aae;
+        color: white;
+    }
+    .border{
+        max-width: unset;
+        flex: 1;
+    }
+    .student-total-first h1{
+        font-weight: 500;
+        font-size: 42px;
+      margin-bottom: 6%;
+        color: #ffffff;
+    }
+    .student-total-first h6{
+        font-weight: 500;
+        color: #ffffff;
+
+    }
+    .search {
+    position: relative;
+    bottom: 31px;
+    left: -3px;
+    float: right;
+    font-weight: 600;
+    background-color: #ffffff;
+}
+.icon-font-size{
+    font-size: x-large;
+}
+    .student-total{
+       // border: 1px solid #ccc;
+        .col{
+            padding: 4% !important;
+        }
+        .answers h2{
+            font-weight: 500;
+            color: #0e6aae;
+            margin-top: 8px;
+            margin-bottom: 0px;
+        }
+        .answers h5{
+            color: #6c757d;
+            font-size: 15px;
+            margin: 0px;
+        }
+        .answers h6{
+            color: #6c757d;
+            font-size: 100%;
+        }
+    }  
+}
+.icon-size-24{
+    font-size: 24px;
+}
+
+input[type=radio] {
+    visibility: hidden;
+}
+
+.font-weight-500{
+    font-weight :500
+}
+
+.down-arrow{
+    font-size: 42px;
+    margin-top: -33px;
+    margin-bottom: -17px;
+}
+.border-radius-0{
+    border-radius: 0px !important
+}
+.tooltip-info{
+    font-size: 18px;
+    color: #9a9696
+ }
+ .question-icon{
+    position: relative;
+    bottom: 3px;
+    font-size: 10px;
+    margin-left: -13px;
+    margin-top: 6px;
+ }
+ .text-light-grey{
+  color:   #a59d9d
+ }
+//  .margin-left-13{
+//      margin-left: -13px
+//  }
+.padding-right-19{
+    padding-right: 19px !important;
+
+}
+
+.margin-top-12{
+    margin-top: -35px;
+    margin-bottom: -16px;
+}
+.border-box{
+    border: 1px solid black 
+}
+.sub-heading {
+    font-size: 17px;
+    font-weight: 600;
+ }
+ .sub-section{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    padding: 10px 10px 0px 10px;
+    border-radius: 10px;
+ }
+ .itembank-revisionhistory{
+    [class^="pe-7s-"], [class*=" pe-7s-"] {
+       font-size: xx-large;
+    }
+    .revision-history-border{
+       padding: 15px 0px 15px 25px;
+    }
+    .revisionhistory-heading{
+       margin: 10px 0px 10px 10px;
+    }
+    .revisionhistory-heading-icon{
+       margin-top:-4px;
+    }
+    }
+    .Add-btn{
+        background: rgb(231, 224, 224);
+        
+     }
+     .trash-icon{
+        font-size: 21px;
+     }
+     .Add-btn{
+        text-decoration: none;
+        color: black;
+     }
+     .Add-btn:hover{
+        text-decoration: none !important
+     }
+     .tag{
+        background-color: #e4e5ec;
+        width: 50%;
+        color: #928b8b;
+        font-size: 12px;
+        font-weight: 300;
+        padding: 5px;
+     }
+     .close-icon{
+      font-size: 17px;
+     float: right;
+     padding-right: 2px;
+     
+     }
+   
+// added by muthuraja(3/9/19)
+// admin item bank list
+.admin-itembank-list{
+    .admin-itembank-boxshadow{
+        box-shadow: 0px 1px rgba(0, 0, 0, 0.1);
+    margin: 0px -65px 0px -27px;
+    padding: 0px 29px 18px 30px;
+    }
+    .icon-font-size{
+        font-size: x-large;
+        color:gray;
+    }
+.student-total-first{
+        background-color: #0e6aae;
+        color: white;
+    }
+    .border{
+        max-width: unset;
+        flex: 1;
+    }
+    .student-total-first h1{
+        font-weight: 500;
+        font-size: 42px;
+      margin-bottom: 6%;
+        color: #ffffff;
+    }
+    .student-total-first h6{
+        font-weight: 500;
+        color: #ffffff;
+
+    }
+    .student-total{
+      
+        .col{
+            padding: 4% !important;
+        }
+        .answers h2{
+            font-weight: 500;
+            color: #0e6aae;
+            margin-top: 8px;
+            margin-bottom: 0px;
+        }
+        .answers h5{
+            color: #6c757d;
+            font-size: 15px;
+            margin: 0px;
+        }
+        .answers h6{
+            color: #6c757d;
+            font-size: 100%;
+        }
+    }
+.search{
+            position: relative;
+            bottom: 31px;
+            left: -3px;
+            float: right;
+            font-weight: 600;
+            background-color: #ffffff;
+       }
+       .ReactTable .rt-thead.-filters {
+    display: none;
+} 
+}
+
+     .select{
+        visibility: hidden !important;
+     }
+     .selectParent {
+     
+      overflow: hidden;
+    }
+    .admin-itembank-table{
+       height:55px;
+    }
+    .admin-itembank-color{
+       width:55px;
+       font-size: 23px;
+    }
+    .itembank-font-weight{
+       font-weight:500;
+    }
+//     .table-bordered {
+//       // border: 1px solid #ccc;
+//       border-color: gray;
+//       color:gray;
+//   }
+    .selectParent select {
+      
+      -webkit-appearance: none !important;
+      -moz-appearance: none !important;
+      // appearance: none !important;
+    
+      // border: none !important;
+      // background: transparent url('../../../assets/down-arrow.png') no-repeat right center;
+    }
+
+.item-bank-value-list-not-selected{
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    label{
+        cursor: pointer;
+    }
+}
+
+.item-bank-value-list-selected{
+    border: 1px solid #ccc;
+    color:#0E6AAE;
+    font-weight: bold;
+    margin: 5px 0;
+    cursor: pointer;
+        label{
+            cursor: pointer;
+        }
+}
+
+.option-label{
+    border-right: 1px solid #ccc;
+    text-align: center;
+}

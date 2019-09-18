@@ -1,0 +1,190 @@
+{
+    "subjetcs": [
+        {
+            "subjectName": "Civil Procedure",
+            "tolalQuestions": "258",
+            "topics": [
+                {
+                    "title": "Appealability and Review",
+                    "noOfQuestions": 45
+                },
+                {
+                    "title": "Jurisdiction and Venue",
+                    "noOfQuestions": 35
+                },
+                {
+                    "title": "Jury Trials",
+                    "noOfQuestions": 65
+                },
+                {
+                    "title": "Law Applied by Federal Courts",
+                    "noOfQuestions": 46
+                },
+                {
+                    "title": "Motions",
+                    "noOfQuestions": 55
+                },
+                {
+                    "title": "Pretrial Procedures",
+                    "noOfQuestions": 33
+                },
+                {
+                    "title": "Verdicts and Judgments",
+                    "noOfQuestions": 45
+                }
+            ]
+        },
+        {
+            "subjectName": "Constitutional Law",
+            "tolalQuestions": "60",
+            "topics": [
+                {
+                    "title": "Individual Rights",
+                    "noOfQuestions": 12
+                },
+                {
+                    "title": "The Nature of Judicial Review",
+                    "noOfQuestions": 12
+                },
+                {
+                    "title": "The Relation of Nation and States in a Federal System",
+                    "noOfQuestions": 16
+                },
+                {
+                    "title": "The Separation of Powers",
+                    "noOfQuestions": 10
+                }
+            ]
+        },
+        {
+            "subjectName": "Contracts",
+            "tolalQuestions": "234",
+            "topics": [
+                {
+                    "title": "Contract Content and Meaning",
+                    "noOfQuestions": 56
+                },
+                {
+                    "title": "Defenses to Enforceability",
+                    "noOfQuestions": 33
+                },
+                {
+                    "title": "Formation of Contracts",
+                    "noOfQuestions": 54
+                },
+                {
+                    "title": "Performance, Breach, and Discharge",
+                    "noOfQuestions": 34
+                },
+                {
+                    "title": "Remedies",
+                    "noOfQuestions": 84
+                },
+                {
+                    "title": "Third-Party Rights",
+                    "noOfQuestions": 44
+                }
+            ]
+        },
+        {
+            "subjectName": "Criminal Law and Procedure",
+            "tolalQuestions": "245",
+            "topics": [
+                {
+                    "title": "Constitutional Protection of Accused Persons",
+                    "noOfQuestions": 78
+                },
+                {
+                    "title": "General Principles",
+                    "noOfQuestions": 89
+                },
+                {
+                    "title": "Homicide",
+                    "noOfQuestions": 25
+                },
+                {
+                    "title": "Inchoate Crimes; Parties",
+                    "noOfQuestions": 55
+                },
+                {
+                    "title": "Other Crimes",
+                    "noOfQuestions": 44
+                }
+            ]
+        },
+        {
+            "subjectName": "Evidence",
+            "tolalQuestions": "295",
+            "topics": [
+                {
+                    "title": "Hearsay and Circumstances of Its Admissibility",
+                    "noOfQuestions": 45
+                },
+                {
+                    "title": "Presentation of Evidence",
+                    "noOfQuestions": 23
+                },
+                {
+                    "title": "Privileges and Other Policy Exclusion",
+                    "noOfQuestions": 65
+                },
+                {
+                    "title": "Relevency and Reasons for Excluding Relevant Evidence",
+                    "noOfQuestions": 76
+                },
+                {
+                    "title": "Writings,Recording,and Photographs",
+                    "noOfQuestions": 56
+                }
+            ]
+        },
+        {
+            "subjectName": "Real Property",
+            "tolalQuestions": "234",
+            "topics": [
+                {
+                    "title": "Mortgages and Security Devices",
+                    "noOfQuestions": 55
+                },
+                {
+                    "title": "Ownership of Real Property",
+                    "noOfQuestions": 65
+                },
+                {
+                    "title": "Real Estate Contracts",
+                    "noOfQuestions": 84
+                },
+                {
+                    "title": "Rights in Real Property",
+                    "noOfQuestions": 34
+                },
+                {
+                    "title": "Titles",
+                    "noOfQuestions": 56
+                }
+            ]
+        },
+        {
+            "subjectName": "Torts",
+            "tolalQuestions": "278",
+            "topics": [
+                {
+                    "title": "Intentional Torts",
+                    "noOfQuestions": 35
+                },
+                {
+                    "title": "Negligence",
+                    "noOfQuestions": 65
+                },
+                {
+                    "title": "Other Torts",
+                    "noOfQuestions": 70
+                },
+                {
+                    "title": "Strict Liability and Products Liability",
+                    "noOfQuestions": 34
+                }
+            ]
+        }
+    ]
+}

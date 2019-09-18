@@ -1,0 +1,97 @@
+.settings-admin{
+    // .box-shadow-settings{
+    // box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+    // margin: 0px 0px;
+    // padding: 0 30px 15px 30px;
+    // }
+    .text-muted,.text-secondary{
+        color: #666 !important;
+    }
+    .settings-alignment{
+        padding:15%;
+    }
+    .custom-radio{
+        .custom-control-label{
+            color: #666;
+        }
+    }
+    .settings-alignment-keyboard
+    {
+        padding: 15% 25%;
+    }
+    .settings-alignment-status{
+        padding:15% 11%;
+    }
+    // .settings-shadow{
+    // margin: 0;
+    // padding: 0;
+    // box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0);
+    // }
+    .radius-setting{
+        border-radius: 15px;
+    }
+   .svg-inline--fa {
+    font-size: 13px;
+}
+.settings-date{
+    padding:20px 15px;
+    h6{
+        color: #000;
+    }
+    span{
+        color: #666;
+    }
+    .click-here-button{
+        h6{
+            color: #666;    
+        }
+    }
+}
+.tudent-information-settings{
+        padding: 18% 0%;
+}
+.btn-outline-primary.btn-shadow {
+    box-shadow: 0 0 0 0;
+    // width: 200px;
+    // .fa-lock{
+    //     margin-right: 15px !important;
+    //     margin-left: -10px;
+    // }
+}
+
+.btn-outline-2x {
+     border-width: 1px; 
+}
+.settings-font-weight{
+    font-weight: 500;
+}
+.card {
+    box-shadow:0 0 5px rgba(204, 204, 204, 0.603); 
+} 
+
+.settings-no-border:nth-child(4) {
+    border-right:none !important;
+}
+.settings-link-color{
+border-bottom: 1.5px solid #0e6aae;
+text-decoration: none;
+}
+@media only screen and (max-width: 768px) {
+  .settings-alignment {
+    padding: 8%;
+    margin: 10% 0%;
+}
+}
+@media only screen and (max-width: 430px) {
+  .settings-alignment {
+   border-bottom: 1px solid #dee2e6 !important;
+}
+}
+@media only screen and (max-width: 425px) {
+  .settings-no-border:nth-child(4) {
+    border-bottom:none !important;
+}
+}  
+
+}
+

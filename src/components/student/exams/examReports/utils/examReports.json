@@ -1,0 +1,74 @@
+{
+  "examreports": [
+    {
+      "examName": "EXAM01",
+
+      "examDate": "12-22-2010",
+      "questions": {
+        "noOfQuestionsAnswered": 30,
+        "noOfQuestionsAnsweredCorrectly": 20,
+        "total": 100
+      },
+
+      "score": 70
+    },
+    {
+      "examName": "EXAM02",
+
+      "examDate": "12-20-2010",
+      "questions": {
+        "noOfQuestionsAnswered": 60,
+      "noOfQuestionsAnsweredCorrectly": 40,
+      "total": 100
+      },
+       "score": 20
+    },
+    {
+      "examName": "EXAM03",
+
+      "examDate": "02-22-2012",
+      "questions": {
+        "noOfQuestionsAnswered": 70,
+      "noOfQuestionsAnsweredCorrectly": 60,
+      "total": 100
+      }, 
+      "score": 40
+    },
+    {
+      "examName": "EXAM04",
+
+      "examDate": "12-22-2019",
+      "questions": {
+        "noOfQuestionsAnswered": 40,
+        "noOfQuestionsAnsweredCorrectly": 20,
+        "total": 100
+      },
+     
+      "score": 60
+    },
+     {
+      "examName": "EXAM05",
+
+      "examDate": "11-12-2018",
+      "questions": {
+        "noOfQuestionsAnswered": 50,
+        "noOfQuestionsAnsweredCorrectly": 30,
+        "total": 100
+      },
+     
+      "score": 60
+    },
+     {
+      "examName": "EXAM06",
+
+      "examDate": "8-05-2019",
+      "questions": {
+        "noOfQuestionsAnswered": 100,
+        "noOfQuestionsAnsweredCorrectly": 70,
+        "total": 100
+      },
+     
+      "score": 70
+    }
+  ]
+}

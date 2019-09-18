@@ -1,0 +1,94 @@
+.custom-sidebar{
+   .sidebar-header{
+
+   }
+  
+   .side-menu{
+       .nav{
+           display: block !important;
+       }
+       ul{
+           li{
+            //    padding: 3% 1%;
+                a{
+                    text-decoration: none;
+                    font-size: 14px;
+                    color: #000;
+                    font-weight: 100;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                }
+                i{
+                    width: 20px;
+                    height: 20px;
+                    font-size: 18px;
+                    color: #707070;
+                    font-weight: 100;
+                    margin-right: 10px !important;
+
+                }
+
+                .tittle-txt{
+                    font-size: 13px!important;
+                    line-height: 1.58;
+                    letter-spacing: .8px;
+                }
+
+               .icon-side{
+                   position: relative;
+                   display: flex;
+                   height: 100%;
+                   align-items: center;
+               }
+                .dropdown-toggle::after{
+                    display: none !important;
+                }
+           }:hover{
+        color: rgb(14, 106, 174);
+}
+           .navbar-collapse{
+            //    padding: 0 5% !important;
+                   li{
+                       padding:0% 4% !important;
+                       a{
+                        text-decoration: none;
+                        font-size: 13px;
+                        color: #000;
+                        font-weight: 100;
+                        text-transform: capitalize;
+                       }
+                   }:hover{
+        color: rgb(14, 106, 174);
+}
+                   .nav-item{
+                      
+                           padding: 0%!important;
+                         
+                        .nav-link{
+    
+                            .navbar-collapse{
+                                border-left: 4px solid #0e69ae3a;
+                                margin:5px;
+                            }
+                        }
+                   }
+           }
+       }
+   }
+   li:hover{
+        color: rgb(14, 106, 174) !important;   }
+}
+
+// 05.09.2019 Styles
+.app-sidebar.sidebar-shadow {
+    box-shadow: unset;
+}
+.app-header__logo{
+    padding-left: 20px;
+}
+.app-sidebar .app-sidebar__inner {
+    padding: 5.5rem 0 1.5rem 0;
+}
+.nav-link{
+    padding: 0.5rem 1.5rem;
+}
