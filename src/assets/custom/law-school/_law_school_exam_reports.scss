@@ -1,0 +1,43 @@
+.txt-large{
+    font-size: 1rem;
+    font-weight: 450 !important;
+    padding-right: 42px !important;
+    i{
+        font-size: 34px !important;
+        position : absolute !important;
+        top : 2px;
+        right : -37px;
+    }
+}
+input[type=checkbox] {
+    visibility: hidden;
+}
+
+.close{
+    visibility: hidden;
+}
+
+.margin-right{
+    margin-right: 12px;
+}
+
+.text-md{
+    font-size: 1rem;
+    font-weight: 500 !important;
+}
+.exam-report-table{
+    .ReactTable{
+        .rt-tbody{
+            .rt-td{
+                font-size: 14px;
+                color: #666666;
+            }
+        } 
+    } 
+}
+
+.exam-report-table .rt-th.rt-resizable-header.-cursor-pointer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,24 @@
+.font-weight-600{
+    font-weight: 600
+}
+
+.margin-width{
+    width: 80%;
+    margin : 0 auto
+}
+
+.user-list{
+    .ReactTable .rt-tbody .rt-td{
+        word-break: break-all;
+    }
+}
+.ReactTable .rt-tbody .rt-td{
+    word-break: break-all;
+}
+.password-show-hide{
+    top: -36px;
+    float: right;
+    position: relative;
+    font-size: 20px;
+    left: 11px;
+}

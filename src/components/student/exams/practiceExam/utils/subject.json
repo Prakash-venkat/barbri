@@ -1,0 +1,77 @@
+
+{
+    "subjetcs": [
+        {
+            "subjectName": "Civil Procedure",
+            "topics": [
+                "Appealability and Review",
+                "Jurisdiction and Venue",
+                "Jury Trials",
+                "Law Applied by Federal Courts",
+                "Motions",
+                "Pretrial Procedures",
+                "Verdicts and Judgments"
+            ]
+        },
+        {
+            "subjectName": "Constitutional Law",
+            "topics": [
+               "Individual Rights",
+               "The Nature of Judicial Review",
+               "The Relation of Nation and States in a Federal System",
+               "The Separation of Powers"
+            ]
+        },
+    
+        {
+            "subjectName": "Contracts",
+            "topics": [
+               "Contract Content and Meaning",
+               "Defenses to Enforceability",
+               "Formation of Contracts",
+               "Performance, Breach, and Discharge",
+               "Remedies",
+               "Third-Party Rights"
+            ]
+        },
+        {
+            "subjectName": "Criminal Law and Procedure",
+            "topics": [
+               "Constitutional Protection of Accused Persons",
+               "General Principles",
+               "Homicide",
+               "Inchoate Crimes; Parties",
+               "Other Crimes"
+            ]
+        },
+        {
+            "subjectName": "Evidence",
+            "topics": [
+              "Hearsay and Circumstances of Its Admissibility",
+              "Ownership of Real Property",
+              "Real Estate Contracts",
+              "Rights in Real Property",
+              "Titles"
+            ]
+        },
+        {
+            "subjectName": "Real Property",
+            "topics": [
+               "Mortgages and Security Devices",
+               "Ownership of Real Property",
+               "Real Estate Contracts",
+               "Rights in Real Property",
+               "Titles"
+            ]
+        },
+        {
+            "subjectName": "Torts",
+            "topics": [
+              "Intentional Torts",
+              "Negligence",
+              "Other Torts",
+              "Strict Liability and Products Liability"
+            ]
+        }
+    ]
+}

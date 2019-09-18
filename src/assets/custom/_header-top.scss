@@ -1,0 +1,116 @@
+.top-header{
+padding: 10px 0;
+position: relative;
+    .row{
+        position: relative;
+        height: 100%;
+        display: flex;
+        align-items: center;     
+    }
+    .name-section{
+        h6{
+            color: #0e6aae;
+            font-weight: 200;
+        }
+        p{
+            color: #a8a6a6;
+            font-size: 11px;
+        }
+    }
+    .right-side-header{
+       margin-left: auto;        
+        ul{
+            margin: 0px !important;
+            li{
+                list-style: none;
+                float: left;
+                padding:0 15px;
+                font-size: 16px;
+                color: #0e6aae;
+                font-weight: 500;
+
+                i{
+                    font-size: 22px;
+                    font-weight: bold;
+
+                }
+            }
+            .get-help{
+                padding: 0 25px;
+                border-left: 1px solid #0e6aae;
+            }
+        }
+    }
+}
+.app-header__content{
+    background: #ffffff !important;
+    // margin: 0 -15px !important;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex: 1;
+    padding:4% 0px;
+    height: 60px;
+    z-index: 10;
+    .app-header-left{
+    align-items: center;
+    h6{
+        color: #0e6aae;
+        font-weight: 200;
+        letter-spacing: 1px;
+
+    }
+    p{
+        color: #000;
+        font-size: 11px;
+        letter-spacing: 1px;
+
+    }
+    }
+    .app-header-right{
+        align-items: center;
+        display: flex;
+         margin-left: auto;
+         ul{
+            margin: 0px !important;
+            li{
+                list-style: none;
+                float: left;
+                font-size: 16px;
+                color: #0e6aae;
+                font-weight: 500;
+                padding-left: 30px;
+                a{
+                    text-decoration: none;
+                    color: #0e6aae;
+                }
+
+                i{
+                    font-size: 22px;
+                    font-weight: bold;
+
+                }
+            }
+            li:last-child{
+                padding-left: 20px !important;
+                i{
+                    margin-left: 10px;
+                }
+
+            }
+            .get-help{
+                padding: 0 25px;
+                border-left: 1px solid #0e6aae;
+                letter-spacing: 1px;
+               
+
+
+            }
+        }
+    }
+}
+
+// Sep12 Karthees Styles
+// .search-wrapper{
+//     margin-right: unset;
+// }

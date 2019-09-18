@@ -1,0 +1,73 @@
+.video-header{
+    .video-lecture{
+        .card-header{
+            border: none;
+            margin: 1px 0 ; 
+            border: 1px solid #ccc;
+            border-left: 30px solid $primary;
+            border-radius: 10px;
+            padding-left: 14px;
+        }
+    }
+    .video-lecture h6:hover{
+        color: gray;
+    }
+    
+    .video-lecture h6:hover{
+        color: gray;
+    }
+}
+
+.nav-pills .nav-link.active {
+    color:black;
+    background: none;
+}
+
+
+
+.setting{
+    h4{
+        color: blue($color: #000000);
+        letter-spacing: 1px;
+        font-size: 16px;
+    }
+    .icon-setting{
+        margin-right: 19px;
+        position: relative;
+        top: -3px;
+        font-size: 20px;
+    }
+    h4:hover{
+        color: grey;
+    }
+    .nav-pills .nav-link.active:hover {
+     color:grey !important; 
+    }
+    .setting-header{
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    }
+    .setting-item{
+     padding-top: 10px;
+     padding-bottom: 5px;
+     border-bottom: 1px solid rgb(126, 125, 125);
+    }
+    .setting-content{
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    }
+    .custom-control-label{
+    font-size: 13px;
+    padding-bottom: 14px;
+    padding-left: 26px;
+    }
+    .setting-label{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    position: absolute;
+    top: px;
+    margin-top: 1px;
+    padding-left: 23px;
+    font-size: 16px;
+    word-spacing: 2px;
+    font-weight: 600;
+    }
+}

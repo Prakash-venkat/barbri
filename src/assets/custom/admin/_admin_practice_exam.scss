@@ -1,0 +1,29 @@
+
+.practice-exam{
+.practice-exam-center{
+     width: 85%;
+        margin: 0 auto;
+}
+.practice-exam-text{
+        width: 80%;
+        margin: 0 auto;
+    }
+.exam-space{
+        margin-bottom: 1%;
+    }
+    .info-icon{
+    position: relative;
+    bottom: 30px;
+    left: 25px;
+    float: right;
+    color: #70a7cf
+}
+h6{
+        color: $primary;
+       // margin: 30px 0;
+        font-weight: 500;
+    }
+    .row-space{
+        margin-bottom: 1%;
+    }
+}
