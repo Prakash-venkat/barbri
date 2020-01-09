@@ -1,0 +1,89 @@
+{
+  "subjects": [
+    {
+      "subjectName": "Civil Procedure",
+      "id":1,
+      "sum": 0,
+      "topics": [
+        { "name": "Appealability and Review", "no": 0,"id":2},
+        { "name": "Jurisdiction and Venue", "no": 0,"id":3},
+        { "name": "Jury Trials", "no": 0,"id":4 },
+        { "name": "Law Applied by Federal Courts", "no": 0,"id":5},
+        { "name": "Motions", "no": 0,"id":6},
+        { "name": "Pretrial Procedures", "no": 0,"id":7},
+        { "name": "Verdicts and Judgments", "no": 0,"id":8}
+      ]
+    },
+    {
+      "subjectName": "Constitutional Law",
+      "id":9,
+      "sum": 0,
+      "topics": [
+        { "name": "Individual Rights", "no": 0, "id":10},
+        { "name": "The Nature of Judicial Review", "no": 0, "id":11},
+        { "name": "The Relation of Nation and States in a Federal System", "no": 0, "id":12},
+        { "name": "The Separation of Powers", "no": 0, "id":13}
+      ]
+    },
+    {
+      "subjectName": "Contracts",
+      "id":14,
+      "sum": 0,
+      "topics": [
+        { "name": "Contract Content and Meaning", "no": 0, "id":15},
+        { "name": "Defenses to Enforceability", "no": 0, "id":16},
+        { "name": "Formation of Contracts", "no": 0, "id":17},
+        { "name": "Performance, Breach, and Discharge", "no": 0, "id":18},
+        { "name": "Remedies", "no": 0, "id":19},
+        { "name": "Third-Party Rights", "no": 0, "id":20}
+      ]
+    },
+    {
+      "subjectName": "Criminal Law and Procedure",
+      "id":21,
+      "sum": 0,
+      "topics": [
+        { "name": "Constitutional Protection of Accused Persons", "no": 0,"id":22},
+        { "name":"General Principles", "no": 0,"id":23},
+        { "name": "Homicide", "no": 0,"id":24 },
+        { "name": "Inchoate Crimes; Parties", "no": 0,"id":25},
+        { "name":  "Other Crimes", "no": 0, "id":26}
+      ]
+    },
+    {
+      "subjectName": "Evidence",
+      "id":27,
+      "sum": 0,
+      "topics": [
+        { "name": "Hearsay and Circumstances of Its Admissibility", "no": 0, "id":28},
+        { "name":"Ownership of Real Property", "no": 0, "id":29},
+        { "name":  "Real Estate Contracts","no": 0, "id":30},
+        { "name":  "Rights in Real Property", "no": 0, "id":31},
+        { "name": "Titles", "no": 0, "id":32}
+      ]
+    },
+    {
+      "subjectName": "Real Property",
+      "id":33,
+      "sum": 0,
+      "topics": [
+        { "name":  "Mortgages and Security Devices", "no": 0, "id":34},
+        { "name": "Ownership of Real Property", "no": 0 , "id":35},
+        { "name":  "Real Estate Contracts","no": 0, "id":3},
+        { "name":  "Rights in Real Propertzy", "no": 0 , "id":37},
+        { "name": "Titles", "no": 0, "id":38}
+      ]
+    },
+    {
+      "subjectName": "Torts",
+      "id":39,
+      "sum": 0,
+      "topics": [
+        { "name":  "Intentional Torts", "no": 0,"id":40},
+        { "name":  "Negligence", "no": 0,"id":41},
+        { "name":   "Other Torts","no": 0,"id":42},
+        { "name":   "Strict Liability and Products Liability", "no": 0, "id":43}    
+      ]
+    }
+  ]
+}

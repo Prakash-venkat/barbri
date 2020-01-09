@@ -1,6 +1,6 @@
 // Dropzone
 
-.dropzone-wrapper {
+.msedge-dropzone-wrapper {
   width: 100%;
   border: $gray-400 dashed 2px;
   @include border-radius($border-radius-lg);
@@ -9,7 +9,7 @@
   align-content: center;
   text-align: center;
   height: 230px;
-  transition: all .2s;
+  transition: all 0.2s;
 
   &:hover {
     border-color: $primary;
@@ -23,11 +23,11 @@
     align-items: center;
   }
 
-  &.dropzone-wrapper-lg {
+  &.msedge-dropzone-wrapper-lg {
     height: 300px;
   }
 
-  &.dropzone-wrapper-sm {
+  &.msedge-dropzone-wrapper-sm {
     height: 150px;
   }
 
@@ -36,7 +36,7 @@
     height: 100%;
   }
 
-  .dropzone-content {
+  .msedge-dropzone-content {
     margin: 0 auto;
     color: $gray-600;
   }
@@ -44,7 +44,7 @@
   &[aria-disabled="true"] {
     border-color: $gray-300;
 
-    .dropzone-content {
+    .msedge-dropzone-content {
       color: $gray-400;
     }
   }

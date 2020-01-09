@@ -3,56 +3,48 @@
 // Variables
 
 $app-container-bg: #ffffff;
-$app-sidebar-bg: #ffffff;
+$msedge-sidebar-bg: #ffffff;
 $app-header-bg: #f8f9fa;
-$app-header-logo-bg: rgba(0, 0, 0, .03);
+$app-header-logo-bg: rgba(0, 0, 0, 0.03);
 
 // Content
 
-.app-theme-gray {
-
-  &.app-container {
+.msedge-bg-gray {
+  &.msedge-container {
     background: $app-container-bg;
   }
 
-  .app-sidebar {
-    background: $app-sidebar-bg;
+  .msedge-sidebar {
+    background: $msedge-sidebar-bg;
     border-right: $gray-300 solid 1px;
   }
 
-  .app-page-title {
-    background: rgba(0, 0, 0, .03);
+  .msedge-title {
+    background: rgba(0, 0, 0, 0.03);
   }
 
-  .app-footer,
+  .msedge-footer,
   .app-header {
     background: $app-header-bg;
   }
 
-  .app-footer {
+  .msedge-footer {
     border-top: $gray-300 solid 1px;
   }
 
   .app-header {
-    .app-header__logo {
-      border-right: rgba(0, 0, 0, .1) solid 1px;
+    .msedge-header-logo {
+      border-right: rgba(0, 0, 0, 0.1) solid 1px;
     }
   }
-
-  &.fixed-header {
-    .app-header__logo {
-    }
-  }
-
   .card {
     border-width: 1px;
   }
 
-  .main-card {
+  .msedge-main-card {
     box-shadow: 0 0 0 0 transparent !important;
 
     & > .card-body {
-
       & > .card-title {
         text-transform: none;
         font-size: $font-size-lg;
@@ -79,5 +71,4 @@ $app-header-logo-bg: rgba(0, 0, 0, .03);
   .app-inner-layout__sidebar {
     border-left: 0 !important;
   }
-
 }

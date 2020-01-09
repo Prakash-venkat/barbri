@@ -1,286 +1,538 @@
-//added by muthuraja(30/8/19)
-//item bank-list
-.item-bank-list{
-    .itembank-box-shadow{
-        box-shadow: 0px 1px rgba(0, 0, 0, 0.1);
-        margin: 0 -45px;
-      padding: 0 30px 15px 30px;
-    }
-    .ReactTable .rt-thead.-filters {
-   
+//----muthuraja-----
+.item-bank-list {
+  .ReactTable .rt-thead.-filters {
     display: none;
-}
-  .student-total-first{
-        background-color: #0e6aae;
-        color: white;
-    }
-    .border{
-        max-width: unset;
-        flex: 1;
-    }
-    .student-total-first h1{
-        font-weight: 500;
-        font-size: 42px;
-      margin-bottom: 6%;
-        color: #ffffff;
-    }
-    .student-total-first h6{
-        font-weight: 500;
-        color: #ffffff;
-
-    }
-    .search {
+  }
+  .msedge-student-list-active {
+    background-color: #006ebd;
+    color: white;
+  }
+  .border {
+    max-width: unset;
+    flex: 1;
+  }
+  .msedge-student-list-active h1 {
+    font-weight: 500;
+    font-size: 42px;
+    margin-bottom: 6%;
+    color: #ffffff;
+  }
+  .msedge-student-list-active h6 {
+    font-weight: 500;
+    color: #ffffff;
+  }
+  .search {
     position: relative;
     bottom: 31px;
     left: -3px;
     float: right;
     font-weight: 600;
     background-color: #ffffff;
+  }
+  .msedge-student-list-active {
+    .col {
+      padding: 4% !important;
+    }
+    .msedge-answers h2 {
+      font-weight: 500;
+      color: #006ebd;
+      margin-top: 8px;
+      margin-bottom: 0px;
+    }
+    .msedge-answers h5 {
+      color: #6c757d;
+      font-size: 15px;
+      margin: 0px;
+    }
+    .msedge-answers h6 {
+      color: #6c757d;
+      font-size: 100%;
+    }
+  }
 }
-.icon-font-size{
-    font-size: x-large;
+input[type="radio"] {
+  visibility: hidden;
 }
-    .student-total{
-       // border: 1px solid #ccc;
-        .col{
-            padding: 4% !important;
-        }
-        .answers h2{
-            font-weight: 500;
-            color: #0e6aae;
-            margin-top: 8px;
-            margin-bottom: 0px;
-        }
-        .answers h5{
-            color: #6c757d;
-            font-size: 15px;
-            margin: 0px;
-        }
-        .answers h6{
-            color: #6c757d;
-            font-size: 100%;
-        }
-    }  
+.font-weight-500 {
+  font-weight: 500;
 }
-.icon-size-24{
-    font-size: 24px;
+.msedge-down-arrow {
+  font-size: 42px;
+  margin-top: -33px;
+  margin-bottom: -17px;
 }
-
-input[type=radio] {
-    visibility: hidden;
+.msedge-tooltip-info {
+  font-size: 18px;
+  color: #9a9696;
 }
-
-.font-weight-500{
-    font-weight :500
+.msedge-question-icon {
+  position: relative;
+  bottom: 3px;
+  font-size: 10px;
+  margin-left: -13px;
+  margin-top: 6px;
 }
-
-.down-arrow{
+.text-light-grey {
+  color: #a59d9d;
+}
+.msedge-subhead {
+  font-size: 17px;
+  font-weight: 600;
+}
+.msedge-itembank-history {
+  [class^="pe-7s-"],
+  [class*=" pe-7s-"] {
+    font-size: xx-large;
+  }
+  .msedge-history-border {
+    padding: 15px 0px 15px 25px;
+  }
+  .msedge-itembank-head {
+    margin: 10px 0px 10px 10px;
+  }
+  .msedge-itembank-head-icon {
+    margin-top: -4px;
+  }
+}
+.msedge-admin-add-btn {
+  background: rgb(231, 224, 224);
+}
+.trash-icon {
+  font-size: 21px;
+}
+.msedge-admin-add-btn {
+  text-decoration: none;
+  color: black;
+}
+.msedge-admin-add-btn:hover {
+  text-decoration: none !important;
+}
+.tag {
+  background-color: #e4e5ec;
+  width: 50%;
+  color: #928b8b;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 5px;
+}
+.close-icon {
+  font-size: 17px;
+  float: right;
+  padding-right: 2px;
+}
+.admin-itembank-list {
+  .msedge-student-list-active {
+    background-color: #006ebd;
+    color: white;
+  }
+  .border {
+    max-width: unset;
+    flex: 1;
+  }
+  .msedge-student-list-active h1 {
+    font-weight: 500;
     font-size: 42px;
-    margin-top: -33px;
-    margin-bottom: -17px;
-}
-.border-radius-0{
-    border-radius: 0px !important
-}
-.tooltip-info{
-    font-size: 18px;
-    color: #9a9696
- }
- .question-icon{
+    margin-bottom: 6%;
+    color: #ffffff;
+  }
+  .msedge-student-list-active h6 {
+    font-weight: 500;
+    color: #ffffff;
+  }
+  .msedge-student-list-active {
+    .col {
+      padding: 4% !important;
+    }
+    .msedge-answers h2 {
+      font-weight: 500;
+      color: #006ebd;
+      margin-top: 8px;
+      margin-bottom: 0px;
+    }
+    .msedge-answers h5 {
+      color: #6c757d;
+      font-size: 15px;
+      margin: 0px;
+    }
+    .msedge-answers h6 {
+      color: #6c757d;
+      font-size: 100%;
+    }
+  }
+  .search {
     position: relative;
-    bottom: 3px;
-    font-size: 10px;
-    margin-left: -13px;
-    margin-top: 6px;
- }
- .text-light-grey{
-  color:   #a59d9d
- }
-//  .margin-left-13{
-//      margin-left: -13px
-//  }
-.padding-right-19{
-    padding-right: 19px !important;
-
-}
-
-.margin-top-12{
-    margin-top: -35px;
-    margin-bottom: -16px;
-}
-.border-box{
-    border: 1px solid black 
-}
-.sub-heading {
-    font-size: 17px;
+    bottom: 31px;
+    left: -3px;
+    float: right;
     font-weight: 600;
- }
- .sub-section{
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
-    padding: 10px 10px 0px 10px;
-    border-radius: 10px;
- }
- .itembank-revisionhistory{
-    [class^="pe-7s-"], [class*=" pe-7s-"] {
-       font-size: xx-large;
-    }
-    .revision-history-border{
-       padding: 15px 0px 15px 25px;
-    }
-    .revisionhistory-heading{
-       margin: 10px 0px 10px 10px;
-    }
-    .revisionhistory-heading-icon{
-       margin-top:-4px;
-    }
-    }
-    .Add-btn{
-        background: rgb(231, 224, 224);
-        
-     }
-     .trash-icon{
-        font-size: 21px;
-     }
-     .Add-btn{
-        text-decoration: none;
-        color: black;
-     }
-     .Add-btn:hover{
-        text-decoration: none !important
-     }
-     .tag{
-        background-color: #e4e5ec;
-        width: 50%;
-        color: #928b8b;
-        font-size: 12px;
-        font-weight: 300;
-        padding: 5px;
-     }
-     .close-icon{
-      font-size: 17px;
-     float: right;
-     padding-right: 2px;
-     
-     }
-   
-// added by muthuraja(3/9/19)
-// admin item bank list
-.admin-itembank-list{
-    .admin-itembank-boxshadow{
-        box-shadow: 0px 1px rgba(0, 0, 0, 0.1);
-    margin: 0px -65px 0px -27px;
-    padding: 0px 29px 18px 30px;
-    }
-    .icon-font-size{
-        font-size: x-large;
-        color:gray;
-    }
-.student-total-first{
-        background-color: #0e6aae;
-        color: white;
-    }
-    .border{
-        max-width: unset;
-        flex: 1;
-    }
-    .student-total-first h1{
-        font-weight: 500;
-        font-size: 42px;
-      margin-bottom: 6%;
-        color: #ffffff;
-    }
-    .student-total-first h6{
-        font-weight: 500;
-        color: #ffffff;
-
-    }
-    .student-total{
-      
-        .col{
-            padding: 4% !important;
-        }
-        .answers h2{
-            font-weight: 500;
-            color: #0e6aae;
-            margin-top: 8px;
-            margin-bottom: 0px;
-        }
-        .answers h5{
-            color: #6c757d;
-            font-size: 15px;
-            margin: 0px;
-        }
-        .answers h6{
-            color: #6c757d;
-            font-size: 100%;
-        }
-    }
-.search{
-            position: relative;
-            bottom: 31px;
-            left: -3px;
-            float: right;
-            font-weight: 600;
-            background-color: #ffffff;
-       }
-       .ReactTable .rt-thead.-filters {
+    background-color: #ffffff;
+  }
+  .ReactTable .rt-thead.-filters {
     display: none;
-} 
+  }
+}
+.select {
+  visibility: hidden !important;
+}
+.selectParent {
+  overflow: hidden;
+}
+.selectParent select {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+}
+.item-bank-value-list-not-selected {
+  margin: 0px 0;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.85) !important;
+  font-weight: 500 !important;
+  cursor: pointer;
+  label {
+    cursor: pointer;
+  }
+}
+.item-bank-value-list-selected {
+  // color: white;
+  background-color: #3ac47d;
+  font-weight: bold;
+  margin: 0 0;
+  cursor: pointer;
+  label {
+    cursor: pointer;
+  }
+}
+.option-label {
+  text-align: center;
+  font-size: 22px;
+}
+.scroller {
+  height: 440px;
+  overflow-x: hidden;
+}
+.error-item-category,
+.item-error-select-status,
+.css-kj6f9i-menu {
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.85) !important;
+}
+.error-title-name {
+  color: #006ebd;
+  font-size: 1rem;
+  font-weight: 500;
+  p {
+    font-size: 0.875rem;
+  }
+}
+.error-description {
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.85) !important;
+}
+.item_error_popup-width {
+  max-width: 800px !important;
+}
+.item-tag-add {
+  .css-dvua67-singleValue {
+    color: rgba(0, 0, 0, 0.65) !important;
+  }
+}
+.admin-item-tag {
+  min-height: 400px;
+}
+.add-item-dese {
+  font-size: 1rem !important;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.85) !important;
+}
+.item-bank-add-ada {
+  font-size: 1rem !important;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.85) !important;
+}
+.css-1hwfws3 {
+  font-size: 0.875rem;
 }
 
-     .select{
-        visibility: hidden !important;
-     }
-     .selectParent {
+.view-content {
+  .view-option {
+    border-bottom: 1px solid #dee2e6;
+    .view-text-option {
+      font-size: 1rem;
+      color: rgba(0, 0, 0, 0.85) !important;
+      padding-top: 11px;
+    }
+  }
+  .view-question-content {
+    .view-question {
+      p {
+        float: none !important;
+        font-size: 1rem;
+        color: rgba(0, 0, 0, 0.85) !important;
+      }  
      
-      overflow: hidden;
     }
-    .admin-itembank-table{
-       height:55px;
+  }
+  .view-answer-explanation-content {
+    padding-top: 16px;
+    p {
+      font-size: 1rem;
     }
-    .admin-itembank-color{
-       width:55px;
-       font-size: 23px;
+  }
+  .view-bg-grey {
+    background: #eee !important;
+    padding: 16px 30px 14px 0px;
+    p {
+      font-size: 1rem;
+      color: rgba(0, 0, 0, 0.85) !important;
     }
-    .itembank-font-weight{
-       font-weight:500;
+  }
+  .view-letter-content {
+    .correct_answer {
+      background-color: #3ac47d;
+      p {
+        color: white !important;
+      }
     }
-//     .table-bordered {
-//       // border: 1px solid #ccc;
-//       border-color: gray;
-//       color:gray;
+    .view-letter-option {
+      font-size: 22px;
+      // bottom: 0;
+      // position: relative;
+      // top: 13%;
+      // left: 36%;
+      margin: 0 auto;
+    }
+  }
+  .vew-text-content {
+    background-color: #f6f6f6;
+  }
+}
+
+.msedge-basicinfo {
+  .msedge-basicinfo-content {
+    padding: 7px 0 7px 0;
+    .msedeg-mcoption {
+      font-size: 16px;
+      color: #006ebd;
+    }
+  }
+  .DraftEditor-editorContainer {
+    background-color: rgba(255, 255, 255, 0);
+    border-left: 0.1px solid transparent;
+    position: relative;
+    z-index: 1;
+    // border: 1px solid #dee2e6 !important;
+    height: 120px !important;
+  }
+  .rdw-editor-main {
+    border: 1px solid #dee2e6;
+  }
+  .msedeg-mcoption {
+    label {
+      color: #006ebd;
+    }
+    padding-top: 11px;
+    font-size: 1rem;
+  }
+  .info-icons {
+    margin-top: 3px;
+    .tooltip-info {
+      color: #006ebd;
+    }
+    .question-icon {
+      position: relative;
+      right: 12px;
+      color: white;
+      font-size: 11px;
+      bottom: 2px;
+    }
+  }
+}
+
+.msedge-preferences {
+  .info-icons {
+    margin-top: 3px;
+    .tooltip-info {
+      color: #006ebd;
+    }
+    .question-icon {
+      position: relative;
+      right: 12px;
+      color: white;
+      font-size: 11px;
+      bottom: 2px;
+    }
+  }
+  .answer-list {
+    background-color: #dee2e6;
+    padding: 8px 0px 4px 11px;
+  }
+  .DraftEditor-editorContainer {
+    background-color: rgba(255, 255, 255, 0);
+    border-left: 0.1px solid transparent;
+    position: relative;
+    z-index: 1;
+    // border: 1px solid #dee2e6 !important;
+    height: 120px !important;
+  }
+  .rdw-editor-main {
+    border: 1px solid #dee2e6;
+  }
+}
+.msedge-itembank a {
+  color: #006ebd;
+
+  &:hover {
+    color: #006ebd;
+  }
+}
+.msedge-font-for-revision {
+  font-size: 1.25rem;
+}
+.item-bank-table {
+  min-height: 600px;
+}
+.admin-item-tag {
+  min-height: 600px;
+}
+
+.item-error-select-status {
+  display: block;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  height: calc(1.5em + 0.5rem + 2px);
+  padding: 0.25rem 0.5rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+  border-radius: 0.25rem;
+}
+// .msedge-preference-collapse {
+//   .info-icons {
+//     margin-top: 3px;
+//     .tooltip-info {
+//       color: #006ebd;
+//     }
+//     .question-icon {
+//       position: relative;
+//       right: 12px;
+//       color: white;
+//       font-size: 11px;
+//       bottom: 2px;
+//     }
 //   }
-    .selectParent select {
-      
-      -webkit-appearance: none !important;
-      -moz-appearance: none !important;
-      // appearance: none !important;
+// }
+.msedge-bank-listbtns {
+  padding-left: 0%;
+}
+.item-answer-explanation {
+  padding-bottom: 22px !important;
+}
+.item-bank-answer-list {
+  background-color: #f6f6f6;
+}
+
+.option-text{
+    padding: 4px 10px;
+    // font-size: 1rem;
+    color: rgba(0, 0, 0, 0.85) !important;
+    margin: 0;
+}
+.admin-revision-model-header{
+  font-size: 1rem;
+  font-weight: 500;
+  background: #f8f9fa;
+
+  .content-weight-set{
+    font-weight: 700 !important;
+
+  }
+
+  .btn-close{
+    font-size: 2rem;
+    border: 1px solid;
+    color: #006ebd;
+    cursor: pointer;
+  }
+}
+.revision-show-details{
+  color: #006ebd;
+  cursor: pointer;
+}
+
+ .modelpop-question{
+        font-weight: 500;
+    font-size: 1rem;
     
-      // border: none !important;
-      // background: transparent url('../../../assets/down-arrow.png') no-repeat right center;
     }
 
-.item-bank-value-list-not-selected{
-    margin: 5px 0;
-    border: 1px solid #ccc;
-    cursor: pointer;
-    label{
-        cursor: pointer;
-    }
+.itembank-revision-history-showdetail-model{
+  max-width: 80%;
+} 
+.item-bank-revision-model-popup-option{
+  margin-top:1rem ;
+  margin-bottom: 1rem;
+}   
+
+.itembank_tooltipmsg{
+  padding: 10px;
+  span{
+    padding: 2px;
+  }
+}
+.apexcharts-tooltip *{
+  font-family: inherit;
+  width: 360px
+}
+.topic-header-section{
+  padding: 10px;
+  background-color: #006ebd;
+  color: white;
+}
+.tooltip-body{
+  padding: 3px 11px 3px 11px;
 }
 
-.item-bank-value-list-selected{
-    border: 1px solid #ccc;
-    color:#0E6AAE;
-    font-weight: bold;
-    margin: 5px 0;
-    cursor: pointer;
-        label{
-            cursor: pointer;
-        }
-}
 
-.option-label{
-    border-right: 1px solid #ccc;
-    text-align: center;
+.itembank_tooltipmsg{
+  box-sizing: border-box;
+  width: auto;
+
+ 
+  span{
+    padding: 2px;
+  }
+}
+.apexcharts-tooltip *{
+  font-family: inherit;
+  width: 360px
+}
+.topic-header-section{
+
+  text-align: center;
+  padding: 10px;
+  background-color: #006ebd;
+  color: white;
+}
+.tooltip-body{
+  padding: 3px 11px 3px 11px;
+  height: auto;
+}
+.topicelement{
+
+  font-family: Sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  display: flex;
+  position: relative;
+  text-align: left;
+
+
+}
+.valueelement{
+  text-align: right;
+  
+  padding-left: 10px;
 }

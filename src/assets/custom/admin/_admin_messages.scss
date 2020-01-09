@@ -1,5 +1,26 @@
-.admin-messages-header{
-.admin-message-left{
-margin-left: -30px;
+.message-radiobutton-alignment {
+  margin-left: -20px !important;
 }
+.messages-modal-content {
+  max-width: 600px !important;
+}
+.messages-modal-content-fontsize {
+  max-width: 30rem !important;
+}
+.messages-error-message {
+  color: red;
+  font-size: 13px;
+  padding: 5px 0 0 0;
+}
+.msedge-message-modal-heading{
+  font-size:1.375rem !important;
+}
+.msedge-message-mainheading{
+      font-size: 1.5rem !important;
+}
+.msedge-message-text-align{
+  text-align: center !important;
+}
+.messages-table{
+  min-height: 600px;
 }

@@ -1,94 +1,130 @@
-.custom-sidebar{
-   .sidebar-header{
+.msedge-custom-sidebar {
+  .msedge-side-menu {
+    .nav {
+      display: block !important;
+    }
+    ul {
+      li {
+        a {
+          text-decoration: none;
+          font-size: 1.063rem;
+          color: #000;
+          font-weight: 300;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+        }
+        i {
+          width: 20px;
+          height: 20px;
+          font-size: 1.1875rem;
+          font-weight: bold;
+          margin-right: 10px !important;
+        }
+        .msedge-title-txt {
+          font-size: 0.875rem !important;
+          font-weight: 300;
+          line-height: 1.58;
+          letter-spacing: 0.8px;
+          text-transform: uppercase;
+        }
+        .msedge-icon-side {
+          position: relative;
+          display: flex;
+          height: 100%;
+          align-items: center;
+        }
+        .dropdown-toggle::after {
+          display: none !important;
+        }
+      }
+      :hover {
+        color: #006ebd;
+      }
+      .navbar-collapse {
+        li {
+          padding: 0% 4% !important;
+          a {
+            text-decoration: none;
+            font-size: 1rem;
+            color: #000;
+            font-weight: 300;
+            text-transform: capitalize;
+          }
+        }
+        :hover {
+          color: #006ebd;
+        }
+        .nav-item {
+          padding: 0% !important;
 
-   }
-  
-   .side-menu{
-       .nav{
-           display: block !important;
-       }
-       ul{
-           li{
-            //    padding: 3% 1%;
-                a{
-                    text-decoration: none;
-                    font-size: 14px;
-                    color: #000;
-                    font-weight: 100;
-                    text-transform: uppercase;
-                    letter-spacing: 2px;
-                }
-                i{
-                    width: 20px;
-                    height: 20px;
-                    font-size: 18px;
-                    color: #707070;
-                    font-weight: 100;
-                    margin-right: 10px !important;
-
-                }
-
-                .tittle-txt{
-                    font-size: 13px!important;
-                    line-height: 1.58;
-                    letter-spacing: .8px;
-                }
-
-               .icon-side{
-                   position: relative;
-                   display: flex;
-                   height: 100%;
-                   align-items: center;
-               }
-                .dropdown-toggle::after{
-                    display: none !important;
-                }
-           }:hover{
-        color: rgb(14, 106, 174);
+          .nav-link {
+            .navbar-collapse {
+              border-left: 4px solid #006ebd;
+              margin: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+  li:hover {
+    color: #006ebd !important;
+  }
 }
-           .navbar-collapse{
-            //    padding: 0 5% !important;
-                   li{
-                       padding:0% 4% !important;
-                       a{
-                        text-decoration: none;
-                        font-size: 13px;
-                        color: #000;
-                        font-weight: 100;
-                        text-transform: capitalize;
-                       }
-                   }:hover{
-        color: rgb(14, 106, 174);
+.msedge-sidebar {
+  box-shadow: unset;
 }
-                   .nav-item{
-                      
-                           padding: 0%!important;
-                         
-                        .nav-link{
-    
-                            .navbar-collapse{
-                                border-left: 4px solid #0e69ae3a;
-                                margin:5px;
-                            }
-                        }
-                   }
-           }
-       }
-   }
-   li:hover{
-        color: rgb(14, 106, 174) !important;   }
+.msedge-header-logo {
+  padding-left: 20px;
 }
 
-// 05.09.2019 Styles
-.app-sidebar.sidebar-shadow {
-    box-shadow: unset;
+.msedge-header-logo .msedge-logo {
+  height: 47px;
+  display: flex;
+  align-items: center;
 }
-.app-header__logo{
-    padding-left: 20px;
+
+.msedge-header-logo .msedge-logo .msedge-sidebar-logo {
+  width: 100%;
 }
-.app-sidebar .app-sidebar__inner {
-    padding: 5.5rem 0 1.5rem 0;
+.msedge-sidebar .msedge-sidebar-inner {
+  padding: 5.5rem 0 1.5rem 0;
 }
-.nav-link{
-    padding: 0.5rem 1.5rem;
+.nav-link {
+  padding: 0.5rem 1.5rem;
+}
+
+.msedge-custom-sidebar .msedge-side-menu ul .navbar-collapse li a {
+  text-transform: uppercase !important;
+  font-size: 0.875rem;
+}
+.msedge-custom-sidebar .msedge-side-menu ul li .msedge-icon-side svg {
+  font-size: 1.0625rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .msedge-header-content .msedge-header-right ul li:last-child {
+    padding-left: unset !important;
+  }
+  .msedge-header-content .msedge-header-right ul li {
+    padding-left: unset !important;
+  }
+  .msedge-custom-sidebar .msedge-side-menu ul .navbar-collapse .nav-item {
+    margin-left: 12px;
+  }
+  .msedge-icon-side i {
+    display: none;
+  }
+}
+.msedge-toggle-title-txt{
+  color: #fff;
+  font-size: 10px;
+  bottom: 7px;
+  position: relative;
+}
+.msedge-togglecollapse-submenu{
+    bottom: 2px;
+    font-size: 9px;
+    position: relative;
+    color: #fff;
 }

@@ -1,107 +1,415 @@
-.add-student{
-    // .student-content{
-    //     width: 85%;
-    //     margin: 0 auto;
-    // }
-    .student-field{
-        margin-bottom: 1%;
-    }
-    .info-icon{
-        position: relative;
-        bottom: 30px;
-        left: 25px;
-        float: right;
-        color: #70a7cf
-    }
-    .custom-header h6{
-        font-weight: 600;
-    }
-    .custom-header-content{
-        width: 83%;
-        margin: 0 auto;
-    }
-    .custom-fields{
-        width: 64%;
-    margin: 0 auto;
-    }
-    .password-eye{
-        position: relative;
-    bottom: 31px;
-    left: 13px;
+.msedge-add-student {
+  .msedge-student-field {
+    margin-bottom: 1%;
+  }
+  .msedge-info-icon {
+    position: relative;
+    bottom: 1.875rem;
+    left: 1.5625rem;
     float: right;
-    color: #70a7cf;
+    color: #006ebd;
+  }
+  .custom-header h6 {
+    font-weight: 600;
+  }
+  .custom-header-content {
+    width: 83%;
+    margin: 0 auto;
+  }
+
+  .custom-fields {
+    width: 64%;
+    margin: 0 auto;
+  }
+  .msedge-password-eye {
+    position: relative;
+    cursor: pointer;
+    bottom: 2.1375rem;
+    left: 0.8125rem;
+    float: right;
+    color: #006ebd;
     background-color: white;
-    }
-} 
+  }
+  .css-1szy77t-control {
+    box-shadow: 0 0 0 2px #afd2eb;
+    border-color: 0 0 0 2px #afd2eb;
+  }
+}
+.invite-student-table {
+  min-height: 600px;
+}
 
 // added by muthuraja(26/8/19)
 //admin students students-list
 
-  .admin-student-list{
-    .ReactTable .rt-tbody .rt-td{
-        word-break: break-all;
+.msedge-admin-student-list {
+  // .ReactTable .rt-tbody .rt-td {
+  //   word-break: break-all;
+  // }
+  .msedge-student-list-active {
+    background-color: white;
+  }
+  .list-active:hover {
+    background-color: #006ebd;
+    .hover-color h1,
+    h6 {
+      color: white !important;
     }
-    .student-total-first{
-        background-color: #0e6aae;
-        color: white;
+  }
+
+  .border {
+    max-width: unset;
+    flex: 1;
+  }
+  .msedge-student-list-active h1 {
+    font-weight: 500;
+    font-size: 42px;
+    margin-bottom: 6%;
+    color: #006ebd;
+  }
+  .msedge-student-list-active h6 {
+    font-weight: 500;
+    color: #006ebd;
+  }
+  .download-icon {
+    font-size: 36px;
+    margin-top: -24px;
+  }
+  .card-header > .nav {
+    display: block !important;
+    margin-left: -20px;
+    .nav-item{
+      float: left !important;
     }
-    .border{
-        max-width: unset;
-        flex: 1;
+  }
+  .msedge-student-list-active {
+    .col {
+      padding: 4% !important;
     }
-    .student-total-first h1{
-        font-weight: 500;
-        font-size: 42px;
-      margin-bottom: 6%;
-        color: #ffffff;
+
+    .msedge-answers:hover {
+      background-color: #006ebd;
+      h2,
+      h5,
+      h6 {
+        color: white !important;
+      }
     }
-    .student-total-first h6{
-        font-weight: 500;
-        color: #ffffff;
+    .msedge-answers h2 {
+      font-weight: 500;
+      color: #006ebd;
+      margin-top: 8px;
+      margin-bottom: 0px;
+    }
+    .msedge-answers h5 {
+      // color: #6c757d;
+      color: #006ebd;
+      font-size: 16px;
+      margin: 3px;
+    }
+    .msedge-answers h6 {
+      // color: #6c757d;
+      color: #006ebd;
+      font-size: 16px;
+      line-height: 19px;
+    }
+  }
+  .search {
+    position: relative;
+    bottom: 31px;
+    left: -3px;
+    float: right;
+    font-weight: 600;
+    background-color: #ffffff;
+  }
+  .msedge-lawschool-download {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+.msedge-upload-student {
+  .dropzone_file {
+    height: 36px;
+    cursor: pointer;
+  }
+  .upload {
+    margin-top: 6%;
+    font-size: 169px !important;
+    color: #a4afb9;
+  }
+  .msedge-student-upload-section {
+    width: 64%;
+    margin: 0 auto;
+    padding: 5% 1% 1% 1%;
+  }
+  .upload-button {
+    padding-top: 11%;
+  }
+  .upload-card {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px;
+    border-radius: 10px;
+    padding: 21px 0px 4px;
+    margin-bottom: 30px;
+  }
+}
+.msedge-proof-reader {
+  .proof-header {
+    text-decoration: none !important;
+    color: #464040 !important;
+  }
+  .no-itemsfor-review h3 {
+    margin: 16% 42% 0 40%;
+  }
+  .msedge-pending-review {
+    text-align: right;
+    padding-right: 2%;
+    .pending-review {
+      border: 1px solid #dee2e6;
+      border-top: none;
+      background-color: #006ebd;
+      text-align: center;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    h2 {
+      font-size: 1.3125rem;
+      color: white;
+      margin: 0;
+    }
+    p {
+      font-size: 1rem;
+      color: white;
+      font-weight: 500 !important;
+    }
+  }
+  .msedge-itemreview-reports {
+    background-color: white;
+    .msedge-no-content {
+      padding: 14% 30% 20% 44%;
+    }
+    h3 {
+      font-size: 1rem;
+      color: rgba(0, 0, 0, 0.85) !important;
+      font-weight: 500 !important;
+    }
+    .subjcet-filter-content{
+      padding: 0% 0% 2% 4%;
 
     }
-    .download-icon{
-        font-size: 36px;
-        margin-top: -6px;    }
-    .card-header > .nav {
-        display: -webkit-box;
-        margin-left: -20px;
-    }
-    .student-total{
-       // border: 1px solid #ccc;
-        .col{
-            padding: 4% !important;
-        }
-        .answers h2{
-            font-weight: 500;
-            color: #0e6aae;
-            margin-top: 8px;
-            margin-bottom: 0px;
-        }
-        .answers h5{
-            color: #6c757d;
-            font-size: 15px;
-            margin: 0px;
-        }
-        .answers h6{
-            color: #6c757d;
-            font-size: 100%;
-        }
-       
-    }
-    .search{
-            position: relative;
-            bottom: 31px;
-            left: -3px;
-            float: right;
-            font-weight: 600;
-            background-color: #ffffff;
-       }
- }
+  }
+  .table-content {
+    width: 93%;
+    margin: 0 auto;
+    min-height: 316px;
+  }
+  .item-preview {
+    position: relative;
+    margin: 0;
+    bottom: 19px;
+  }
+  .item-update {
+    position: relative;
+    margin: 0;
+    bottom: 19px;
+  }
+  .msedge-item-separator {
+    padding: 0px 14px 0px 14px;
+    font-size: 1.125rem;
+  }
+  .msedge-item-subject {
+    font-size: 1.125rem;
+  }
+  .msedge-item-code {
+    font-size: 1rem;
+  }
+  .table th,
+  .table td {
+    border-top: none !important;
+  }
+  th {
+    font-weight: normal;
+  }
+  .msedge-item-question {
+    color: grey;
+    font-size: 0.9375rem;
+    padding: 0 0 2% 9%;
+  }
+  .msedge-edit-text {
+    padding: 0px 2px 6px 1px;
+    color: #0e6aae;
+    font-size: 0.875rem;
+  }
+  // .lnr-pencil,
+  // .lnr-book {
+  //   border: 1px solid #006ebd;
+  //   border-radius: 50px;
+  //   padding: 3px;
+  //   padding: 6px;
+  //   :hover {
+  //     background-color: #0e6aae !important;
+  //   }
+  // }
 
- .upload-student{
-     .dropzone_file{
-        height: 36px;
-        width: 187px;
-     }
- }
+  .msedge-item-code-header {
+    font-size: 1.125rem;
+    color: #006ebd;
+  }
+
+  .edit-icon {
+    color: #4a9ad2;
+    margin-right: 2px;
+  }
+  // .msedge-edit-content {
+  //   margin: -60% 36% 0% 0%
+  // }
+  .msedge-icon-content {
+    text-decoration: none !important;
+  }
+  .msedge-item-review-search {
+    margin: 10% 17% 5% 7%;
+    .search {
+      position: relative;
+      bottom: 1.9375rem;
+      right: 0.1875rem;
+      float: right;
+      font-weight: 600;
+      background-color: #ffffff;
+    }
+  }
+}
+.exam-batch {
+  text-transform: capitalize;
+}
+
+.msedge-proof-reader-update {
+  // .reviewed-checkbox {
+  //   font-size: 1rem;
+  //   label {
+  //     font-size: 1rem;
+  //   }
+  // }
+  .answer-explanation {
+    padding: 22px 0 22px 0px;
+  }
+  .DraftEditor-editorContainer {
+    background-color: rgba(255, 255, 255, 0);
+    border-left: 0.1px solid transparent;
+    position: relative;
+    z-index: 1;
+    // border: 1px solid #dee2e6 !important;
+    height: 120px !important;
+  }
+  .rdw-editor-main {
+    border: 1px solid #dee2e6;
+  }
+  p {
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.85) !important;
+    line-height: 26px;
+    float: left;
+  }
+  .textarea-size {
+    padding: 0px 9px 3px 9px;
+  }
+  .tooltip-info {
+    // position: relative;
+    // top: -36px;
+    // left: 88px;
+    font-size: 15px;
+    position: relative;
+    top: 5px;
+    left: 4px;
+    color: #006ebd;
+  }
+  .question-icon {
+    position: relative;
+    color: white;
+    font-size: 8px;
+    right: 7px;
+    top: 1px;
+  }
+}
+
+.msedge-changepassword-proofreader {
+  .msedge-subhead {
+    font-size: 1.25rem;
+  }
+}
+
+.msedge-item-preview {
+  h2 {
+    font-size: 1.25rem;
+  }
+  .text-grey {
+    color: rgba(0, 0, 0, 0.85) !important;
+    font-weight: 500 !important;
+    margin-bottom: 5px;
+  }
+  .question {
+    font-size: 1rem;
+    padding: 0% 2%;
+  }
+  .btn-published {
+    padding: 1px 5px 1px 5px;
+    margin-left: 8px;
+    margin-bottom: 5px;
+  }
+  .answer-explanation-content {
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.85) !important;
+    padding: 3% 3% 0% 3%;
+  }
+  .answer-explanation {
+    padding: 2% 0% 1% 0;
+  }
+  margin: 20px 0;
+  background: white;
+  border: none;
+  border-radius: 5px;
+  .question-section {
+    padding: 2% 3% 0% 3%;
+  }
+  .option-content {
+    padding: 2% 3% 0% 3%;
+  }
+  .correct_answer {
+    background-color: #3ac47d;
+    p {
+      color: white;
+    }
+  }
+  .letter-option {
+    font-size: 1.5rem;
+    color: #796767;
+    // top: 12%;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    // font-weight: 500;
+    // border-right: 1px solid #ccc;
+    // border-bottom: 1px solid #ccc;
+  }
+  .proof-options-center {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  .view-bg-grey {
+    background-color: #f6f6f6;
+  }
+  .text-option {
+    padding: 17px 10px;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.85) !important;
+    margin: 0;
+  }
+  .option-section {
+    padding: 0% 3% 3% 3%;
+  }
+}
+.msedge-topbtn-alignment {
+  padding-left: 11.5%;
+}

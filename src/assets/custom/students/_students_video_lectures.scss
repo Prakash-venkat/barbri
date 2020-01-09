@@ -1,73 +1,74 @@
-.video-header{
-    .video-lecture{
-        .card-header{
-            border: none;
-            margin: 1px 0 ; 
-            border: 1px solid #ccc;
-            border-left: 30px solid $primary;
-            border-radius: 10px;
-            padding-left: 14px;
-        }
+.msedge-student-video-lecture {
+  .msedge-no-video{
+    width:100% !important;
+    position: relative;
+    top: 45px;
+    .pe-7s-video{
+      font-size: 6rem;
     }
-    .video-lecture h6:hover{
-        color: gray;
-    }
-    
-    .video-lecture h6:hover{
-        color: gray;
-    }
-}
-
-.nav-pills .nav-link.active {
-    color:black;
-    background: none;
-}
-
-
-
-.setting{
-    h4{
-        color: blue($color: #000000);
-        letter-spacing: 1px;
-        font-size: 16px;
-    }
-    .icon-setting{
-        margin-right: 19px;
-        position: relative;
-        top: -3px;
-        font-size: 20px;
-    }
-    h4:hover{
-        color: grey;
-    }
-    .nav-pills .nav-link.active:hover {
-     color:grey !important; 
-    }
-    .setting-header{
-        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
-    }
-    .setting-item{
-     padding-top: 10px;
-     padding-bottom: 5px;
-     border-bottom: 1px solid rgb(126, 125, 125);
-    }
-    .setting-content{
-        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
-    }
-    .custom-control-label{
-    font-size: 13px;
-    padding-bottom: 14px;
-    padding-left: 26px;
-    }
-    .setting-label{
-    display: inline-block;
-    margin-bottom: 0.5rem;
-    position: absolute;
-    top: px;
-    margin-top: 1px;
-    padding-left: 23px;
-    font-size: 16px;
-    word-spacing: 2px;
+    h2{
+      font-size: 1.7rem;
     font-weight: 600;
     }
+  }
+  .msedge-video-lecture-img {
+    width: 100%;
+    float: left;
+    height: 250px;
+    position: relative;
+  }
+  .msedge-videolibrary-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    // background-color: rgba(0,0,0,0.5);
+  }
+.msedge-videolibrary-text{
+z-index: 10;
+}
+  .msedge-video-heading{
+    padding: 20px 30px !important;
+  }
+  .msedge-video-title {
+    color: #006ebd;
+    text-align: center;
+    padding: 8px 7px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    opacity: 1;
+  }
+  .msedge-video-lecture-seg {
+   cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    padding-right: 5px !important;
+  }
+  button:focus {
+    outline: 0;
+  }
+  .msedge-video-lecture-border{
+   border-top:1px solid #ccc;
+ }
+ .msedge-videolecture-card{
+   position: absolute;
+   top: 42%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    z-index: 100;
+}
+}
+
+.msedge-student-video-lectures-modal {
+  max-width: 700px !important;
+  top:10%;
 }

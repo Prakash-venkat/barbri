@@ -1,116 +1,131 @@
-.top-header{
-padding: 10px 0;
-position: relative;
-    .row{
-        position: relative;
-        height: 100%;
-        display: flex;
-        align-items: center;     
+.msedge-header-content {
+  background: #ffffff !important;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex: 1;
+  padding: 15px 0 10px 0;
+  height: 70px;
+  z-index: 10;
+  .msedge-header-left {
+    align-items: center;
+    h6 {
+      color: #000;
+      font-weight: 500;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-size: 1rem;
     }
-    .name-section{
-        h6{
-            color: #0e6aae;
-            font-weight: 200;
-        }
-        p{
-            color: #a8a6a6;
-            font-size: 11px;
-        }
+    p {
+      color: #000;
+      font-size: 0.8125rem;
+      letter-spacing: 1px;
     }
-    .right-side-header{
-       margin-left: auto;        
-        ul{
-            margin: 0px !important;
-            li{
-                list-style: none;
-                float: left;
-                padding:0 15px;
-                font-size: 16px;
-                color: #0e6aae;
-                font-weight: 500;
-
-                i{
-                    font-size: 22px;
-                    font-weight: bold;
-
-                }
-            }
-            .get-help{
-                padding: 0 25px;
-                border-left: 1px solid #0e6aae;
-            }
-        }
-    }
-}
-.app-header__content{
-    background: #ffffff !important;
-    // margin: 0 -15px !important;
+  }
+  .msedge-header-right {
+    align-items: center;
     display: flex;
-    align-items: center;
-    align-content: center;
-    flex: 1;
-    padding:4% 0px;
-    height: 60px;
-    z-index: 10;
-    .app-header-left{
-    align-items: center;
-    h6{
-        color: #0e6aae;
-        font-weight: 200;
-        letter-spacing: 1px;
-
-    }
-    p{
-        color: #000;
-        font-size: 11px;
-        letter-spacing: 1px;
-
-    }
-    }
-    .app-header-right{
-        align-items: center;
-        display: flex;
-         margin-left: auto;
-         ul{
-            margin: 0px !important;
-            li{
-                list-style: none;
-                float: left;
-                font-size: 16px;
-                color: #0e6aae;
-                font-weight: 500;
-                padding-left: 30px;
-                a{
-                    text-decoration: none;
-                    color: #0e6aae;
-                }
-
-                i{
-                    font-size: 22px;
-                    font-weight: bold;
-
-                }
-            }
-            li:last-child{
-                padding-left: 20px !important;
-                i{
-                    margin-left: 10px;
-                }
-
-            }
-            .get-help{
-                padding: 0 25px;
-                border-left: 1px solid #0e6aae;
-                letter-spacing: 1px;
-               
-
-
-            }
+    margin-left: auto;
+    ul {
+      margin: 0px !important;
+      display: flex;
+      align-items: flex-end;
+      li {
+        list-style: none;
+        float: left;
+        font-size: 16px;
+        font-weight: 500;
+        padding-left: 20px;
+        a {
+          text-decoration: none;
+          color: #006ebd;
         }
+
+        i {
+          font-size: 1.375rem;
+          font-weight: bold;
+        }
+      }
+      li:last-child {
+        padding-left: 20px !important;
+        // i {
+        //   margin-left: 0;
+        // }
+      }
+      .msedge-get-help {
+        letter-spacing: 1px;
+      }
+
+      .msedge-logout-btn {
+        padding-left: 20px;
+        padding-right: 15px;
+      }
     }
+  }
+}
+.msedge-student-header {
+  padding: 35px 0 10px 0;
+  height: 5.2rem;
+  .msedge-header-right ul {
+    margin: 0 0 20px 0 !important;
+  }
 }
 
-// Sep12 Karthees Styles
-// .search-wrapper{
-//     margin-right: unset;
+.msedge-header-content .msedge-header-right {
+  justify-content: flex-end;
+  padding-right: 0px;
+}
+
+.msedge-top-section {
+  padding-bottom: 0%;
+}
+
+.msedge-header-content .msedge-header-left,
+// .msedge-header-right {
+//   padding-top: 2%;
 // }
+.msedge-top-head {
+  padding-bottom: 0;
+}
+.__react_component_tooltip.type-dark {
+  color: #000;
+  border: 1px solid #000;
+  background-color: unset;
+}
+.__react_component_tooltip.type-dark.place-bottom:after {
+  border-bottom-color: unset;
+  border-bottom-style: unset;
+  border-bottom-width: unset;
+}
+
+.msedge-admin-setting {
+  padding-left: 10px !important;
+}
+
+.resize-fonts {
+  color: #000;
+  margin-bottom: 0 !important;
+  font-size: 1.6rem;
+}
+
+.msedge-header-content .msedge-header-right ul li.notification-align {
+  bottom: 5px;
+  position: relative;
+}
+
+.msedge-resize-fonts {
+  font-size: 1.1rem;
+}
+
+.msedge-header-content .msedge-header-right ul li i {
+  color: #000;
+}
+
+@media only screen and (max-width: 480px) {
+  .msedge-header-content .msedge-header-right ul li:last-child {
+    padding-left: unset !important;
+  }
+  .msedge-student-header {
+    padding: 0px 0 0px 0;
+  }
+}

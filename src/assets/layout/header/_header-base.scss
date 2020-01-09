@@ -7,7 +7,7 @@
   align-content: center;
   position: relative;
   z-index: 10;
-  transition: all .2s;
+  transition: all 0.2s;
 
   &.header-shadow {
     box-shadow: $box-shadow-default;
@@ -25,7 +25,7 @@
       align-items: center;
     }
 
-    .app-header-right {
+    .msedge-header-right {
       align-items: center;
       display: flex;
       margin-left: auto;
@@ -44,23 +44,22 @@
   }
 }
 
-.app-header__logo {
-  padding:2.5rem;
+.msedge-header-logo {
+  padding: 2.5rem;
   height: $app-header-height;
   width: $app-sidebar-width;
   display: flex;
   align-items: center;
-  transition: width .2s;
+  transition: width 0.2s;
 
-  .logo-src {
+  .msedge-logo {
     height: $logo-height;
     width: $logo-width;
-   
   }
 }
 
-.app-header__menu,
-.app-header__mobile-menu {
+.msedge-header-menu,
+.msedge-header-mobile-menu {
   display: none;
   padding: 0 $layout-spacer-x;
   height: $app-header-height;

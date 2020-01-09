@@ -1,14 +1,11 @@
 
-//*************************Kritivardhan***********************//
-//*************************Dashboard verable******************//
-$dashbord-heading-color: #0e6aae;
+//*************************Dashboard variable******************//
+$ADA_primary: #006EBD;
+$primary: $ADA_primary;
+$dashbord-heading-color: $ADA_primary;
 $dashbord-text-color:#6c757d;
 $dashbord-text-font-size: 16px;
-//*************************Dashboard End******************//
-.customize-loader-container{
-    // margin-top: 50%;
-    // transform: translateY(-50%);
-}
+
 .customize-loader-container{
     padding: 100px 0 0 100px;
     position: absolute;
@@ -17,7 +14,7 @@ $dashbord-text-font-size: 16px;
     width: 100%;
     height: 100%;
     h6{
-        font-size: 70px;
+        font-size: 26px;
     }
     .lds-ring {
         display: inline-block;
@@ -32,10 +29,10 @@ $dashbord-text-font-size: 16px;
         width: 81px;
         height: 81px;
         margin: 6px;
-        border: 6px solid #0e6aae;
+        border: 6px solid #006EBD;
         border-radius: 50%;
         animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-        border-color: #0e6aae transparent transparent transparent;
+        border-color: #006EBD transparent transparent transparent;
       }
       .lds-ring div:nth-child(1) {
         animation-delay: -0.45s;
@@ -54,31 +51,6 @@ $dashbord-text-font-size: 16px;
           transform: rotate(360deg);
         }
       }
-    // display: inline-block;
-    // position: relative;
-    // width: 80px;
-    // height: 80px;
-    // div{
-    //     box-sizing: border-box;
-    //     display: block;
-    //     position: absolute;
-    //     width: 64px;
-    //     height: 64px;
-    //     margin: 8px;
-    //     border: 8px solid #000;
-    //     border-radius: 50%;
-    //     animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-    //     border-color: #000 transparent transparent transparent;
-    // }
-    // div:nth-child(1){
-    //     animation-delay: -0.45s;
-    // }
-    // div:nth-child(2){
-    //     animation-delay: -0.3s;
-    // }
-    // div:nth-child(2){
-    //     animation-delay: -0.15s;
-    // }
 }
 .active.breadcrumb-item:last-child::before{
     display: none;
@@ -94,21 +66,17 @@ $dashbord-text-font-size: 16px;
         font-size: 25px;
         width: 100%;
     }
-    .coming-soon-design{
-    }
 }
-//*************************Kritivardhan***********************//
-//*************************Dashboard******************//
 .no-padding{
     padding-left: 0;
     padding-right: 0;
 }
-.student-dashboard, .law-school-dashboard, .admin-dashboard, .question-progress{
-    .rightArrow{
+.msedge-student-dashboard, .msedge-law-school-dashboard, .msedge-admin-dashboard, .msedge-question-progress{
+    .msedge-right-arrow{
         position: absolute;
         top: 15px;
         right: 15px;
-        color: #0e6aae;
+        color: #006EBD;
         font-size: 16px;
     }
     .header-wrapp{
@@ -137,10 +105,10 @@ $dashbord-text-font-size: 16px;
             }
         }
     }
-    .statics-wrapper{
+    .msedge-statics-wrapper{
         padding: 40px 0 30px 0;
         font-size: 12px;
-        .rightArrow{
+        .msedge-right-arrow{
             top: 0px;
             right: 25px;
         }
@@ -154,25 +122,26 @@ $dashbord-text-font-size: 16px;
             padding-bottom: 15px;
             border-bottom: 1px solid #fff;
             margin-bottom: 15px;
-            .first-sec, .second-sec{
+            .msedge-first-sec, .msedge-second-sec{
                 padding-bottom: 15px;
                 padding-top: 20px;
             }
             .number{
                 font-size: 40px;
-                color: #0be365;
+                color: #006EBD;
                 margin: 0;
                 line-height: 1;
             }
-            .text{
+            .msedge-text{
                 font-size: 16px;
             }
         }
-        .block-wrapper{
+        .msedge-block-wrapper{
             color: $dashbord-text-color;
             box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
             padding: 10px 10px 0px 10px;
             border-radius: 10px;
+            min-height: 165px;
             h5{
                 color: $dashbord-text-color;
                 margin: 0;
@@ -184,11 +153,11 @@ $dashbord-text-font-size: 16px;
                 height: 70px;
                 text-decoration: none;
                 color: #ccc;
-                .second-section{
-                    font-size: 30px;
-                    color: #0be365;
+                .msedge-second-section{
+                    font-size: 1.5rem;
+                    color: #006EBD;
                     text-align: right;
-                    .ques-ans{
+                    .msedge-ques-ans{
                         color: $dashbord-heading-color;
                     }
                 }
@@ -198,7 +167,7 @@ $dashbord-text-font-size: 16px;
             }
         }
     }
-    .pie-chart{
+    .msedge-pie-chart{
         box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
         border-radius: 10px;
         .pie-chrt-head{
@@ -208,7 +177,7 @@ $dashbord-text-font-size: 16px;
                 font-weight: 500;
             }
         }
-        .inner-piechart-content{
+        .msedge-inner-piechart-content{
             width: 130px;
             text-align: center;
             position: absolute;
@@ -217,39 +186,39 @@ $dashbord-text-font-size: 16px;
             .performance-perc{
                 font-size: 28px;
                 font-weight: 400;
-                color: #0be365;
+                color: #006EBD;
             }
             .ans-out-of-ques{
                 color: #000;
                 font-weight: 500;
             }
         }
-        .subject-sec{
-            .sub-wise-perfor{
+        .msedge-subject-sec{
+            .msedge-sub-wise-perfor{
                 display: flex;
                 padding: 10px 10px 0px 10px;
                 border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-                .num{
+                .msedge-num{ 
                     text-align: right;
                     span:last-child{
-                        color: #0be365;
+                        color: #006EBD;
                     }
                 }
-                .sub{
+                .msedge-sub{
                     color: $dashbord-heading-color;
                     font-weight: 500;
                 }
             }
-            .sub-wise-perfor:last-child{
+            .msedge-sub-wise-perfor:last-child{
                 border-bottom: none;
             }
         }
     }
-    .performance-over-time,.subject-over-time{
+    .msedge-performance-over-time,.msedge-subject-over-time{
         box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
         border-radius: 10px;
         padding: 19px 0 45px 0;
-        .percer-simbol{
+        .msedge-percent-mark{
             position: absolute;
             top: 50%;
             left: 20px;
@@ -258,7 +227,7 @@ $dashbord-text-font-size: 16px;
         .differ-symbol{
             margin-top: -11px;
             margin-right: -7px;
-            color: #0e6aae;
+            color: #006EBD;
         }
         .recharts-legend-wrapper{
             bottom: -20px;
@@ -272,13 +241,10 @@ $dashbord-text-font-size: 16px;
         .recharts-default-legend{
             text-align: left !important;
         }
-        // .recharts-default-tooltip{
-        //     font-size: 30px;
-        // }
     }
-    .performance-over-time .head-section, .subject-over-time .head-section {
+    .msedge-performance-over-time .msedge-head-section, .msedge-subject-over-time .msedge-head-section {
         display: flex;
-        padding-bottom: 25px;
+        padding-bottom: 10px;
         h4{
             padding: 0 0 0 15px;
             font-size: 20px;
@@ -292,7 +258,7 @@ $dashbord-text-font-size: 16px;
         }
         .monthly{
             color: #fff;
-            border: 1px solid #0e6aae;
+            border: 1px solid #006EBD;
         }
         .weekly{
             background-color: #fff;
@@ -304,7 +270,7 @@ $dashbord-text-font-size: 16px;
             display: flex;
         }
         button{
-            background-color: #0e6aae;
+            background-color: #006EBD;
             height: 36px;
             margin-top: 3px;
             margin-right: 5px;
@@ -330,7 +296,7 @@ $dashbord-text-font-size: 16px;
                     border: none;
                     background: transparent;
                     padding-right: 0;
-                    color: #0e6aae;
+                    color: #006EBD;
                     font-size: 16px;
                     padding-left: 5px;
                     padding-right: 5px;
@@ -352,10 +318,11 @@ $dashbord-text-font-size: 16px;
             }
         }
     }
-    .exam-details{
+    .msedge-exam-details{
         padding: 20px 0;
-        .block{
-            .wrapper{
+        
+        .msedge-block{
+            .msedge-wrapper{
                 text-align: center;
                 padding: 15px 0;
                 box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
@@ -372,19 +339,24 @@ $dashbord-text-font-size: 16px;
                         color: $dashbord-heading-color;
                     }
                 }
-                .text{
+                // .msedge-heading{
+                //     color: #000;
+                //     position: absolute;
+                //     margin: -11px 0 0 15px;
+                // }
+                .msedge-text{
                     padding: 15px;
-                    .num{
-                        font-size: 25px;
+                    .msedge-num{
+                        font-size: 2.5rem!important;
                         font-weight: 600;
                         color: $dashbord-heading-color;
                     }
-                    .heading{
-                        font-size: 16px;
-                        font-weight: 500;
+                    .msedge-heading{
+                        font-size: 1.2rem!important;
+                        font-weight: 400;
                         color: #000;
                     }
-                    .msg{
+                    .msedge-msg{
                         color: #666;
                         font-size: 14px;
                     }
@@ -393,19 +365,24 @@ $dashbord-text-font-size: 16px;
             }
         }
     }
-    .exam-reports{
-        padding: 15px 0;
+    .msedge-exam-reports{
+        padding: 20px 0 0 0;
         box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
         border-radius: 10px;
         margin: 0;
+        .card-body{
+            font-size: 15px;
+        }
         h5{
             color: #000;
             font-weight: 500;
+            margin-bottom: 0;
+            padding-left: 20px;
         }
         .rt-th.rt-resizable-header{
-            color: #0e6aae;
+            color: #006EBD;
         }
-        .main-card.card{
+        .msedge-main-card.card{
             box-shadow: unset;
         }
     }
@@ -425,14 +402,17 @@ $dashbord-text-font-size: 16px;
         .desc{
             font-size: 16px;
             span{
-                color: #0be365;
+                color: #006EBD;
             }
         }
         .table{
             margin: 0;
             tr{
-                td,th{
-                    text-align: right;
+                td{
+                    text-align: left;
+                }
+                th{
+                    text-align: left;
                 }
                 td:last-child, th:last-child{
                     text-align: left;
@@ -466,15 +446,13 @@ $dashbord-text-font-size: 16px;
         }
     }
 }
-.question-progress{
-    .show{
-        // display: contents;
-    }
-    .pie-chart{
+.msedge-question-progress{
+    
+    .msedge-pie-chart{
         margin-left: 50%;
         transform: translateX(-50%);
         box-shadow: none;
-        .inner-piechart-content{
+        .msedge-inner-piechart-content{
             top: 100px;
         }
     }
@@ -484,10 +462,8 @@ $dashbord-text-font-size: 16px;
         font-weight: 700;
     }
     .dropdown-overall, .dropdown-subject-sec{
-        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
-        margin-bottom: 30px;
-        border-radius: 5px;
         cursor: pointer;
+        background-color: #fff;
     }
     .toggle-btn{
         display: flex;
@@ -536,16 +512,13 @@ $dashbord-text-font-size: 16px;
         }
     }  
 }
-
-
-
 // Added by Das (13/08/2019)
-.support-head{
+.msedge-support-sec{
     .mr-0{
         margin: 0;
     }
    .img-section{
-        background-color: #0e6aae;
+        background-color: #006EBD;
         font-size: 65px;
         text-align: center;
         border-radius: 10px 0 0 10px;
@@ -578,7 +551,6 @@ $dashbord-text-font-size: 16px;
         }
         .contact-btn{
             padding-bottom: 8px;
-            // padding: 0px 0px 8px 0px !important;
             display: flex;
             align-items: flex-end;
             justify-content: flex-end;
@@ -612,7 +584,6 @@ $dashbord-text-font-size: 16px;
 .law-school-student-list{
     .plotter_chart{
         box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
-        // border-radius: 10px;
         padding-right: 15px;
         padding-bottom: 11px;
         .plotter-chart-head{
@@ -623,21 +594,10 @@ $dashbord-text-font-size: 16px;
         .plotter-chart-head h5{
             font-weight: 500;
         }
-        // .percer-simbol{
-        // position: absolute;
-        // top: 42%;
-        // left: 26px;
-        // font-size: 18px;
-        // }
-        
     }
-      
-
-
 }
-.add-law-school{
+.msedge-add-law-school{
     .justify-content-center{
-        width: 80%;
         margin: 0 auto;
        
     }
@@ -647,7 +607,6 @@ $dashbord-text-font-size: 16px;
     }
     h6{
         color: $primary;
-       // margin: 30px 0;
         font-weight: 500;
     }
     label{
@@ -661,33 +620,30 @@ $dashbord-text-font-size: 16px;
     .row-space{
         margin-bottom: 1%;
     }
-    .info-icon{
+    .msedge-info-icon{
        position: relative;
-       bottom: 30px;
-       left: 25px;
+       bottom: 1.875rem;
+       left: 1.5625rem;
        float: right;
-       color: #70a7cf;
+       color: #006ebd;
+       
     }
     
-    .contact-person-details{
+    .msedge-contact-person-details{
         border-bottom: 1px solid #dee2e6 !important;
     }
 }
-.list-law-school{
-    .add-law-school-btn{
+.msedge-admin-law-school{
+    .msedge-msedge-add-law-school-btn{
         text-decoration: none;
         color: white;
     }
-   
-    
-
 }
 .user-list{
     .add-user-btn{
         text-decoration: none;
         color: white;
     }
-
 }
 .add-user{
     .justify-content-center{
@@ -695,37 +651,33 @@ $dashbord-text-font-size: 16px;
         margin: 0 auto;
     }
     h6{
-        color: #0e6aae;
+        color: #006EBD;
         margin: 30px 0;
         font-weight: 500;
     }
-  
-    
 }
-// .card-left-color{
-//     background-color: $primary;
-//     // border-radius :10px; 
-//     border-start-start-radius: 10px;
-// }
-
-
 
 //added by muthuraja (13/08/19)
-
-.message-head{
+.msedge-message-head{
+    .message-card-segment{
+        border:1px solid #ccc;
+    }
+    .card-header{
+        padding:0 !important
+    }
     .card-header > .nav{
         display: -webkit-box;
         height: 100%;
-        width: 25%;
+        margin-left: 0!important;
     }
-    .message-border, .message-borderArchive{
+    .msedge-message-border, .message-borderArchive{
         border-top:1px solid #ccc;
         font-weight: 700;
         .custom-control{
             .name{
                 color: $dashbord-heading-color;
                 display: grid;
-                margin-top: -33px;
+                margin-top: -22px;
                 margin-left: 54px !important;
             }
             .date{
@@ -756,26 +708,27 @@ $dashbord-text-font-size: 16px;
         color: $dashbord-text-color;
         background-color: #fff;
     }
-}
+    .markAsUnread .markAsUnread-icon, .message-icon{
+        padding-right: 5px;
+        font-size: 21px;
+        float:left;
+    }
+    .archive-icon{
+        padding-right: 5px;
+        font-size: 20px;
+        float:left;
+    }
 
-//
-//***************das****************//
-// @media only screen and (min-width: 320px) and (max-width: 767px){
-//     .support-head{
-//          .buttom-center{
-//             padding-top:10%;
-//             padding-bottom: 7%;
-//          }
-//          .text-section{
-//              text-align: center;
-//              p{
-//                 text-align: left;
-//                 padding-left: 15px;
-//              }
-//         }
-//      }
-     
-// }
+    .card-header{
+        .nav{
+            display: block !important;
+            flex-wrap: wrap-reverse !important;
+        }
+    }
+    .card-header > .nav .nav-item{
+        float: left !important;
+    }
+}
 @media only screen and (min-width: 768px) and (max-width: 1199px){
        
     .customize-loader-container{
@@ -784,28 +737,17 @@ $dashbord-text-font-size: 16px;
             font-size: 49px;
         }
     }
-    .support-head{
-        // .buttom-center{
-        //     padding-top: 46px;
-        //     padding-bottom: 46px;
-        // }
-        // .text-section{
-        //     padding: 20px 20px 20px 5px;
-        // }
-       
+    .msedge-support-sec{
         .contact-btn{
             display: inline-flex;
         }
-       
    }
+   
 // added by prakash (14/08/2019)
-
-.mcq-section{
- 
-
-    .question-section{
+.msedge-mcq-section{
+    
+    .msedge-question-section{
        h6{
-
         color: $primary;
         line-height: 1.8rem;
         text-align: justify;
@@ -844,29 +786,20 @@ $dashbord-text-font-size: 16px;
        .text-success{
         border: 1px solid rgb(19, 133, 19);
         border-radius: 10px;
-
         border-left: 3px solid rgb(19, 133, 19);
-        
-          
        }
        .text-danger{
         border: 1px solid rgb(172, 18, 18);
         border-radius: 10px;
-
         border-left: 3px solid rgb(172, 18, 18);
-          
-           
        }
     }
     .radio{
-        border-left: 3px solid $primary;
         width: 100%;
-        height: 50px;
         flex-wrap: wrap;
         align-items: center;
-        padding: 0 20px;
+        padding: 0 20px 0 0;
         cursor: pointer;
-        margin: 10px 0;
         color: rgba(116, 114, 114, 0.8);
         label{
             display: block
@@ -876,7 +809,6 @@ $dashbord-text-font-size: 16px;
             align-items: center;
         }
         .checkbox-content{
-            display: flex;
             align-items: center;
         }
     }
@@ -899,25 +831,23 @@ $dashbord-text-font-size: 16px;
             }
         }
     }
+    .perefrence-input{
+           float: right;
+           margin-right: 15%;
+    }
 }
-  
-//    performance and settings
-
-.performance-settings{
-    width: 100%;
-    
-}
-
+    .msedge-performance-settings{
+        width: 100%;
+    }
 }
 @media only screen and (max-width: 1199px) and (min-width: 992px){
-        
     .customize-loader-container{
         padding: 84px 0 0 84px;
         h6{
             font-size: 58px;
         }
     }
-    .student-dashboard, .admin-dashboard, .law-school-dashboard{
+    .msedge-student-dashboard, .msedge-admin-dashboard, .msedge-law-school-dashboard{
         .header-wrapp{
             .left-section{
                 .head-text{
@@ -932,27 +862,27 @@ $dashbord-text-font-size: 16px;
                 font-size: $dashbord-text-font-size*992/1200;
             }
         }
-        .statics-wrapper{
+        .msedge-statics-wrapper{
             font-size: 12px;
             h5{
                 font-size: 16px;
             }
-            .block-wrapper{
+            .msedge-block-wrapper{
                 h5{
                     font-size: 13px;
                 }
                 .section{
                     height: 70px;
-                    .second-section{
-                        font-size: 28px;
+                    .msedge-second-section{
+                        font-size: 1.5rem;
                     }
                 }
             }
         }
-        .exam-details{
+        .msedge-exam-details{
             padding: 20px 0;
-            .block{
-                .wrapper{
+            .msedge-block{
+                .msedge-wrapper{
                     padding: 13px 0;
                     .icon{
                         width: 52px;
@@ -960,22 +890,22 @@ $dashbord-text-font-size: 16px;
                             font-size: 28px;
                         }
                     }
-                    .text{
+                    .msedge-text{
                         padding: 13px;
-                        .num{
+                        .msedge-num{
                             font-size: 21px;
                         }
-                        .heading{
+                        .msedge-heading{
                             font-size: 14px;
                         }
-                        .msg{
+                        .msedge-msg{
                             font-size: 11px;
                         }
                     }
                 }
             }
         }
-        .pie-chart{
+        .msedge-pie-chart{
             .pie-chrt-head{
                 padding: 17px 17px 17px 0px;
                 h5{
@@ -986,7 +916,7 @@ $dashbord-text-font-size: 16px;
                 width: 121% !important;
                 margin-left: -38px;
             }
-            .inner-piechart-content{
+            .msedge-inner-piechart-content{
                 width: 110px;
                 top: 158px;
                 left: 48px;
@@ -997,16 +927,16 @@ $dashbord-text-font-size: 16px;
                     font-size: 12px;
                 }
             }
-            .subject-sec{
-                .sub-wise-perfor{
+            .msedge-subject-sec{
+                .msedge-sub-wise-perfor{
                     padding: 8px 8px 0px 8px;
                 }
             }
         }
-        .performance-over-time,.subject-over-time{
+        .msedge-performance-over-time,.msedge-subject-over-time{
             padding: 16px 0 39px 0;
         }
-        .performance-over-time .head-section, .subject-over-time .head-section {
+        .msedge-performance-over-time .msedge-head-section, .msedge-subject-over-time .msedge-head-section {
             padding-bottom: 21px;
             h4{
                 font-size: 16px;
@@ -1032,7 +962,7 @@ $dashbord-text-font-size: 16px;
                 }
             }
         }    
-        .exam-reports{
+        .msedge-exam-reports{
             padding: 15px 0;
             h5{
                 font-size: 16px;
@@ -1041,8 +971,30 @@ $dashbord-text-font-size: 16px;
     }
 }
 @media only screen and (max-width: 991px) and (min-width: 768px){
-    .student-dashboard, .admin-d
-    ashboard, .law-school-dashboard{
+    .msedge-md-unset-justify{
+        justify-content: unset!important;
+    }
+    ol.progtrckr{
+        width: 100% !important;
+    }
+    .msedge-ques-subject-topics{
+        .custom-control-inline {
+            margin-right: 2.6rem;
+        }
+    }
+    ol.progtrckr li:nth-child(1){
+        width: 180px !important;
+    }
+    ol.progtrckr li:nth-child(2){
+        width: 184px !important;
+    }
+    ol.progtrckr li:nth-child(3){
+        width: 165px !important;
+    }
+    ol.progtrckr li:nth-child(4){
+        width: 161px !important;
+    }
+    .msedge-student-dashboard, .msedge-admin-dashboard, .msedge-law-school-dashboard{
         .header-wrapp{
             .left-section{
                 .head-text{
@@ -1057,28 +1009,28 @@ $dashbord-text-font-size: 16px;
                 font-size: $dashbord-text-font-size*768/992;
             }
         }
-        .statics-wrapper{
+        .msedge-statics-wrapper{
             padding: 25px 0;
             font-size: 10px;
-            h5{
-                font-size: 13px;
+            h2{
+                font-size: 15px;
             }
-            .block-wrapper{
-                h5{
-                    font-size: 10px;
+            .msedge-block-wrapper{
+                h3{
+                    font-size: 14px;
                 }
                 .section{
                     height: 62px;
-                    .second-section{
-                        font-size: 21px;
+                    .msedge-second-section{
+                        font-size: 24px;
                     }
                 }
             }
         }
-        .exam-details{
+        .msedge-exam-details{
             padding: 16px 0;
-            .block{
-                .wrapper{
+            .msedge-block{
+                .msedge-wrapper{
                     padding: 10px 0;
                     .icon{
                         width: 42px;
@@ -1086,22 +1038,22 @@ $dashbord-text-font-size: 16px;
                             font-size: 25px;
                         }
                     }
-                    .text{
+                    .msedge-text{
                         padding: 10px;
-                        .num{
-                            font-size: 19px;
+                        .msedge-num{
+                            font-size: 2rem!important;
                         }
-                        .heading{
-                            font-size: 13px;
+                        .msedge-heading{
+                            font-size: 1rem!important;
                         }
-                        .msg{
+                        .msedge-msg{
                             font-size: 11px;
                         }
                     }
                 }
             }
         }
-        .pie-chart{
+        .msedge-pie-chart{
             .pie-chrt-head{
                 padding: 14px 14px 14px 0px;
                 h5{
@@ -1112,7 +1064,7 @@ $dashbord-text-font-size: 16px;
                 width: 121% !important;
                 margin-left: -38px;
             }
-            .inner-piechart-content{
+            .msedge-inner-piechart-content{
                 width: 110px;
                 top: 158px;
                 left: 39px;
@@ -1123,18 +1075,17 @@ $dashbord-text-font-size: 16px;
                     font-size: 12px;
                 }
             }
-            .subject-sec{
-                .sub-wise-perfor{
+            .msedge-subject-sec{
+                .msedge-sub-wise-perfor{
                     padding: 8px 8px 0px 8px;
                     font-size: 12px;
                 }
             }
         }
-        
-        .performance-over-time,.subject-over-time{
+        .msedge-performance-over-time,.msedge-subject-over-time{
             padding: 16px 0 39px 0;
         }
-        .performance-over-time .head-section, .subject-over-time .head-section {
+        .msedge-performance-over-time .msedge-head-section, .msedge-subject-over-time .msedge-head-section {
             padding-bottom: 21px;
             h4{
                 font-size: 16px;
@@ -1164,7 +1115,7 @@ $dashbord-text-font-size: 16px;
                 }
             }
         }   
-        .exam-reports{
+        .msedge-exam-reports{
             padding: 15px 0;
             h5{
                 font-size: 14px;
@@ -1173,7 +1124,6 @@ $dashbord-text-font-size: 16px;
     }
 }
 @media only screen and (max-width: 767px) and (min-width: 320px){
-    
     .customize-loader-container{
         position: absolute;
         top: 50px;
@@ -1184,9 +1134,9 @@ $dashbord-text-font-size: 16px;
             font-size: 29px;
         }
     }
-    .student-dashboard, .admin-dashboard, .law-school-dashboard{
+    .msedge-student-dashboard, .msedge-admin-dashboard, .msedge-law-school-dashboard{
         
-        .performance-over-time .head-section, .subject-over-time .head-section{
+        .msedge-performance-over-time .msedge-head-section, .msedge-subject-over-time .msedge-head-section{
             display: unset;
             .heading-wrapper{
                 display: unset;
@@ -1207,7 +1157,7 @@ $dashbord-text-font-size: 16px;
             }
         }
     }    
-    .support-head{
+    .msedge-support-sec{
         .img-section{
             border-radius: 10px 10px 0px 0px;
             i{
@@ -1215,8 +1165,8 @@ $dashbord-text-font-size: 16px;
             }
         }
     }    
-    .message-head{
-        .message-border, .message-borderArchive{
+    .msedge-message-head{
+        .msedge-message-border, .message-borderArchive{
             .p-3.mt-2.mb-2.message{
                 padding-top: 0 !important;
                 margin-top: 0 !important;
@@ -1227,18 +1177,17 @@ $dashbord-text-font-size: 16px;
 .body-tabs.body-tabs-alt > .RRT__tab{
     width: 49.9% !important;
 }
-.info-icon{
+.msedge-info-icon{
     position: relative;
-    bottom: 30px;
-    left: 25px;
+    bottom: 1.875rem;
+    left: 1.5625rem;
     float: right;
-    color: #70a7cf
+    color: #006ebd;
 }
 //added by muthuraja
-//admin practice exam(20/8/19)
-
-//added by muthuraja
-// students past performance
+.c-pointer{
+    cursor: pointer;
+}
 .past-performance{
 .table-heading{
     margin-left: 8%;
@@ -1248,87 +1197,88 @@ $dashbord-text-font-size: 16px;
     cursor: pointer;
     font-weight: 500;
 }
+
+
 .table-heading-color{
- font-weight: 500;
- color: #666;
-}
-.subject-subcontent{
-    color: #666;
-}
-.heading-font-size{
     font-size: 16px;
     font-weight: 500;
     color: #000;
-}
-.font-size{
+    width: 40%;
+ }
+ .subject-subcontent{
+    color: #bbb3b3;
+ }
+ .heading-font-size{
+    font-size: 14px;
+    font-weight: 400;
+    color: #bbb3b3;
+ }
+ .font-size{
   font-size: 12px;
-    color: #666;
-}
-.table-font-size{
+    color: #a7c1a7;
+ }
+ .table-font-size{
     font-size: 13px;
+ }
+ .highmark-color{
+ color:#f58787
+ }
+ .lowmark-color{
+    color: #a7c1a7;
+ }
 }
-.highmark-color{
-color:green;
-}
-.lowmark-color{
-    color:red;
-}
-}
-
 .page-title{
     width: 100%;
 }
-
-.student-dashboard .breadcrumb li:nth-child(3){
+.msedge-student-dashboard .breadcrumb li:nth-child(3){
     display: none !important;
   }
 
-.admin-dashboard .breadcrumb li:nth-child(3){
+.msedge-admin-dashboard .breadcrumb li:nth-child(3){
     display: none !important;
   }
 
-.law-school-dashboard .breadcrumb li:nth-child(3){
+.msedge-law-school-dashboard .breadcrumb li:nth-child(3){
     display: none !important;
   }
 
-  .app-header-segment{
+  .msedge-header-segment{
     .body-tabs.body-tabs-alt > .RRT__tab {
         padding: 11px 0.5rem !important;
     }
     
-    .user-detail-header-menu{
-        left: 220px !important
+    .msedge-user-detail-header{
+        top:30px !important;
+        transform: none !important;
     }
     
     .search-icon{
         background:none;
     }
     
-    .header-search-bar{
+    .msedge-header-search{
         margin:-11px 0 0 0;
     }
     
-    .app-header-right-list .lang-list{
+    .msedge-header-right-list .msedge-font-resize{
         padding-left: 0 !important;
     }
     
-    .search-wrapper.active .input-holder {
+    .msedge-search-wrapper.active .msedge-input-holder {
         width: 324px;
     }
-    .header-username{
+    .msedge-header-username{
         font-weight: bold;
         font-size: 16px;
     }
     }
-
-    // sep 6 2019 
-    .app-page-title .page-title-subheading{
+    .msedge-title .msedge-page-subhead{
 
         opacity: unset;
         color: #000;
         font-size: 14px;
     }
-    .section .first-section 
+    .section .msedge-first-section 
     {
         h5{
             color: #000 !important;
@@ -1338,18 +1288,13 @@ color:green;
             font-size: 14px;
             color: #666;
         }
-
     }
-
     .faq-heading .btn.btn-secondary{
        color: #000;
    }
-
-    .exam-reports .rt-tr-group, .question-progress .topic button, .score-perc{
+    .msedge-exam-reports .rt-tr-group, .msedge-question-progress .topic button, .score-perc{
         color: #666
     }
-   
-
 .swal-button{
     background-color: white !important;
     border-radius: 5px !important;
@@ -1357,13 +1302,17 @@ color:green;
     color: #0B548B !important;
     box-shadow: none !important;
 }
-
 .swal-button:hover{
     background-color: #0B548B !important;
     border: 1px solid #0B548B !important;
     color: white !important
 }
-
+.swal-icon--success__line{
+    background-color: $primary !important
+}
+.swal-icon--success{
+    border-color: $primary !important;
+}
 input.active:valid {
 box-shadow: 0 0 5px 1px green;
 }
@@ -1379,28 +1328,2757 @@ margin-top: 5px;
 }
 
 // Sep12 Karthees Styles 
-
-.footer-style{
+.msedge-footer-content{
     margin-top: unset;
     margin-bottom: unset;
     font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #000
 }
-.fixed-footer .app-footer{
-    // position: absolute;
-}
-
       .error-txt{
         color: #e277a0;
         background-color: #fae5e5;
         border-radius : 10px;
         align-content: center;
-        width : 70%;
+        width : 50%;
         padding: 8px;
         margin: 0 auto;
     }
 .loader-custom{
-    padding-top: 200px;
+    // padding-top: 100px;
+    // padding-bottom: 100%;
+    padding-top: 10%;
+    padding-bottom: 24%;
 }
-.svg-inline--fa.fa-home.fa-w-18 {
+// .svg-inline--fa.fa-home.fa-w-18 {
+//     color: #006EBD;
+// }
+
+//------naveen------
+.msedge-law-school-info, .msedge-student-content, .msedge-upload-student {
+        .css-dvua67-singleValue{
+        color: rgba(0, 0, 0, 0.85) !important;
+        margin: 0 12px;
+        font-size: 1rem !important;
+    }
+}
+.msedge-general-settings{
+    h6{
+    font-size: 1.040rem;
+    line-height: 1.875rem;
+    font-weight: 400;
+    color: #000;
+    }
+}
+.msedge-align-rev-history{
+    padding: 15px 0 15px 15px;
+}
+.msedge-last-data{
+    padding: 0 60px!important;
+}
+.unset-shadow{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+    box-shadow: 0 0 0 30px white inset !important;
+}
+.ReactTable .rt-noData{
+    top: 60%;
+}
+.msedge-card-layout{
+    h5{
+    color: #006EBD;
+    font-size: 1.25rem;
+    }
+    .msedge-first-section{
+        h5{
+            font-size: 16px;
+            color: #000 !important;
+            }
+    }
+    .msedge-second-section {
+        font-size: 1.5rem;
+        color: #006EBD;
+        text-align: right;
+        .msedge-ques-ans {
+            color: #006EBD;
+        }
+    }
+    .msedge-first-section, .msedge-second-section{
+         p {
+            font-size: 14px;
+            color: #666;
+        }
+    }
+    .msedge-card-border{
+        border-bottom: 1px solid #aaa;
+        padding: 5px 0;
+    }
+    .msedge-law-school-dashboard .msedge-right-arrow {
+        position: unset!important; 
+      } 
+      @media only screen and (max-width: 991px) and (min-width: 768px){
+          .msedge-second-section{
+              font-size: 18px;
+              margin-top: 8px;
+              padding-right: 10px;
+          }
+          .msedge-first-section, .msedge-second-section{
+            p {
+               font-size: 11px;
+               color: #666;
+           }
+       }
+      }
+}
+.msedge-header-segment .msedge-search-wrapper.active .msedge-input-holder {
+        width: 255px;
+    }
+    .msedge-search-wrapper.active {
+        width: 255px;
+    }
+.msedge-align-msedge-subject-over-time{
+    padding: 35px;
+}
+
+@media only screen and (max-width: 767px){
+    .card-header > .nav .nav-link::before {
+        bottom: -14px;
+    }
+    .nav .badge {
+        margin-left: 0px;
+    }
+    .msedge-support-container{
+        h1, h2{
+            font-size: 30px;
+        }
+         .msedge-search-option{
+        margin-top: 15px!important;
+    }
+}
+    .msedge-message-head .msedge-message-border .message{
+        height: unset!important;
+    }
+    .msedge-message-head .card-header > .nav {
+        width: 60%;
+    }
+    .video-section .card-header{
+        display: flex;
+    }
+}
+
+.neg-margin-top-40{
+    margin-top: -40px;
+}
+
+    .d-unset{
+        display: unset!important;
+    }
+.msedge-question-progress, .msedge-settings{
+    .plr-15{
+        padding: 0 15px!important;
+    }
+}
+.msedge-settings{
+    .msedge-timing-section, .msedge-default-date h6{
+        font-size: 1rem!important;
+        line-height: 1.875rem;
+        font-weight: 500;
+    }
+    .msedge-default-date {
+    h3{
+        font-size: 1rem!important;
+        line-height: 1.875rem;
+        font-weight: 500;
+    }
+    h4{
+        font-size: 0.875rem;
+        color: #666;
+    }
+}
+    .msedge-main-card{
+        label{
+            font-size: 16px;
+        }
+    }
+    .change-pswrd-btn{
+        padding: 6px 23px;
+    }
+    .font-weight-500{
+        font-weight: 500;
+    }
+    .msedge-subhead{
+        h2{
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+    }
+    .msedge-settings-align h3{
+        font-size: 1rem!important;
+    }
+}
+.msedge-student-dashboard .msedge-exam-details .msedge-block .msedge-wrapper{
+    padding: 0;
+}
+
+.msedge-student-dashboard, .msedge-admin-dashboard{
+    .msedge-exam-details .msedge-block .msedge-wrapper {
+        height: 11.0625rem;
+    }
+    .msedge-statics-wrapper .msedge-block-wrapper h5{
+        font-weight: 500;
+    }
+    .msedge-head-section h4, h5{
+        font-weight: 500;
+        font-size:20px;
+        line-height: 24px;
+    }
+}
+.msedge-law-school-dashboard{
+    // .msedge-exam-details .msedge-block .msedge-wrapper {
+    //     height: 177px;
+    // }
+    .msedge-pie-chart {
+        margin-bottom: 0!important;
+    }
+    .first-sec-border{
+        border-right: 1px solid lightgrey;
+    }
+    label h5{
+        margin-right: 10px;
+        font-size: 18px;
+        color: #000000ad!important;
+        padding-top: 10px;
+    }
+}
+.msedge-student-dashboard, .msedge-law-school-dashboard{
+    .custom-tooltip{
+        width: 350px;
+    }
+    }
+.msedge-admin-dashboard{
+    .msedge-performance-over-time{
+        .msedge-head-section{
+            .weekly{
+                color: #fff;
+                border: 1px solid #006EBD;
+                background: #006EBD;
+            }
+            .monthly{
+                background-color: #fff;
+                color: #999;
+                border: 1px solid #999;
+            }
+        } 
+    } 
+    .admin-card{
+        padding: 30px 0px 35px 0px;
+        color: #6c757d;
+        margin-top: 0;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+        a{
+            text-decoration: none!important;
+        }
+        .msedge-item-details{
+            .msedge-block .msedge-wrapper .msedge-text{
+                padding: 0 15px;
+            }
+            h5{
+                color: #006EBD;
+            }
+        }
+        .custom-tooltip{
+            width: auto;
+        }
+        .card-hover{
+            transition: all 0.5s ease;
+            &:hover{
+                box-shadow: 0 13px 25px -5px rgba(50,50,93,.25), 0 8px 8px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025);
+                transform: translateY(0px);
+            }
+        }
+        .msedge-statics-wrapper{
+            padding: 10px 0 20px 0!important;
+        }
+        .msedge-exam-details{
+            .msedge-block .msedge-wrapper{
+                padding: 1.875rem 0.937rem 2.1875rem 0.9375rem!important;
+                height: unset!important;
+            }
+
+        } 
+} 
+.msedge-header-content .msedge-header-right ul li button {
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #006EBD;
+    text-decoration: none;
+    &:hover{
+        color: #006EBD;
+    }
+}
+.plr-30{
+    padding-left: 30px;
+    padding-right: 30px;
+} 
+.ptb-30{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}  
+.__react_component_tooltip.type-dark{
+    background-color: #fff!important;
+}
+@media only screen and (min-width: 1440px){
+.msedge-admin-message, .msedge-admin-video-library-segment, .msedge-admin-student-list, .msedge-admin-law-school{
+    .rt-td, .rt-th{
+        max-width: unset!important;
+    }
+}
+}
+.msedge-admin-law-school, .msedge-admin-student-list, .msedge-practice-list, .msedge-user-list, .msedge-admin-message, .admin-item-tag, .msedge-admin-video-library-segment{
+        
+        .select-form{
+            height: auto;
+            font-size: 0.875rem!important;
+            outline: none!important;
+            padding: 0.25rem 0.5rem;
+        }
+    }
+    .msedge-table-content{
+        line-height: 24px;
+    }
+
+.p-30{
+    padding: 30px;
+}  
+.msedge-add-law-school, .msedge-add-student, .msedge-practice-exam, .mseddge-admin-add-item, .msedge-law-school{
+     p{
+        font-size: 0.875rem;
+        line-height: 26px;
+    }
+    .msedge-student-field{
+        label{
+        font-size: 1rem;
+        color: rgba(0, 0, 0, 0.85) !important;
+        font-weight: 500;
+        }
+    }
+}
+.msedge-student-dashboard, .msedge-law-school-dashboard, .msedge-admin-dashboard {
+
+    .msedge-exam-details .msedge-block .msedge-wrapper {
+        a{
+            text-decoration: none;
+        }
+    }
+    @media only screen and (min-width: 1440px){
+        .msedge-exam-reports .rt-td, .rt-th{
+            max-width: unset!important;
+       }
+     }
+    .msedge-card-layout{
+        a{
+            text-decoration: none!important;
+        }
+    }
+    .msedge-right-arrow{
+        a{
+            color: #006EBD;
+        }
+    }
+    .msedge-pie-chart {
+        margin-bottom: 30px;
+        .msedge-right-arrow {
+            right: 33px;
+          }
+    }
+.msedge-statics-wrapper .msedge-block-wrapper{
+    padding: 15px 25px 15px 25px !important;
+}
+.d-unset{
+    display: unset!important;
+}
+.border-left{
+    border-bottom-left-radius: 10px;
+}
+@media only screen and (max-width: 767px) and (min-width: 320px){
+ .msedge-pie-chart .msedge-subject-sec {
+    padding: 15px!important;
+}
+}
+@media only screen and (min-width: 426px){
+    .prt-4{
+       padding-right: 10px;
+   }
+   }
+   @media only screen and (max-width: 767px){
+    .msedge-performance-over-time .msedge-percent-mark {
+        top: 60%;
+        left: 30px;
+    }
+   }
+.date-picker .form-group {
+    border: 1px solid #999; 
+    border-radius: 5px;
+    height: 40px;
+
+.form-control{
+    border: none;
+    background: transparent;
+    color: #006EBD;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    
+}
+    }
+    .input-group-text{
+        padding: 0 12px;
+        background: transparent!important;
+        border: none!important;
+    }
+    .over-time-btn{
+        padding: 9px 9px;
+    }
+@media only screen and (max-width: 991px) and (min-width: 768px){
+    .msedge-pie-chart .msedge-inner-piechart-content{
+        top: 40%!important;
+    }
+    .date-picker .form-group{
+        span{
+            margin-top: -3px;
+        }
+         .form-control {
+        font-size: 11px!important;
+        padding-top: 10px;
+        }
+    }
+    .msedge-pie-chart h2, .msedge-performance-over-time .msedge-head-section h2, .msedge-subject-outline h2{
+        font-size: 17px!important;
+    }
+    .msedge-exam-details .msedge-block .msedge-wrapper {
+        height: 172px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+}
+@media only screen and (min-width: 426px){
+    .msedge-exam-details .plt-30{
+        padding-left: 30px;
+    }
+}
+@media only screen and (max-width: 426px){
+    .msedge-performance-over-time{
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 767px){
+.msedge-toggle-btn{
+    text-align: center;
+}
+.date-picker{
+    padding: 0 20%;
+}
+.ml-sm-4{
+    margin-left: 20px;
+}
+}
+@media only screen and (max-width: 991px) and (min-width: 768px){
+    .msedge-overview-exam-reports {
+        .w-30{
+            width: unset!important;
+        }
+    }
+    .over-time-btn{
+        padding: 7px 0;
+        font-size: 10px;
+    }
+    .msedge-exam-reports{
+        .rt-th.rt-resizable-header{
+            font-size: 14px!important;
+        }
+        .card-body{
+            font-size: 12px!important;
+        }
+    }
+    .msedge-performance-over-time .msedge-head-section h4{
+        padding: 0;
+    }
+    .pie-chart-graph{
+        height: 275px!important;
+        margin-left: -15px!important;
+    }
+    .msedge-pie-chart .msedge-inner-piechart-content {
+        left: 62%!important;
+        transform: translateX(-66%) translateY(-25%);
+    }
+    .date-picker .form-group {
+        height: 36px;
+        .form-control {
+          font-size: 12px;
+        }
+      }
+    
+}
+    .input-group-text {
+        padding: 0 12px 0 0px;
+    }
+    .msedge-exam-reports{
+        .rt-th.rt-resizable-header{
+            font-size: 18px;
+        }
+        .card-body{
+            font-size: 16px;
+        }
+    }
+    @media only screen and (max-width: 425px){
+    .msedge-performance-over-time{
+        padding: 19px 0 75px 0;
+    }
+    .date-picker .form-group .form-control{
+        font-size: 12px;
+    }
+}
+.msedge-pie-chart .msedge-inner-piechart-content {
+    top: 46%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+}
+.msedge-practice-questions {
+    .under-line{
+        padding-top: 15px;
+    }
+    .msedge-questions-start button:hover li:first-child {
+        border-right: 1px solid #ffffff;
+    }
+}
+.text-num{
+    font-size: 1.4rem;
+}
+.bg-grey{
+    background: #eee; 
+}
+.msedge-question-and-answers{
+    .instructions{
+        h6 {
+            color: #006EBD;
+            font-size: 24px!important;
+            line-height: 70px!important;
+            font-weight: 400;
+        }
+        p{
+            line-height: 30px;
+        }
+        .msedge-instruction-content{
+            padding: 40px!important;
+            margin: 0 0 20px 0!important;
+            background: #fff;
+            box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
+            p{
+                font-size: 18px;
+                line-height: 30px;
+            }
+
+        }
+    }
+    .msedge-mcq-section{
+        h6 {
+            color: #000;
+            font-size: 1rem!important;
+            font-weight: 500;
+        }
+        .msedge-sub-style{
+            font-size: 1rem;
+            font-weight: 500;
+        }
+    }
+}
+@media only screen and (max-width: 991px) and (min-width: 320x){
+    .msedge-overview-text{
+        font-size: 20px!important;
+    }
+    .overview-subtext{
+        font-size: 12px!important;
+    }
+}
+@media only screen and (max-width: 991px) and (min-width: 768px){
+    .msedge-law-school-dashboard .msedge-pie-chart .msedge-inner-piechart-content {
+        top: 45% !important;
+        left: 55%!important;
+    }
+}
+.msedge-qa{
+    position: absolute;
+    top: 35%;
+    right: -170px;
+    font-size: 16px;
+    transform: rotate(90deg);
+	transform-origin: left top 0;
+}
+.month-week-active{
+    border: 1px solid #006EBD!important;
+    background: #006EBD;
+    color: #fff!important;
+    padding: 0 26px!important;
+    height: 36px!important;
+    margin: 0!important;
+    margin-top: 3px!important;
+}
+.month-week{
+    border: 1px solid rgb(153, 153, 153)!important;
+    color: rgb(153, 153, 153)!important;
+    background: #fff!important;
+    color: #006EBD!important;
+    padding: 0 26px!important;
+    height: 36px!important;
+    margin: 0!important;
+    margin-top: 3px!important;
+}
+.msedge-onsearch-icon {
+    position: relative;
+    bottom: 1.7rem;
+    left: -3px;
+    float: right;
+    font-size: 0.875rem;
+    font-weight: 600;
+    background-color: #ffffff;
+}
+
+.msedge-form-control-onsearch{
+    padding: 0.14rem 2.5rem 0.14rem 0.75rem !important;
+    display: block;
+    width: 100%;
+    height: calc(1.27em + 0.75rem + 3px);
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    outline: none;
+}
+.msedge-student-review{
+    font-size: 1rem !important;
+    height:2.375rem !important;
+}
+// Over all button color
+.btn-primary{
+    color: #006EBD;
+    border-color: #006EBD;
+    background-color: unset;
+}
+.btn-primary:hover{
+    color: #006EBD;
+    border-color: #006EBD;
+    color: #fff;
+}
+.btn-outline-primary {
+    color: #006EBD;
+    border-color: #006EBD;
+}
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #006EBD;
+    border-color: #006EBD;
+}
+.ReactTable .-pagination .-btn{
+    color: #006EBD;
+    font-size: 1rem !important;
+}
+.ReactTable .-pagination .-btn:not([disabled]):hover {
+    background: #006EBD;
+    color: #fff;
+}
+.page-item.active .page-link, .pagination .active.page-number .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #006EBD;
+    border-color: #006EBD;
+}
+.rt-resizable-header, .msedge-item-bank-list-admin{
+    color: #006EBD;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #006EBD;
+    border-color: #006EBD;
+}
+
+.ReactTable.-striped.-highlight{
+    background: #fff;
+}
+
+//added by muthuraja
+.custom-control-label{
+cursor: pointer;
+}
+.video-react-video{
+    width:100%;
+    float:left
+}
+
+.msedge-video-lectures-modal{
+    max-width: 800px;
+}
+
+
+
+.msedge-video-inner:hover{
+    box-shadow: 0px 0px 35px 10px #ccc;
+    transform: scale(0.9);
+}
+
+.monthly-progress-student:hover{
+    box-shadow: 0px 0px 25px 10px #ccc;
+}
+
+.text-primary {
+    color: #006EBD !important;
+  }
+  .msedge-btn-top{
+      position: relative;
+      bottom: 5%;
+  }
+  .msedge-answer-choices{
+      padding-top: 1.25rem;
+  }
+  .msedge-pb-30{
+      padding-bottom: 30px;
+      margin: 0;
+  }
+
+@media screen and (max-width: 768px){
+    .msedge-question-and-answers .msedge-mcq-section .msedge-choice-section .question-choice .radio label .row
+    .letter-option{
+        padding: 25px 10px !important;
+    }
+}
+@media screen and (max-width: 480px){
+    .msedge-admin-title{
+    text-align: center !important;
+    }
+    .msedge-sm-card-header{
+        padding: 0!important;
+    }
+    .msedge-sm-navlink{
+        padding: 14px 5px!important;
+    }
+    .timer-tab .timer{
+        h4{
+            font-size: 1.5rem!important;
+        }
+        h1{
+            font-size: 2.2rem!important;
+        }
+    }
+    }
+    .apexcharts-datalabels-group{
+      display:none !important;
+    }
+    .question-progress-students-main .radial-bar-main{
+      position: relative;
+    }
+    .msedge-lawschool-bar-value{
+        position: absolute;
+        left: 50% !important;
+        margin-left: -10px;
+        top: 52% !important;
+        color:green;
+      font-size: 1.125rem;
+      font-weight: 600;
+    }
+    .msedge-custom-bar-value{
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        left: 50% !important;
+        margin-left: -22px;
+        top: 52% !important;
+        color:green;
+      font-size: 1.125rem;
+      font-weight: 600;
+    }
+    .question-progress-students-main .msedge-no-of-questions-answered{
+      text-align: center;
+      font-size: 1rem;
+      padding:0;
+      margin:0; 
+    }
+    // 24 Sep Karthees Styles
+    .breadcrumb-item.active {
+      color: #006EBD;
+    }
+    .ReactTable .rt-thead .rt-td:hover, .ReactTable .rt-thead .rt-th:hover {
+      color: #006EBD;
+    }
+
+
+.msedge-table-content-left-align{
+    text-align: left;
+    width: 100%;
+}
+
+.msedge-table-content-right-align{
+    text-align: right;
+    width: 100%;
+}
+.msedge-table-content-center-align{
+    text-align: center;
+    width: 100%;
+   
+}
+
+.msedge-error-header{
+    // width: 90%;
+    margin: 0 auto;
+    padding: 2px 10px;
+    .border {
+    border: 1px solid #dee2e6 !important;
+
+}
+.msedge-border-primary {
+    border-color: $primary !important;
+    border-radius: 5px;
+    text-align: center;
+   padding: 0.375rem 0 0.5rem 0;
+}
+.msedge-validation-error .msedge-info-icon{
+    position: absolute;
+    top: 17px;
+    left: 30px;
+    color: $primary !important;
+}
+.msedge-validation-error{
+    padding:10px 0px !important;
+}
+}
+.msedge-font-normal{
+    font-weight: normal;
+}
+.msedge-proof-reader-update{
+ textarea{
+    border: 1px solid #ced4da;
+}
+h2{
+    font-size: 1.25rem;
+}
+h3{
+    font-size: 1rem;
+}
+}
+.msedge-collapse-sec .msedge-collapse-title {
+     font-weight: 400; 
+     font-size: 0.875rem!important; 
+     color: #000; 
+}
+.msedge-practice-exam .msedge-error-header .msedge-validation-error .msedge-info-icon {
+    top: 17px;
+    left: 21px;
+}
+.msedge-add-item .msedge-validation-error{
+    width: 90%;
+}
+.msedge-error-info-icon{
+position: unset!important;
+float: left!important;
+}
+
+.rt-resizable-header{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.msedge-student-list-active{
+    .msedge-active-block{
+        font-weight: 500;
+        font-size: 3rem;
+        margin-bottom: 5%;
+        color: #ffffff;
+    }
+    h3{
+        font-weight: 500;
+        color: #ffffff;
+        font-size: 1rem;
+    }
+}
+.msedge-answers{
+    h3{
+        color: #666;
+        font-size: 1rem;
+        margin: 3px;
+    }
+    h4{
+        color: #666;
+        font-size: 1rem;
+    }
+}
+.requiredClass{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid red;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    outline: none !important;
+}
+.error-color{
+    color: red;
+    font-weight: 300;
+}
+label{
+    display: inline;
+}
+.msedge-double-right-icon{
+    margin: 0;
+    cursor: pointer;
+    padding: 15px 0;
+    font-size: 1.4rem;
+}
+.msedge-question-and-answers .msedge-mcq-section h2 {
+    color: #006EBD;
+    font-size: 1.6rem!important;
+    font-weight: 400;
+}
+.msedge-mcq-section .msedge-question-head-expanded h2 {
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 0;
+}
+.msedge-message-head{
+    a{
+        color:#495057;
+    }
+}
+
+.downlod-btn{
+    width: 6.2rem;
+}
+.fieldname-font-size{
+    font-size: 1rem !important;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.85) !important;
+}
+.card-header>.nav .nav-link.active, .card-header>.nav .nav-link:hover {
     color: #0e6aae;
 }
+
+.msedge-heading{
+    color: #000;
+    position: absolute;
+    margin-left: 15px;
+    font-size: 0.875rem;
+}
+.msedge-block .msedge-wrapper .msedge-text{
+    padding: 30px 0;
+}
+.admin-text{
+    padding: 30px 0 !important;
+}
+.css-bg1rzq-control{
+    min-height:2.375rem !important;
+}
+.ada-font-size{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.85) !important;
+  }
+.msedge-video-custom-file::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .msedge-video-custom-file{
+    font-size: 0.875rem;
+    outline: none!important;
+    &:before {
+        content: 'Choose file';
+        display: inline-block;
+        background: transparent!important;
+        border: 1px dashed hsl(0,0%,70%);
+        border-radius: 3px;
+        padding: 3px 8px;
+        white-space: nowrap;
+        -webkit-user-select: none;
+        cursor: pointer;
+    }
+    &:hover{
+        &:before{
+            border-color: #006ebd;
+        }
+    }
+ }
+//  .react-switch-bg{
+//     border-radius: 0.625rem !important;
+//     height: 0.9375rem !important;
+//     width:2.625rem !important;
+//  }
+// .react-switch-handle{
+//     box-shadow: rgba(0, 0, 0, 0.6) 0.0rem !important 0.0625rem !important 0.3125rem !important;
+//     border-radius: 0.5000 !important;
+//     height:1.4375rem !important;
+//     width: 1.4375rem !important;
+//     transform: translateX(2.5rem  !important);
+// }
+.css-1hwfws3{
+    padding: 0 !important;
+ }
+ .css-1g6gooi{
+    margin: 0 !important;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+ }
+ .css-1g6gooi input {
+    font-size: 1rem !important;
+    padding: 0.375rem 0.75rem !important;
+ }
+ .css-151xaom-placeholder{
+    font-size: 1rem !important;
+    margin-left: 12px !important;
+    color: rgba(0, 0, 0, 0.85) !important;
+ }
+ .css-bg1rzq-control {
+    border-color: hsl#ced4da !important;
+ }
+ .css-bg1rzq-control:hover {
+    border-color: #ced4da !important;
+ }
+ .css-1szy77t-control {
+    color: #495057 !important;
+    background-color: #fff !important;
+    border-color: #4baaf1 !important;
+    outline: 0 !important;
+    box-shadow: 0 0 0 0.2rem rgba(14, 106, 174, 0.25) !important;
+ }
+ .multi-emails{
+    color: rgba(0, 0, 0, 0.85) !important;
+    font-size: 0.875rem !important;
+ }
+ .ada-font-size{
+    font-size: 1rem;
+ }
+ .msedge-proofreader-question{
+    color: #495057;
+    font-size: 1rem;
+    padding: 0 0 2% 1%;
+ }
+ .skip-to-content-btn{
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: -5px;
+    z-index: 20;
+    color: rgba(0, 0, 0, 0.6);
+ }
+
+ .highlight-selection{
+     background: yellow;
+ }
+ .btn.btn-outline-primary[disabled] {
+    background-color:#EEEEEE;
+    border:1px solid #6f6f6f;
+    color: rgb(31, 27, 27);
+    cursor: not-allowed;
+    pointer-events: all;
+ }
+ .msedge-title{
+    margin-bottom: 0!important;
+}
+.msedge-right-header-text{
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000 !important;
+}
+.msedge-search-wrapper .msedge-input-holder {
+   height: 39px;
+   width: 39px;
+}
+.msedge-search-height{
+    width: 35px!important;
+    height: 50px!important;
+}
+.msedge-tooltip-info-icon{
+   position: relative;
+      bottom: 1.875rem;
+      left: 4.5625rem;
+      float: right;
+      color: #006ebd;
+      font-size: 0.875rem;
+   }
+   .msedge-password-show-hide-icon{
+      position: relative;
+      bottom: 2.125rem;
+      right:0.0625rem;
+      float: right;
+      font-size: 1rem;
+      font-weight: 600;
+   }
+   .msedge-txt-break{
+    padding: 0 16px;
+}
+   @media (max-width: 767px){
+        .msedge-txt-break{
+            padding: 0 30px;
+        }
+        .msedge-title {
+            padding: 0 15px 10px 15px;
+        }
+        .msedge-ques-prog-res{
+            padding: 10px 5px;
+        }
+        .msedge-title{
+            text-align: center;
+            .pull-right{
+                float: unset;
+            }
+        }
+    }
+    .w-unset{
+        width: unset!important;
+    }
+    @media (max-width: 768px){
+    .msedge-practice-questions{
+        
+            .card-header > .nav .nav-link::before{
+                bottom: 3px!important;
+                // left: 26px!important;
+            }
+    
+    }
+}
+@media (max-width: 766px){
+    .msedge-md-prog-subj{
+        margin-bottom: 18px!important;
+    }
+}
+   @media (max-width: 991px){
+        // .msedge-title .msedge-breadcrumb-section {
+        //     margin: 0 auto 0;
+        // }
+        .msedge-title-wrapper {
+            padding: 0px 15px 2% 15px!important;
+        }
+        .msedge-overview-text{
+            margin-top: 0!important;
+            margin-bottom: 5px!important;
+        }
+   }
+   .msedge-mob-sidebar{ 
+       padding: 2rem 0rem;
+   }
+@media (max-width: 769px){
+.msedge-practice-questions{
+     .question-common ol.progtrckr li{
+    width: 33.33%!important;
+}
+}
+.msedge-title .msedge-breadcrumb-section {
+    margin-left: auto!important;
+}
+
+}
+@media (min-width: 769px){
+    .msedge-md-plr-30{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 426px){
+    .msedge-title .msedge-breadcrumb-section {
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+    .msedge-practice-questions{
+        
+        .card-header > .nav .nav-link::before{
+            left: 0!important;
+        }
+}
+.msedge-sm-unset{
+    display: unset!important;
+    margin-bottom: 5px;
+    text-align: center!important;
+}
+.msedge-sm-ml-0{
+    margin-left: 0!important;
+}
+.msedge-sm-mr-0{
+    margin-right: 0!important;
+}
+}
+.msedge-nodatafound{
+    height: 100%;
+    bottom: 0px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.msedge-invite-students .student-select-all{
+    position: absolute;
+    top: 54px !important;
+    left: 2.1rem !important;
+    z-index: 99;
+}
+@media (max-width: 425px){
+    .subject-datepicker {
+        margin-left: 0% !important;
+    }
+    .msedge-practice-questions .msedge-ques-subject-topics{
+        width: 100%!important;
+    }
+    .msedge-question-and-answers .msedge-mcq-section .msedge-question-section p{
+        text-align: left!important;
+    }
+    .msedge-question-and-answers .msedge-mcq-section .msedge-choice-section .question-choice .radio label .row p{
+        text-align: left!important;
+    }
+    .msedge-student-exam-input{
+        // padding: 0!important;
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
+        .custom-checkbox.custom-control{
+            padding-right: 0!important;
+        }
+    }
+    .msedge-sm-width-50{
+        width: 50%;
+    }
+}
+.msedge-questions-steps{
+    em{
+        font-style: normal;
+    }
+}
+.msedge-ml-15{
+    margin-left: 15px;
+}
+.password-eye-proofreader{
+    position: relative;
+    cursor: pointer;
+    bottom: 30px;
+    left: 8px;
+    float: right;
+    font-size: 16px;
+    color: #006ebd;
+}
+.msedge-created-status{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.msedge-admin-form-title{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.msedge-timer-checkbox{
+    input[type=checkbox]{
+        display: block !important;
+        visibility: visible !important;
+        float: left;
+        margin-right: 10px;
+    }
+}
+.msedge-signup-error{
+    padding:0px 19px !important;
+ }
+
+ .msedge-footer{
+    position: absolute;
+    bottom: 0;
+ }
+ 
+ @media (max-width: 480px){
+     .msedge-footer{
+        position: absolute;
+        bottom: 0;
+     }
+
+     .msedge-footer-content{
+         text-align: center;
+     }
+     .signup .left-section{
+         display: none;
+     }
+     .signup .right-section .img-wrapper{
+         text-align: center !important;
+     }
+     .signup .login-logo {
+        width: 40% !important;
+    }
+ }
+
+
+ .msedge-login-fs{
+    font-size: 1rem!important;
+}
+.msedge-left-sec-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+//  Loader Styles
+
+.loader,
+.loader:before,
+.loader:after {
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation: load7 1.8s infinite ease-in-out;
+  animation: load7 1.8s infinite ease-in-out;
+}
+.loader {
+  color: #006EBD;
+  font-size: 8px;
+  margin: 80px auto;
+  position: relative;
+  text-indent: -9999em;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+.loader:before,
+.loader:after {
+  content: '';
+  position: absolute;
+  top: 0;
+}
+.loader:before {
+  left: -3.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+.loader:after {
+  left: 3.5em;
+}
+@-webkit-keyframes load7 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em;
+  }
+  40% {
+    box-shadow: 0 2.5em 0 0;
+  }
+}
+@keyframes load7 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em;
+  }
+  40% {
+    box-shadow: 0 2.5em 0 0;
+  }
+}
+
+// ADA
+//ADMIN
+// OVERVIEW
+.msedge-block {
+    a:focus {
+        outline: auto 5px !important;
+    }
+}
+
+.msedge-side-menu {
+    a:focus {
+        outline: auto 5px !important;
+    }
+}
+
+// HEADER
+.msedge-header-right-list {
+    button:focus {
+        outline: auto 5px !important;
+    }
+    a:focus {
+        outline: auto 5px !important;
+    }
+}
+
+.msedge-general-settings {
+    button:focus {
+        outline: auto 5px !important;
+    }
+}
+
+.msedge-default-date {
+    button:focus {
+        outline: auto 5px !important;
+    }
+}
+.msedge-default-date{
+    label{
+        padding-top: 2px; 
+    }
+}
+
+.msedge-law-school {
+    a:focus {
+        outline: auto 5px !important;
+    }
+    button:focus {
+        outline: auto 5px !important;
+    }
+}
+
+.msedge-admin-form-title {
+    h2 {
+        line-height: 1.2;
+        color: #006EBD !important;
+        font-weight: 500;
+        font-size: 1.25rem;
+    }
+}
+
+
+
+// STUDENT
+.msedge-support-sec {
+    a:focus {
+        outline: auto 5px !important;
+    }
+    button:focus {
+        
+        outline: auto 5px !important;
+    }
+}
+
+.msedge-head-section {
+    .msedge-toggle-btn {
+        display: inline-flex;
+    }
+}
+.msedge-changepassword-proofreader{
+.msedge-settings-info {
+    margin-left: 1rem!important;
+  }
+}
+
+.overview-input-datepicker {
+    .row {
+        margin-right: 1rem;
+    }
+    .form-group {
+        width: 10rem;
+        height: auto !important;
+    }
+    span.msedge-date-seperator {
+        font-size: 1rem;
+    }
+}
+
+.msedge-student-dashboard {
+    .msedge-card-layout {
+        a:focus {
+            outline: auto 5px !important;
+        }
+    }
+}
+//LAW SCHOOL
+.msedge-tooltip-value{
+    left: 1.5rem!important;
+}
+.msedge-itembank-prefer-icon{
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    font-size: 1.5rem;
+    color: #000;
+}
+.-pageSizeOptions select {
+    font-size: 0.875rem !important;
+    // align-items: flex-end;
+  }
+  .prefer-down-arrow{
+      position: absolute;
+      right: 0;
+      top: 0;
+      font-size: 20px;
+      color: #000!important;
+  }
+  .ReactTable .rt-thead-filters{
+      font-size: 1rem!important;
+      color: rgba(0, 0, 0, 0.85) !important;
+      font-weight: 500 !important;
+  }
+  .msedge-timing-res .msedge-timing-performance-card .card-header .btn{
+    font-size: 1rem;
+    letter-spacing: unset!important;
+    
+  }
+.msedge-font-resize button{
+    letter-spacing: unset!important;
+}
+//Global search padding
+.global-search{
+    padding: 0px 0px 41px 0px;
+}
+.msedge-preference-collapse{
+    .Collapsible {
+        background-color: white;
+        border-radius: 8px;
+        cursor: pointer;
+     }
+      
+      .Collapsible__contentInner {
+        padding: 10px;
+        border: 1px solid #ebebeb;
+        border-top: 0; }
+        .Collapsible__contentInner p {
+          margin-bottom: 10px;
+          font-size: 14px;
+          line-height: 20px; }
+          .Collapsible__contentInner p:last-child {
+            margin-bottom: 0; }
+      
+      .Collapsible__trigger {
+        display: block;
+        font-weight: 400;
+        font-size: 1.25rem;        
+        text-decoration: none;
+        color: $primary;
+        position: relative;
+        border: 1px solid white;
+        padding: 10px;
+        }
+        .Collapsible__trigger:after {
+          font-family: 'FontAwesome';
+          content: '\f107';
+          position: absolute;
+          right: 10px;
+          top: 10px;
+          display: block;
+          transition: transform 300ms; }
+        .Collapsible__trigger.is-open:after {
+          transform: rotateZ(180deg); }
+        .Collapsible__trigger.is-disabled {
+          opacity: 0.5;
+          background-color: grey; }
+      
+      .CustomTriggerCSS {
+        background-color: lightcoral;
+        transition: background-color 200ms ease; }
+      
+      .CustomTriggerCSS--open {
+        background-color: darkslateblue; }
+      
+      .Collapsible__custom-sibling {
+        padding: 5px;
+        font-size: 12px;
+        background-color: #CBB700;
+        color: black; }
+}
+.msedge-date-seperator{
+    padding-top: 5px;
+}
+.msedge-fw-600 {
+    font-weight: 600!important;
+  }
+  
+  .textarea-size{
+      .custom-control{
+          label{
+              padding-top: 3px;
+          }
+      }
+  }
+@media only screen and (max-width: 767px){
+    .msedge-setprefer-icon-sm{
+        .custom-control{
+            padding-left: 0!important;
+        }
+    }   
+    .msedge-info-icon{
+        left: 1rem!important;
+    }
+    .msedge-question-choice-section{
+        .card-header{
+            padding: 0 1.5rem!important;
+            text-align: justify!important;
+        }
+        .msedge-expand-toggle{ 
+            display: -webkit-inline-box!important;
+        }
+        .card-header > .nav{
+            display: -webkit-inline-box!important;
+        }
+    }
+}
+.public-DraftStyleDefault-block {
+    margin: 1em 1em!important;
+}
+.public-DraftStyleDefault-ltr{
+    span{
+        font-size: 1rem!important;
+        color: rgba(0, 0, 0, 0.85) !important;
+        font-weight: 500 !important;
+    }
+}
+.subject-accordian .subject-accord{
+    .form-group{
+        margin-bottom: 0!important;
+    }
+}
+.msedge-ques-subject-topics .form-group{
+    font-size: 0.875rem!important;
+}
+.msedge-item-preview{
+    .text-option{
+        p{
+            margin-bottom: 0!important;
+        }
+    }
+}
+@media only screen and (max-width: 767px){
+    .msedge-btn-sm-center{
+        text-align: center!important;
+    }
+    .msedge-tooltip-info-icon {
+        left: 3.6rem;
+    }
+    .msedge-admin-settings-button{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 335px){
+    .msedge-btn-sm-center{
+        button{
+            margin-bottom: 10px;
+        }
+    }
+}
+@media only screen and (max-width: 480px){
+    .msedge-question-and-answers .msedge-mcq-section .msedge-choice-section .question-choice .radio label .row p{
+        font-size: 0.875rem!important;
+    }
+    .msedge-practice-questions .pre-create .custom-radio-detai .custom-control-label{
+        right: 0!important;
+    }
+}
+@media only screen and (max-width: 991px) and (min-width: 768px){
+    .msedge-practice-questions .pre-create .right-content {
+        position: relative;
+        padding: 0;
+        top: 0!important;
+        right: 15px!important;
+    }
+    .pre-create .msedge-open-update-list .custom-control-label::before {
+        position: absolute;
+        top: 0.19rem;
+        left: -1.5rem;
+    }
+}
+@media only screen and (max-width: 480px){
+    .msedge-practice-questions .pre-create .right-content {
+        padding: 0 15px!important;
+    }
+    .msedge-questions-start{
+        text-align: center!important;
+    }
+    .msedge-practice-questions .pre-create .row .msedge-open-update-list div {
+        padding: 10px 4px!important;
+        display: flex;
+        align-items: center;    
+        height: unset!important;
+    }
+    .msedge-practice-questions .pre-create .row .msedge-open-update-list .mid-text {
+        padding-left: 10px!important;
+    }
+    .msedge-practice-questions .pre-create .custom-radio-detai .custom-control-label {
+        position: unset!important;
+    }
+
+}
+.msedge-ques-subject-topics{
+    .msedge-questions-start{
+        .btn-secondary:disabled {
+            color: #fff;
+            background-color: #eeeeee;
+            border-color: #6c757d;
+        }
+    }
+}
+  
+
+// Over all module a tag button tap for ADA
+
+a:focus {
+    outline: auto 5px !important;
+}
+button:focus {
+    
+    outline: auto 5px !important;
+}
+
+.form-control {
+    font-size: 1rem !important;
+    color: rgba(0, 0, 0, 0.85) !important;
+}
+
+.ReactTable .-pagination input, .ReactTable .-pagination select, .ReactTable .rt-thead.-filters input, .ReactTable .rt-thead.-filters select{
+    font-size: 1rem !important;
+    color: rgba(0, 0, 0, 0.85) !important;
+    font-weight: 500 !important;
+}
+
+// Fonts Import
+@import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800&display=swap');
+
+body{
+    font-family: 'Muli' !important;
+}
+
+// .ReactTable ::-webkit-scrollbar {
+//     width: 12px;
+//     display: none;
+//   }
+//   .table-responsive::-webkit-scrollbar {
+//     width: 12px;
+//     display: none;
+//   }
+  .msedge-practice-questions .msedge-ques-subject-topics{
+  .msedge-preference-list-wrap{
+    .custom-control-label::after {
+        left: -20px !important;
+        bottom: 7px!important;
+        top: 7px !important;
+    }
+  }
+}
+.msedge-ques-tab{
+    font-size: 1rem!important;
+    line-height: 30px!important;
+}
+
+
+.msedge-law-school-dashboard{
+   .msedge-pie-chart span {
+       font-size: 1rem;
+   }
+ }
+
+
+ .msedge-law-school-dashboard .msedge-statics-wrapper .msedge-p25{
+     padding:25px !important;
+ }
+//  .msedge-download-report .msedge-download-report-top{
+// height: 73vh;
+//  }
+
+
+.msedge-lawschool-download-report-select-all{
+    font-size: 1rem !important;
+}
+
+//  .msedge-download-report-padding{
+//      padding-top: 16rem;
+//  }
+
+@media screen and (max-width: 480px){
+    .msedge-ques-tab{
+        font-size: 0.875rem!important;
+        line-height: 24px;
+    }
+    .msedge-timing-content{
+        margin-bottom: 8px;
+    }
+}
+@media (max-width: 767.98px){
+    .exam-practice-container .card-header {
+        padding: 0.75rem 0rem;
+    }
+}
+
+.msedge-border-changepassword {
+     border-color: $primary !important;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0.75rem 0.75rem !important;
+}
+// .msedge-change-password-border{
+//      border-color: $primary !important;
+// }
+.password-border{
+border: 1px solid #006EBD !important;
+}
+
+// Test Page
+.msedge-testpage-txt{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.question-progress-students-main .radial-bar-main .msedge-radial-bar-value{
+    color:green;
+    font-size: 18px;
+    font-weight: 600;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 50%!important;
+    margin-left: -45px;
+    top: 52%!important;
+    margin-top: -20px;
+ }
+@media only screen and (max-width: 350px){
+    .msedge-question-and-answers .msedge-mcq-section .msedge-ques-btn-sec .stop button svg {
+        margin-right: 0px!important;
+    }
+}
+@media only screen and (max-width: 480px){
+    .msedge-question-and-answers .msedge-mcq-section .msedge-ques-btn-sec .btn {
+        font-size: 0.688rem!important;
+    }
+}
+.msedge-flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.msedge-timing{
+    .msedge-timing-content{
+        .right-timing-sec{
+            h3{
+                font-size: 1.625rem!important;
+            }
+        }
+    }
+}
+.msedge-no-data{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 480px){
+    .msedge-timing .msedge-timing-performance-card{
+        .card-header:first-child {
+            height: unset !important;
+        }
+    }
+    .msedge-timing{
+        .recharts-legend-item {
+            display: block!important;
+        }
+        .msedge-bottom-value {
+            left: 30%!important;
+            bottom: 16%!important;
+        }
+    }
+}
+.w-30{
+    width: 30%!important;
+}
+.w-90{
+    width: 90%!important;
+}
+@media only screen and (max-width: 350px){
+    .msedge-timing{
+        .msedge-bottom-value {
+            bottom: 22%!important;
+        }
+    }
+}
+.msedge-scroll-sec{
+    overflow-x: auto;
+}
+// .msedge-scroll-sec::-webkit-scrollbar {
+//     width: 12px;
+//     display: none;
+//   }
+  .exam-practice-container label.custom-control-label {
+    padding-left: 3px;
+}
+.msedge-questions-start{
+button[disabled]:hover {
+    color: #000000!important;
+    
+}
+button[disabled]:hover li:first-child {
+    border-right: 1px solid #006EBD;
+}
+}
+// .ant-table-body::-webkit-scrollbar {
+//     width: 12px;
+//     display: none;  
+// }
+.ant-pagination-item-link{
+    align-items: center;
+    display: flex !important;
+    justify-content: center;
+}
+.msedge-practice-questions .exam-practice-container{
+    .pre-create{
+        .Collapsible{
+            span{
+                display: block;
+            }
+            .Collapsible__contentOuter{
+                padding-top: 0;
+            }
+        }
+    }
+}
+.student-ques-prog-bar{
+    width: 52%;
+}
+@media only screen and (max-width: 991px) and (min-width: 768px){
+    .student-ques-prog-bar{
+        width: 75%!important;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .student-ques-prog-bar{
+        width: 82%!important;
+    }
+}
+@media only screen and (min-width: 1440px){
+    .student-ques-prog-bar{
+        width: 86%!important;
+    }
+}
+@media only screen and (max-width: 767px){
+    .exam-practice-container {
+        .msedge-practice-exam-custom{
+            .Collapsible__contentInner{
+                .msedge-examcustom-timer{
+                    margin-top: 0!important;
+                }
+            }
+        }
+    }
+    .msedge-practice-questions .exam-practice-container{
+        .pre-create{
+            .show-timer-checkbox{
+                .custom-control-label{
+                    margin-top: 5px;
+                    margin-left: 20px;
+                }
+            }
+            .right-content {
+                top: 0;
+                margin-bottom: 30px;
+            }
+        }
+        .msedge-questions-start {
+            margin-bottom: 10px;
+        }
+    }
+    .question-progress-students-main{
+        .msedge-monthly-progress-questions .monthly-progress-student{
+            .card-body{
+                .border-right{
+                    border-right: none!important;
+                    border-bottom: 1px solid #dee2e6 !important;
+                    margin-bottom: 15px;
+                    .msedge-no-of-questions-answered{
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 480px){
+    .msedge-timing{
+        .msedge-timing-res{
+            padding: 15px;
+        }
+    }
+    .msedge-lawschool-precreatedexam-segment .monthly-progress-student .card-body{
+        .border-right{
+            border-bottom: 1px solid #dee2e6 !important;
+            border-bottom-right-radius: 0;
+            border-right: none!important;
+            margin-bottom: 13px;
+        }
+    }
+}
+
+.correct_answer {
+    background-color: #3ac47d;
+    h4 {
+      color: white !important;
+    }
+  }
+ 
+  .border {
+    .choices {
+      .row {
+        align-items: unset !important;
+      }
+    }
+  }
+
+  .table-top-header{
+    padding: 2% 4% 0% 4% !important;
+    border: 1px solid #dad7d7 !important;
+    background-color: #fafafa !important;
+  } 
+  .ant-table-placeholder{
+        border-bottom: none !important;
+  }
+  .exam-review-sec{
+    padding: 2% 0% 0% 3% !important;
+    border: 1px solid #dad7d7 !important;
+    background-color: #fafafa !important;
+  }
+  .msedge-column-height{
+      height: 60px!important;
+  }
+.msedge-students-alter-heading-font{
+    font-size: 16px;
+    padding: 0 0 0 5px;
+}
+@media screen and (max-width: 320px){
+    .msedge-sm-text-center{
+        float: unset!important;
+        margin-bottom: 15px;
+    }
+}
+@media only screen and (max-width: 480px) and (min-width: 321px){
+    .msedge-sm-text-center{
+        margin-bottom: 15px;
+    }
+}
+.msedge-student-dashboard .msedge-statics-wrapper{
+    padding: 40px 0 20px 0;
+}
+.messages-modal {
+    max-width: 700px !important;
+  }
+.msedge-not-found-btn{
+    height: 12vh;
+}
+@media screen and (min-width: 1600px){
+    .msedge-not-found-btn{
+        height: 46vh;
+    }
+}
+@media screen and (min-width: 1440px){
+    .error .container-error-404 {
+        margin-top: 10%;
+        position: relative;
+        height: 230px;
+        padding-top: 20px;
+      }
+}
+.msedge-close-btn button {
+    background: #fff;
+    color: #000!important;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding: 0;
+}
+.msedge-close-btn button li:first-child {
+    border-right: 1px solid #000000;
+    padding: 4px 6px 1px 8px;
+    margin: 0;
+}
+.msedge-close-btn button li:last-child {
+    padding: 6px 30px 7px 30px;
+}
+
+.msedge-close-btn button li {
+    list-style: none;
+    float: left;
+    padding: 10px 20px;
+    i{
+        font-size: 1.4rem; 
+    }
+}
+.msedge-close-btn button:hover {
+    background: #006ebd;
+    color: #fff!important;
+    border: 1px solid #006ebd;
+}
+.msedge-close-btn button:hover li:first-child {
+    border-right: 1px solid #fff;
+}
+.msedge-stop-btn{
+    text-align: left!important;
+    button{
+        width: unset!important
+    }
+}
+.msedge-stop-btn button li:first-child {
+    padding: 8px 8px 8px 18px!important;
+}
+.msedge-stop-btn button:hover li:first-child {
+    border-right: 1px solid #fff!important; 
+}
+.msedge-stop-btn button:hover{
+    background: #006EBD!important;
+    color: white !important;
+    border: 1px solid #006EBD!important;
+}
+.msedge-next-btn button[disabled]{
+     li:first-child {
+        border-right: 1px solid #565758!important;
+    }
+    li svg{
+        color: #565758!important;
+    }
+    li:last-child {
+        color:#565758!important;
+    }
+}
+.msedge-next-btn button{
+    li:first-child {
+    border-right: 1px solid #fff!important;
+    padding: 7px 8px 8px 18px!important;
+    }
+    li svg{
+        color: #fff!important;
+    }
+    li:last-child {
+        color:#fff!important;
+    }
+}
+
+.msedge-icon-btn{
+    .btn-primary[disabled]:hover li:first-child {
+        border-right: 1px solid #000!important;
+    }
+    .btn-primary:disabled{
+        border: 1px solid #000000;
+        background-color: #eeeeee!important;
+    }
+    .btn-primary:disabled {
+        background-color: #eeeeee!important;
+    }
+    button {
+        li {
+        list-style: none;
+        float: left;
+        i{
+            font-size: 1.4rem;
+        }
+    }
+    li:first-child {
+        border-right: 1px solid #fff;
+        padding: 5px 10px 3px 12px !important;
+        margin: 0!important;
+    }
+    li:last-child {
+        padding: 7px 15px 0 15px!important;
+    }
+    &:hover{
+        li:first-child {
+            border-right: 1px solid #ffffff!important;
+        }
+    }
+}
+}
+.msedge-add-icon{
+    button{
+         li:first-child {
+        padding: 9px 10px 8px 12px!important;
+        margin: 0!important;
+        }
+        li:last-child {
+            padding: 8px 35px 8px 35px!important;
+        }
+        li i{
+            font-size: 0.8rem;
+        }
+        &:hover li:first-child {
+            border-right: 1px solid #fff!important;
+            }
+    }
+}
+.msedge-right-br{
+    li:first-child {
+        border-right: 1px solid #000;
+        padding: 6px 12px 4px 15px !important;
+    }
+    li:last-child {
+        padding: 6px 30px 5px 30px!important;
+    }
+    li i{
+        font-size: 1rem!important;
+    }
+    button[disabled]{
+        background-color: #eeeeee;
+        border-color: #6c757d;
+        opacity: 0.65;
+        &:hover{
+            border-color: #6c757d;
+            background-color: #eeeeee;
+        }
+    }
+
+    button[disabled]:hover li:first-child {
+        border-right: 1px solid #000!important;
+    }
+    
+}
+.msedge-right-br:hover li:first-child{
+    border-right: 1px solid #fff!important;
+}
+.msedge-exam-review-btn{
+    li:last-child {
+        padding: 9px 25px !important;
+    }
+    li:first-child {
+        padding: 10px 12px 6px 15px !important;
+    }
+}
+.msedge-list-download{
+    .btn-primary:disabled{
+        border-color: #000!important;
+        background: #eeeeee !important;
+        &:hover{
+            li:first-child{
+                border-right: 1px solid #000!important;
+            }
+        } 
+    }
+    li:first-child {
+        padding: 10px 12px 3px 15px !important;
+    }
+    li:last-child {
+        padding: 8px 33px 5px 33px !important;
+    }
+}
+.msedge-admin-add-btn{
+    li:first-child {
+        padding: 7px 13px 5px 15px!important;
+    }
+    li:last-child {
+        padding: 6px 30px !important;
+    }
+ button:hover li:first-child{
+    border-right: 1px solid #fff!important;
+}   
+li i{
+    font-size: 0.9rem!important;
+}
+}
+.msedge-admin-dwnload-btn{
+    li:last-child {
+        padding: 6px 10px !important;
+    }    
+}
+.msedge-student-list-btn{
+    li:last-child {
+        padding: 6px 17px !important;
+    }
+}
+.msedge-student-list-icon{
+    li:last-child {
+        padding: 6px 25px !important;
+    }
+}
+.ReactTable{
+    .rt-tbody .rt-td  {
+    font-size: 1rem !important;
+    font-weight: 500!important;
+    color: rgba(0, 0, 0, 0.85) !important;
+    }
+}
+.css-12jo7m5{
+    font-size: 0.875rem!important;
+}
+.msedge-common-header{
+    margin-bottom: 23px;
+}
+ .msedge-pr-header{
+    margin-bottom: 15px; 
+}
+//   Nov 2 button style changes all pages
+
+.btn{
+    font-size: 0.74rem !important;
+    letter-spacing: 1px !important;
+    color: #000;
+}
+.fs-icon{
+    font-size: 1rem!important;
+}
+
+.msedge-message-modal{
+    height:300px;
+    overflow-y: scroll;
+}
+
+// .msedge-message-position{
+//     position: fixed;
+//     top: 12%;
+//     bottom: 12%;
+//     left: 0;
+//     z-index: 1050;
+//     display: none;
+//     width: 100%;
+//     height: 100%;
+//     overflow: hidden;
+//     outline: 0;
+// }
+.msedge-student-qus-container .msedge-practice-exam-custom .Collapsible .accordion-container .card .btn{
+    letter-spacing: unset !important;
+    font-size: 0.8rem !important;
+}
+
+.msedge-practice-exam-custom .Collapsible .accordion-container .card .btn{
+    letter-spacing: unset !important;
+    font-size: 0.8rem !important;
+}
+
+.msedge-support-sec .msedge-support-container .msedge-collapse-sec .btn{
+
+    letter-spacing: unset !important;
+    font-size: 0.8rem !important;
+}
+
+.msedge-overall-padding{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    word-break: break-all;
+}
+.msedge-admin-add{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.Msedge-dashboard-section{
+  padding: 0px 0px !important;
+}
+
+.msedge-overall-padding-dashboard{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.question-progress-header{
+    h5{
+        color: #0070c0;
+    }
+}
+
+.msedge-lawschool-students-list{
+    .question-progress-students-modal{
+        max-width: 1000px !important;
+    }
+
+}
+.scroller-studen-modal{
+    .msedge-subject-topics{
+        background-color: white;
+    }
+    height: 528px !important;
+    overflow-x: hidden;
+    h5{
+        font-size: 1.125rem;
+        font-weight: 600; 
+    }
+}
+.progress-modal-content{
+   
+    color: black !important;
+    .msedge-timing-performance-accordian-background{
+        background-color: #f5f5f5ed;
+        padding: 0px 0;
+    box-shadow: 0 0 5px rgba(204, 204, 204, 0.671);
+    margin: 0px 20px;
+    }
+    .msedge-timing-performance-card{
+        button{
+            letter-spacing: 1px !important;
+        }
+    }
+    // .msedge-subject-topics{
+    //         //  background-color: #f5f5f5ed;
+    // }
+    .msedge-timing-performance-timing-difference{
+        color: #0070c0;
+    }
+   
+    .msedge-lh-unset{
+        line-height: 0 !important;
+    }
+}
+.msedge-practice-questions .pre-create .row .msedge-open-update-list div.msedge-mid-sec{
+    padding: 13px 0 13px 15px;
+}
+@media only screen and (min-width: 1440px){
+    .msedge-practice-questions .pre-create {
+        min-height: 440px!important;
+    }
+}
+@media only screen and (max-width: 991px) and (min-width: 768px){
+    .msedge-law-school-dashboard .msedge-pie-chart span {
+        font-size: 14px !important;
+    }
+    .timer-tab .timer{
+        h1{
+            font-size: 1.8rem!important;
+        }
+    }
+}
+.msedge-itembank{
+    .hide-and-show{
+        font-size: 0.8rem;
+        cursor: pointer;
+    }
+    .itembank-code{
+        color: #006ebd;
+    }
+}
+.msedge-download-report-top label{
+    font-size: 0.9rem!important;
+}
+
+.ReactTable.-striped.-highlight .card-header{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.msedge-lawschool-download-report-select-all label{
+    font-size: 1rem !important;
+    color: rgba(0, 0, 0, 0.85) !important;
+    font-weight: 500 !important;
+}
+
+.rt-noData{
+    font-size: 1rem !important;
+    color: rgba(0, 0, 0, 0.85) !important;
+    font-weight: 500 !important;
+}
+.modal-center{
+    top: 13%;
+}
+.ant-table-expanded-row .card-header > .nav .nav-link{
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+}
+.card-header, .card-title {
+    font-size: 1rem!important;
+}
+
+.ant-table-tbody p{
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+    color: rgba(0, 0, 0, 0.85) !important;
+}
+.msedge-proofreader-overview-status{
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+    color: rgba(0, 0, 0, 0.85) !important;
+}
+.delete-icon{
+    color: red !important;
+font-size: 1.4rem;
+font-weight: 900;
+}
+.exam-practice-container .card-header{
+    height: 3.5rem!important;
+}
+@media screen and (max-width: 480px){
+    .msedge-questions-start button li:last-child {
+        padding: 8px 8px!important;
+    }
+}
+
+.setting-text-primary{
+    white-space: nowrap;
+}
+.tooltip-inner{
+    max-width: 200px;
+    padding: 0.25rem 0.5rem;
+    color: #000;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 0.25rem;
+    border: 1px solid;
+}
+
+.msedge-proofreader-itemreview-dropdownfilter{
+margin: 13% 0% 0% 0% !important;  
+text-align: left !important;
+}
+
+
+.btn-published-proofreader{
+    padding: 1px 5px 1px 5px;
+    margin-left: 8px;
+    margin-bottom: 5px
+}
+.msedge-proofreader-overview-status{
+    align-items: center;
+    font-weight: 500;
+    justify-content: flex-end;
+    font-size: 1rem;
+    display: flex;
+}
+
+
+.msedge-proofreader-itemreview-search{
+    margin: 14% 0 6% 0%;
+}
+.msedge-proof-reader .pagination {
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+    color: rgba(0, 0, 0, 0.85) !important;
+
+}
+a{
+    text-decoration: none !important
+}
+.ongoingexam-search{
+    position: relative;
+    bottom: 1.9375rem;
+    left: -0.21rem;
+    float: right;
+    font-weight: 600;
+    background-color: #ffffff;
+}
+.link-color{
+    color: rgba(0, 0, 0, 0.85) !important;
+}
+
+.msedge-inbox-archive{
+    padding:7px 13px 7px 13px !important;
+}
+.msedge-lawschool-settings-icon{
+    color: #006ebd;
+}
+.msedge-font-size-lawschool-settings{
+    font-size: 1rem !important;
+}
+.msedge-student-segment-overview .msedge-md-prog-subj{
+    margin-right: 0;
+}
+// All tags color 
+h3{
+    color: rgba(0, 0, 0, 0.85) !important;
+}
+
+.msedge-students-toggledsidebar-main{
+    position: relative;
+    z-index: 10;
+    height: 100%;
+    background:#0f1318;
+    width: 60px;
+    min-width: 60px;
+    text-align: center;
+}
+
+.msedge-students-toggledsidebar-hamburger{
+    padding: 11px 4px;
+    text-align: center;
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    position: relative;
+    margin-bottom: 10px;
+    top: 5px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+}
+
+
+.msedge-students-toggledsidebar-segment{
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    position: sticky;
+    z-index: 999;
+
+    .msedge-students-toggledsidebar-dashboard{
+        font-size: 28px;
+        text-align: center;
+        padding-top: 5px;
+    }
+
+    // .msedge-students-toggledsidebar-icons-main{
+    //     border-top: 1px solid #ccc;
+    //     padding: 7px 0;
+    // }
+
+    .msedge-students-toggledsidebar-arrow-down{
+        font-size: 28px;
+    }
+    .msedge-students-toggledsidebar-arrow-right{
+        font-size: 28px;
+    }
+    .msedge-students-toggledsidebar-icons{
+        color: #fff;
+        // padding: 10px 10px 0 10px;
+        text-align: center;
+        cursor: pointer;
+        font-size: 22px;
+    }
+    .msedge-students-toggledsidebar-icons:hover{
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .msedge-students-toggledsidebar-nextmenu-icons{
+        color: #fff;
+        font-size: 25px;
+        padding: 10px 0;
+        transition: .3s ease-in-out;
+        cursor: pointer;
+    }
+
+    .msedge-students-toggledsidebar-nextmenu-icons:hover{
+        color: #fff;
+        font-weight: bold;
+    }
+}
+
+.msedge-students-toggledsidebar-enable-hamburger{
+    width: 40px;
+    height: 38px;
+    border-radius: 50px;
+    background-color: white;
+    text-align: center;
+    padding: 12px 0 0 0;
+    border: 1px solid #ccc;
+}
+.proof-reder-toggle{
+    height: auto !important;
+}
+.hamburger--elastic .hamburger-inner::after{
+    top: 0px !important;
+}
+// .hamburger--elastic .hamburger-inner{
+//     width: 28px;
+// }
+.hamburger--elastic .hamburger-inner::before{
+    left: 5px !important;
+    width: 19px !important;
+}
+.hamburger--elastic.is-active .hamburger-inner::after{
+    width: 19px !important;
+    transform: translate3d(0, -7px, 0) rotate(0) !important;
+}
+.hamburger--elastic.is-active .hamburger-inner {
+    transform: translate3d(0, 0px, 0) rotate(179deg) !important;
+}
+
+.admin-sidescroll-bar{
+    // overflow-y: auto;
+    // height: 100vh;
+}
+.admin-sidescroll-bar::-webkit-scrollbar {
+    // width: 12px;
+    // display: none;
+  }
+  .breadcrumb-item.active {
+      a{color: #006ebd;}
+    
+}
+.apexcharts-legend-text{
+    font-family: 'Muli' !important;
+    font-size: 12px !important;
+}
+.apexcharts-yaxis-title{
+    text{
+        font-family: 'Muli' !important;
+        font-size: 12px !important;
+    }
+   
+}
+.apexcharts-xaxis-label{
+    tspan{
+        font-family: 'Muli' !important;
+        font-size: 12px !important;
+    }
+}
+.customeTheme{
+    color: #1f1e1d !important;
+    font-size: 0.8233rem;
+    margin-bottom: 0 !important;
+    padding: 4px 10px !important;
+    border: 1px solid black;
+    background-color:white !important;
+    &.place-top {
+        &:after {
+            border-top-color: rgb(63, 62, 60) !important;
+        }
+    }
+}
+
+.btn-primary:focus, .btn-secondary:focus{
+    background-color: #006EBD !important;
+    color:#fff !important
+}
+
+.header-button-style{
+    padding: 5px;
+    background: none;
+    border: none;
+    
+}
+
+.pagination li.active a{
+    z-index: 0 !important;
+}
+
+.msedge-button-for-choices{
+    width: 100%;
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.msedge-audit-log{
+    .msedge-form-control-onsearch{
+        height: calc(1.27em + 0.75rem + 8px) !important;
+    }
+    p{
+        word-break: break-all;
+    }
+    p{
+        word-break: break-all;
+    }
+}
+.msedge-error-log{
+    .msedge-form-control-onsearch{
+        height: calc(1.27em + 0.75rem + 8px) !important;
+    }
+}
+
+.mdedge-list-disabled-link {
+    pointer-events: none !important;
+  }

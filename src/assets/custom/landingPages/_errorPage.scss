@@ -1,0 +1,59 @@
+$light-text-color: #000000;
+$dark-text-color: #006ebd;
+
+.message {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	
+	h1, h2, h3 {
+		margin: 0;
+		line-height: .8;
+	}
+	
+	h2, h3 {
+		font-weight: 300;
+		color: $light-text-color;
+	}
+	
+	h1 {
+		font-weight: 700;
+		color: $dark-text-color;
+		font-size: 8em;
+	}
+	
+	h6 {
+        margin: 40px 0;
+        font-size: 1.5em;
+	}
+	
+	h3 {
+        font-size: 2.5em;
+        margin: 20px 0;
+	}
+	
+	h4 {
+		display: inline-block;
+		margin: 0 15px;
+	}
+	
+	button {
+		background: transparent;
+		border: 2px solid $light-text-color;
+		color: $light-text-color;
+		padding: 5px 15px;
+		font-size: 1.25em;
+		transition: all 0.15s ease;
+		border-radius: 3px;
+	}
+	
+	button:hover {
+		background: $dark-text-color;
+		border: 2px solid $dark-text-color;
+		color: rgb(255, 255, 255);
+		cursor: pointer;
+		transform: scale(1.05);
+	}
+}

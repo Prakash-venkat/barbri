@@ -1,11 +1,11 @@
 // Main Base
 
-.app-main {
+.msedge-main {
   z-index: 8;
   position: relative;
   display: flex;
 
-  .app-main__outer {
+  .msedge-main-outer {
     flex: 1;
     flex-direction: column;
     display: flex;
@@ -13,10 +13,12 @@
     width: 1px;
   }
 
-  .app-main__inner {
+  .msedge-main-inner {
     flex: 1;
-   background: #ffffff;
-   padding: 0 15px !important;
+    background: #ffffff;
+    padding: 0 15px !important;
+    // padding-right: 1.5rem !important;
+
 
     & > .RRT__container {
       & > .RRT__panel {
@@ -34,9 +36,8 @@
 
 // Alternate Section Tabs
 
-.body-tabs-shadow-btn {
-
-  .app-main__inner {
+.msedge-tab-shadow {
+  .msedge-main-inner {
     & > .RRT__container {
       & > .RRT__panel {
         margin-top: ($grid-gutter-width / 1.5);
@@ -69,17 +70,14 @@
             height: 35px;
             margin-top: 0;
             @include border-radius($border-radius);
-            box-shadow:
-                    0 16px 26px -10px rgba($primary, 0.56),
-                    0 4px 25px 0px rgba(0, 0, 0, 0.12),
-                    0 8px 10px -5px rgba($primary, 0.2);
+            box-shadow: 0 16px 26px -10px rgba($primary, 0.56),
+              0 4px 25px 0px rgba(0, 0, 0, 0.12),
+              0 8px 10px -5px rgba($primary, 0.2);
           }
         }
       }
     }
   }
-
-
 }
 
 // Themes

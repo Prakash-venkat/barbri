@@ -1,43 +1,62 @@
-.txt-large{
-    font-size: 1rem;
-    font-weight: 450 !important;
-    padding-right: 42px !important;
-    i{
-        font-size: 34px !important;
-        position : absolute !important;
-        top : 2px;
-        right : -37px;
+.msedge-txt-large {
+  font-size: 1rem;
+  font-weight: 450 !important;
+  padding-right: 42px !important;
+  i {
+    font-size: 30px !important;
+    position: absolute !important;
+    // top: 2px;
+    right: -37px;
+  }
+}
+input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.close {
+  visibility: hidden;
+}
+
+.margin-right {
+  margin-right: 12px;
+}
+
+.text-md {
+  font-size: 1rem;
+  font-weight: 500 !important;
+}
+
+.ReactTable {
+  .rt-tbody {
+    .rt-td {
+      font-size: 14px;
+      color: #666666;
     }
-}
-input[type=checkbox] {
-    visibility: hidden;
+  }
 }
 
-.close{
-    visibility: hidden;
+.rt-th.rt-resizable-header.-cursor-pointer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.msedge-download-report-top{
+  height: 64vh;
 }
 
-.margin-right{
-    margin-right: 12px;
+.msedge-download-report-top .msedge-download-report-padding {
+  bottom: 15px;
+  position: absolute;
 }
 
-.text-md{
-    font-size: 1rem;
-    font-weight: 500 !important;
+@media (max-width: 2560px){
+  .msedge-download-report-top{
+  height: 70vh;
 }
-.exam-report-table{
-    .ReactTable{
-        .rt-tbody{
-            .rt-td{
-                font-size: 14px;
-                color: #666666;
-            }
-        } 
-    } 
 }
 
-.exam-report-table .rt-th.rt-resizable-header.-cursor-pointer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@media (max-width: 1440px){
+  .msedge-download-report-top{
+  height: 64vh !important;
+}
 }

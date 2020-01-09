@@ -1,5 +1,35 @@
-.video-library-segment{
-    .ReactTable .rt-tbody .rt-td{
-        word-break: break-all;
-    }
+.video-library-segment {
+  .ReactTable .rt-tbody .rt-td {
+    word-break: break-all;
+  }
+}
+.videolibrary-modal1-size {
+  max-width: 700px !important;
+  top: 10%;
+}
+.react-player {
+  width: 666px !important;
+  height: 360px !important;
+}
+.video-back-btn {
+  margin-left: 52%;
+  position: absolute;
+}
+.video-file {
+  cursor: pointer;
+}
+.css-kj6f9i-menu {
+  z-index: 999 !important;
+}
+.video-library-model {
+  max-width: 31rem;
+}
+.msedge-info-icon {
+  font-size: 0.875rem;
+}
+.css-dvua67-singleValue {
+  font-size: 1rem !important;
+}
+.video-library-table {
+  min-height: 600px;
 }

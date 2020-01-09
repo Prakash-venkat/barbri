@@ -1,0 +1,391 @@
+{
+  "subjects": [
+    {
+      "subjectName": "Civil Procedure",
+      "id": 1,
+      "sum": 0,
+      "subjectId": 1,
+      "checked": false,
+      "topics": [
+        {
+          "name": "Appealability and Review",
+          "no": 0,
+          "id": 2,
+          "checked": false,
+          "topicId": 11,
+          "subjectId": 1,
+          "tooltipText": "Final judgment rule; interlocutory review; judge and jury review"
+        },
+        {
+          "name": "Jurisdiction and Venue",
+          "no": 0,
+          "id": 3,
+          "checked": false,
+          "topicId": 12,
+          "subjectId": 1,
+          "tooltipText": "Subject matter jurisdiction – federal question, diversity, supplemental, removal; personaljurisdiction, service of process, venue"
+        },
+        {
+          "name": "Jury Trials",
+          "no": 0,
+          "id": 4,
+          "checked": false,
+          "topicId": 13,
+          "subjectId": 1,
+          "tooltipText": "Right to jury trial; jury selection and composition; jury instructions"
+        },
+        {
+          "name": "Law Applied by Federal Courts",
+          "no": 0,
+          "id": 5,
+          "checked": false,
+          "topicId": 14,
+          "subjectId": 1,
+          "tooltipText": "State law in federal court; federal common law"
+        },
+        {
+          "name": "Motions",
+          "no": 0,
+          "id": 6,
+          "checked": false,
+          "topicId": 15,
+          "subjectId": 1,
+          "tooltipText": "Pretrial motions; motions for judgment as matter of law; posttrial motions"
+        },
+        {
+          "name": "Pretrial Procedures",
+          "no": 0,
+          "id": 7,
+          "checked": false,
+          "topicId": 16,
+          "subjectId": 1,
+          "tooltipText": "Preliminary injunctions and TROs; pleadings and Rule 11; joinder of parties and claims;discovery; pretrial conference"
+        },
+        {
+          "name": "Verdicts and Judgments",
+          "no": 0,
+          "id": 8,
+          "checked": false,
+          "topicId": 17,
+          "subjectId": 1,
+          "tooltipText": "Default judgments; jury verdicts; claim and issue preclusion"
+        }
+      ]
+    },
+    {
+      "subjectName": "Constitutional Law",
+      "id": 9,
+      "sum": 0,
+      "checked": false,
+      "subjectId": 2,
+      "topics": [
+        {
+          "name": "Individual Rights",
+          "no": 0,
+          "id": 10,
+          "checked": false,
+          "topicId": 21,
+          "subjectId": 2,
+          "tooltipText": "State action; due process; equal protection; First Amendment freedoms"
+        },
+        {
+          "name": "The Nature of Judicial Review",
+          "no": 0,
+          "id": 11,
+          "checked": false,
+          "topicId": 22,
+          "subjectId": 2,
+          "tooltipText": "Jurisdiction of courts; case or controversy requirement; adequate and independent state grounds"
+        },
+        {
+          "name": "The Relation of Nation and States in a Federal System",
+          "no": 0,
+          "id": 12,
+          "checked": false,
+          "topicId": 23,
+          "subjectId": 2,
+          "tooltipText": "Intergovernmental immunities; Supremacy Clause; negative implications of Commerce Clause"
+        },
+        {
+          "name": "The Separation of Powers",
+          "no": 0,
+          "id": 13,
+          "checked": false,
+          "topicId": 24,
+          "subjectId": 2,
+          "tooltipText": "Congressional powers; executive powers; immunities"
+        }
+      ]
+    },
+    {
+      "subjectName": "Contracts",
+      "id": 14,
+      "sum": 0,
+      "checked": false,
+      "subjectId": 3,
+      "topics": [
+        {
+          "name": "Contract Content and Meaning",
+          "no": 0,
+          "id": 15,
+          "checked": false,
+          "topicId": 31,
+          "subjectId": 3,
+          "tooltipText": "Parol evidence; contract interpretation; omitted terms"
+        },
+        {
+          "name": "Defenses to Enforceability",
+          "no": 0,
+          "id": 16,
+          "checked": false,
+          "topicId": 32,
+          "subjectId": 3,
+          "tooltipText": "Statute of Frauds; incapacity; duress; mistake; fraud; illegality"
+        },
+        {
+          "name": "Formation of Contracts",
+          "no": 0,
+          "id": 17,
+          "checked": false,
+          "topicId": 33,
+          "subjectId": 3,
+          "tooltipText": "Offer and acceptance; consideration; reliance and restitution; contract modifications"
+        },
+        {
+          "name": "Performance, Breach, and Discharge",
+          "no": 0,
+          "id": 18,
+          "checked": false,
+          "topicId": 34,
+          "subjectId": 3,
+          "tooltipText": "Excuse of conditions; breach; anticipatory repudiation; warranties; risk of loss; impracticability and frustration; discharge of duties"
+        },
+        {
+          "name": "Remedies",
+          "no": 0,
+          "id": 19,
+          "checked": false,
+          "topicId": 35,
+          "subjectId": 3,
+          "tooltipText": "Expectation damages; liquidated damages; rescission and reformation; specific performance"
+        },
+        {
+          "name": "Third-Party Rights",
+          "no": 0,
+          "id": 20,
+          "checked": false,
+          "topicId": 36,
+          "subjectId": 3,
+          "tooltipText": "Third-party beneficiaries; assignment and delegation"
+        }
+      ]
+    },
+    {
+      "subjectName": "Criminal Law and Procedure",
+      "id": 21,
+      "sum": 0,
+      "checked": false,
+      "subjectId": 4,
+      "topics": [
+        {
+          "name": "Constitutional Protection of Accused Persons",
+          "no": 0,
+          "id": 22,
+          "checked": false,
+          "topicId": 41,
+          "subjectId": 4,
+          "tooltipText": "Arrest, search and seizure; confessions; lineups; right to counsel; trial rights; double jeopardy; appeals"
+        },
+        {
+          "name": "General Principles",
+          "no": 0,
+          "id": 23,
+          "checked": false,
+          "topicId": 42,
+          "subjectId": 4,
+          "tooltipText": "Acts; mental state; mistake; intoxication and insanity; justification and excuse"
+        },
+        {
+          "name": "Homicide",
+          "no": 0,
+          "id": 24,
+          "checked": false,
+          "topicId": 43,
+          "subjectId": 4,
+          "tooltipText": "Premeditation; provocation; reckless killings; felony murder"
+        },
+        {
+          "name": "Inchoate Crimes; Parties",
+          "no": 0,
+          "id": 25,
+          "checked": false,
+          "topicId": 44,
+          "subjectId": 4,
+          "tooltipText": "Attempt; conspiracy; solicitation; parties to a crime"
+        },
+        {
+          "name": "Other Crimes",
+          "no": 0,
+          "id": 26,
+          "checked": false,
+          "topicId": 45,
+          "subjectId": 4,
+          "tooltipText": "Theft crimes; robbery; arson; burglary; rape; assault and battery"
+        }
+      ]
+    },
+    {
+      "subjectName": "Evidence",
+      "id": 27,
+      "sum": 0,
+      "checked": false,
+      "subjectId": 5,
+      "topics": [
+        {
+          "name": "Hearsay and Circumstances of Its Admissibility",
+          "no": 0,
+          "id": 28,
+          "checked": false,
+          "topicId": 51,
+          "subjectId": 5,
+          "tooltipText": "Hearsay definition; nonhearsay; hearsay exceptions; Confrontation Clause"
+        },
+        {
+          "name": "Presentation of Evidence",
+          "no": 0,
+          "id": 29,
+          "checked": false,
+          "topicId": 52,
+          "subjectId": 5,
+          "tooltipText": "Competency; objections; refreshing recollection; judicial notice; impeachment and rehabilitation; scope of examination"
+        },
+        {
+          "name": "Privileges and Other Policy Exclusions",
+          "no": 0,
+          "id": 30,
+          "checked": false,
+          "topicId": 53,
+          "subjectId": 5,
+          "tooltipText": "Spouses; attorney-client and work product; remedial measures; offer to settle"
+        },
+        {
+          "name": "Relevancy and Reasons for Excluding Relevant Evidence",
+          "no": 0,
+          "id": 31,
+          "checked": false,
+          "topicId": 54,
+          "subjectId": 5,
+          "tooltipText": "Probative value and unfair prejudice; character evidence; expert testimony; authentication"
+        },
+        {
+          "name": "Writings, Recordings, and Photographs",
+          "no": 0,
+          "id": 32,
+          "checked": false,
+          "topicId": 55,
+          "subjectId": 5,
+          "tooltipText": "Requirement of original; summaries"
+        }
+      ]
+    },
+    {
+      "subjectName": "Real Property",
+      "id": 33,
+      "sum": 0,
+      "checked": false,
+      "subjectId": 6,
+      "topics": [
+        {
+          "name": "Mortgages and Security Devices",
+          "no": 0,
+          "id": 34,
+          "checked": false,
+          "topicId": 61,
+          "subjectId": 6,
+          "tooltipText": "Types of security devices; rights and duties; transfers; discharge; foreclosure and priorities"
+        },
+        {
+          "name": "Ownership of Real Property",
+          "no": 0,
+          "id": 35,
+          "checked": false,
+          "topicId": 62,
+          "subjectId": 6,
+          "tooltipText": "Present estates and future interests; cotenancies; landlord-tenant law"
+        },
+        {
+          "name": "Real Estate Contracts",
+          "no": 0,
+          "id": 36,
+          "checked": false,
+          "topicId": 63,
+          "subjectId": 6,
+          "tooltipText": "Creation and construction of contracts; marketability of title; equitable conversion; options"
+        },
+        {
+          "name": "Rights in Real Property",
+          "no": 0,
+          "id": 37,
+          "checked": false,
+          "topicId": 64,
+          "subjectId": 6,
+          "tooltipText": "Restrictive covenants; easements; fixtures"
+        },
+        {
+          "name": "Titles",
+          "no": 0,
+          "id": 38,
+          "checked": false,
+          "topicId": 65,
+          "subjectId": 6,
+          "tooltipText": "Adverse possession; transfer by deed; transfer by will; recording acts"
+        }
+      ]
+    },
+    {
+      "subjectName": "Torts",
+      "id": 39,
+      "sum": 0,
+      "checked": false,
+      "subjectId": 7,
+      "topics": [
+        {
+          "name": "Intentional Torts",
+          "no": 0,
+          "id": 40,
+          "checked": false,
+          "topicId": 71,
+          "subjectId": 7,
+          "tooltipText": "Harms to the person; harms to property; defenses to intentional torts"
+        },
+        {
+          "name": "Negligence",
+          "no": 0,
+          "id": 41,
+          "checked": false,
+          "topicId": 72,
+          "subjectId": 7,
+          "tooltipText": "Duty; standards of care; breach of duty; causation; vicarious liability; defenses"
+        },
+        {
+          "name": "Other Torts",
+          "no": 0,
+          "id": 42,
+          "checked": false,
+          "topicId": 73,
+          "subjectId": 7,
+          "tooltipText": "Nuisance; defamation; invasion of privacy; misrepresentation; interference with business relations"
+        },
+        {
+          "name": "Strict Liability and Products Liability",
+          "no": 0,
+          "id": 43,
+          "checked": false,
+          "topicId": 74,
+          "subjectId": 7,
+          "tooltipText": "Abnormally dangerous activities; animals; products liability; defenses"
+        }
+      ]
+    }
+  ]
+}

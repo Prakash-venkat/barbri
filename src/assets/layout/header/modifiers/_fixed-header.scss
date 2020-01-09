@@ -1,22 +1,22 @@
 // Fixed Header
 
-.fixed-header {
+.msedge-fixed-header {
   .app-header {
     position: fixed;
     width: 100%;
     top: 0;
 
-    .app-header__logo {
+    .msedge-header-logo {
       visibility: visible;
     }
   }
 
-  .app-main {
+  .msedge-main {
   }
 
-  &:not(.fixed-sidebar):not(.closed-sidebar) {
-    .app-sidebar {
-      .app-header__logo {
+  &:not(.msedge-fixed-sidebar):not(.closed-sidebar) {
+    .msedge-sidebar {
+      .msedge-header-logo {
         visibility: hidden;
       }
     }

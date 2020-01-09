@@ -1,0 +1,60 @@
+.msedge-timing-slider {
+  bottom: 5px;
+
+  span {
+    color: #006ebd !important;
+  }
+}
+@media (max-width: 480px) {
+  .msedge-default-date .col-md-6 {
+    text-align: center;
+  }
+  .msedge-setting-labelview{
+    text-align: left;
+  }
+}
+.msedge-settings-pointer {
+  cursor: pointer;
+}
+.msedge-setting-time-information{
+   font-size: 1rem !important;
+    color: rgba(0, 0, 0, 0.85) !important;
+    font-weight: 500 !important;
+  }
+
+  .msedge-settin-reset{
+
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .msedge-general-settings .ada-font-size{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.85) !important;
+  }
+
+  .msedge-message-head .card-header > .nav .nav-link{
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .msedge-settings .msedge-main-card label{
+    color: rgba(0, 0, 0, 0.85) !important;
+    font-weight: 500 !important;
+  }
+
+  .msedge-settings .fieldname-font-size{
+    color: rgba(0, 0, 0, 0.85) !important;
+    font-weight: 500 !important;
+    font-size: 1rem !important;
+  }
+
+  .msedge-keyboard-shortcut{
+    margin-top: 11%;
+  }
+
+  
+  .setting-text-secondary{
+    white-space: nowrap;
+    }

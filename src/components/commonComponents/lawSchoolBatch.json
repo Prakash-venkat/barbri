@@ -1,0 +1,28 @@
+{
+    "ExamBatch": [
+        {
+            "value": "February 2020",
+            "label": "February 2020"
+        },
+        {
+            "value": "July 2020",
+            "label": "July 2020"
+        },
+        {
+            "value": "February 2021",
+            "label": "February 2021"
+        },
+        {
+            "value": "July 2021",
+            "label": "July 2021"
+        },
+        {
+            "value": "February 2022",
+            "label": "February 2022"
+        },
+        {
+            "value": "July 2022",
+            "label": "July 2022"
+        }
+    ]
+}

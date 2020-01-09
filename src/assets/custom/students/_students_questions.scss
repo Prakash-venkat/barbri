@@ -1,14 +1,11 @@
-// added by prakash (14/08/2019)
-// Added by Prakash (12/08/2019)
-.practice-questions{
-
+.msedge-practice-questions{
     .accordianOff{
         color: rgba(107, 105, 105, 0.849);    
     }
     .accordianOn{
         color: $primary !important
     }
-    .subjects-topics{
+    .msedge-subject-topics{
         border: 1px solid #ccc;
         border-top: none;
         border-radius: 20px;
@@ -17,38 +14,24 @@
         h6{
             color: rgba(131, 128, 128, 0.849);
             font-weight: 300;
-            font-size: 14px;
-            
+            font-size: 0.875rem;
         }
-        .subjects-list{
+        .msedge-subjects-list{
             margin: 15px 0px;
         }
     }
-    // .card{
-    //     border: none !important;
-       
-
+    // .card-body{
+    //     width: 100%;
+    //     padding-right: 15px;
+    //     padding-left: 15px;
     // }
-    // .card-header{
-    //     border: none;
-        
-    //     border: 1px solid #ccc;
-    //     border-left: 50px solid $primary;
-    //     border-radius: 10px;
-    //     .header-left-align{
-    //         margin-left: -50px;
-    //     }
-    // }
-    .card-body{
-        padding: 0.50rem;
-    }
-    .accordion-wrapper{
+    .msedge-accordion-wrapper{
         border: none;
     }
     .form-control-sm{
         height: calc(1.5em + 0.5rem + -5px)
     }
-    .questions-below-section{
+    .msedge-questions-below-section{
         width: 100%;
         border: 1px solid #ccc;
        
@@ -57,10 +40,9 @@
         .col-md-4{
             margin: 20px 0;
         }
-        
         .preference-head{
             color: #ffffff;
-            font-size: 20px;
+            font-size: 1.25rem;
             background: $primary;
             padding:15px 0;
             border-radius: 5px;
@@ -70,7 +52,7 @@
             .col{
                 padding: 9px;
                 .custom-control-label{
-                    font-size: 17px;
+                    font-size: 1.0625rem;
                 }
             }
         }
@@ -86,19 +68,17 @@
         .btn{
             width: 100%;
             padding: 1rem;
-        }
-   
-        
+        } 
     }
     .row {
         display: -webkit-box !important;
         display: -webkit-flex !important;
         display: -ms-flexbox !important;
-        display:         flex !important;
+        display: flex !important;
         flex-wrap: wrap !important;
       }
       .row > [class*='col-'] {
-        display: flex !important;
+        display: flex; 
         flex-direction: column !important;
       }
 
@@ -108,19 +88,63 @@
             margin: 0px;
         }
       }
-
-      .accordion-wrapper > .card .collapse.show{
+      .msedge-accordion-wrapper > .card .collapse.show{
         border-bottom:none !important;
 
       }
-    
-     
-      
+      input[type=checkbox] + label {
+            display: block;
+            cursor: pointer;
+            margin-left: 10px;
+          }
+        
+          input[type=checkbox] {
+            display: none;
+          }
+        
+          input[type=checkbox] + label:before {
+            border: 1px solid $primary;
+            border-radius: 0.2em;
+            display: inline-block;
+            width: 1.5em;
+            height: 1.5em;
+            padding-left: 0.2em;
+            padding-bottom: 0.3em;
+            margin-right: 0.2em;
+            vertical-align: bottom;
+            color: transparent;
+            transition: .2s;
+            margin-right: 10px;
+
+            
+          }
+        
+          input[type=checkbox] + label:active:before {
+            transform: scale(0);
+          }
+        
+          input[type=checkbox]:disabled + label:before {
+            transform: scale(1);
+            border-color: #ffffff;
+          }
+        
+          .custom-control-label::after{
+            left: -1.3125rem !important;
+            top: 6px !important;
+            content: "";
+            color: #ffffff !important;
+        }
+        
+        .msedge-ques-subject-topics{
+            .custom-control-label::after{
+                top: 0.313rem !important;
+                content: "";
+                color: #ffffff !important;
+            }
+        }
 }
-
-
-.mcq-section{
- 
+.msedge-mcq-section{
+    padding-top: 0 !important; 
     .card-expanded{
         background: $primary;
         text-align: right;
@@ -128,15 +152,62 @@
             cursor: pointer;
             color: #ffffff;
             font-weight: bold;
-            font-size: 20px;
+            font-size: 1.25rem;
         }
     }
-    .question-section{
-       h6{
+    .msedge-question-head-expanded{
+        padding: 5px 10px;
+        border-radius: 5px;
+        h6{
+            color: #ffffff;
+            letter-spacing: 2px;
+            font-size:1.25rem;
+        }
+        i{
+            color: #fff;
+            font-size: 1.5625rem;
+            font-weight: bold;
+            width: 30px;
+            height: 30px;
+            margin-top: 10px;
+            border: 2px solid #ffffff;
+            cursor: pointer !important;
 
-        color: $primary;
+        }
+        i:hover{
+            background: #ffffff;
+            color: #043e69;
+        }
+    }
+    .your-answer{
+        .correct{
+            h6{
+                width: 100%;
+                // color: rgb(101, 211, 89) !important;
+                margin: 11px 0;
+                font-size: 1.4375rem !important;
+            }
+        }
+        .wrong{
+            h6{
+                width: 100%;
+                margin: 11px 0;
+                font-size: 1.4375rem !important;
+                color: black !important;
+            }
+        }
+    }
+    .msedge-question-section{
+        p{
+            font-size: 1rem;
+            a{
+                color: $primary;
+            }
+        }
+       h6{
+        color: #000;
         line-height: 1.8rem;
-        text-align: justify;
+        text-align: left;
        }
        .question-number{
            li{
@@ -147,7 +218,6 @@
             background: $primary;
             list-style: none;
             color: #ffffff
-              
            }
        }
        .choices-section{
@@ -165,78 +235,21 @@
        .selected-one{
         border: 1px solid $primary;
         border-radius: 10px;
-
         border-left: 3px solid $primary;
-           
        }
        .text-success{
        background: #87E27C;
        color: #019b0e;
        font-weight: bold;
         z-index: 9;
-          
        }
        .text-danger{
-        
         background: #E8716D;
         color: #b80404;
         font-weight: bold;
         z-index: 9;
-
-          
-           
        }
     }
-    // .radio{
-        
-    //     width: 100%;
-    //     height: 100%;
-    //     cursor: pointer;
-       
-    //    background: rgb(251, 253, 253);
-    //    box-shadow: 0 0 5px 0 rgb(231, 230, 230);
-    //    border-radius: 20px;
-    //    padding: 5px 0;
-    //     cursor: pointer !important;
-    //     margin: 10px 0;
-    //     color: rgba(116, 114, 114, 0.8);
-    //     label{
-    //         display: block;
-    //         margin: 0px;
-    //     }
-    //     .radio-button{
-    //         display: flex;
-    //         align-items: center;
-    //     }
-    //     .checkbox-content{
-    //         display: flex;
-    //         align-items: center;
-    //     }
-    //     .hide-icon{
-    //         font-size: 25px;
-    //         color: $primary;
-    //         font-weight: 700;
-    //     }:hover{
-    //         color: #ffffff
-    //     }
-    //     .answer-choices{
-    //         position: relative;
-    //         display: flex;
-    //         align-items: center;
-    //         p{
-    //             margin: 0px;
-    //             line-height: 1.5rem;
-    //         }
-    //     }
-    // }
-    // .radio:hover{
-    //     background: $primary;
-    //     color: #000000;
-    //     z-index: 9;
-    //     .hide-icon{
-    //         color: #ffffff;
-    //     }
-    // }
     .explanation-section{
         border: 1px solid $primary;
         margin-bottom: 20px;
@@ -256,7 +269,7 @@
             }
         }
     }
-  .exam-final-report{
+  .msedge-exam-final-report{
       .exam-final-question{
         h5{
             color: #000000;
@@ -265,7 +278,7 @@
         span{
             color: #666;
             font-weight: bold;
-            font-size: 20px;
+            font-size: 1.25rem;
             margin-right: 20px;
         }
         h6{
@@ -279,10 +292,8 @@
         li{
             list-style: none;
             line-height: 2rem;
-            font-size: 16px;
-            color: #666;
-
-            
+            font-size: 1rem;
+            color: #666; 
         }
     }
     .exam-final-answer-explanation{
@@ -290,32 +301,80 @@
             color: $primary;
             font-weight: bold;
             margin: 10px 0;
-
         }
         p{
             line-height: 2rem;
             color: #666
         }
     }
-      
   }
-//    performance and settings
-
-.performance-settings{
+.msedge-performance-settings{
     width: 100%;
     .card-body{
-        padding: 0px;
-        
+        padding: 15px;
+        background: #ffffff;
     }
-    
     .timer-tab{
         .timer{
-            text-align: center; 
-            margin:15% 0;
-            
+            background: #f6f6f6;
+            border-radius: 8px;
+            padding: 10px;
+            text-align: center;             
             h3{
                 margin-bottom: 10%;
             }
+        }
+        .status{
+            margin: 5px -5px -5px -5px !important;
+        }
+        .timer-tab-questions{
+            background: #f6f6f6;
+            border-radius: 8px;
+            padding: 10px;
+            text-align: center; 
+            margin-top: 5px;
+            .enable-options{
+                contain: layout;
+                padding: 10px 0;
+            }
+            // .enable-options-scrole{
+            //     contain: layout;
+            //     padding: 10px 0;
+            //     overflow-y: scroll;
+            //     max-height: 319px;
+            //     &::-webkit-scrollbar {
+            //         width: 0.5em;
+            //         height: 0.5em;
+            //        }
+            //        &::-webkit-scrollbar-thumb {
+            //        // background-color: rgba(26, 25, 25, 0.1);
+            //       // background: black;
+            //         border-radius: 3px;
+            //         &:hover {
+            //          background: rgba(26, 25, 25, 0.1);;
+            //         }
+            //        }
+            // }
+            .total-questions-intigator{
+                padding: 10px 0 20px 0;
+                p{
+                    min-width: 12%;
+            height: 25px;
+            background: #cecece;
+            color: #000000;
+            padding:2px;
+            float: left;
+            margin-right: 10px;
+            border-radius: 50px;
+                }
+            }
+        }
+        .msedge-national-average-tab{
+            background: #f6f6f6;
+            border-radius: 8px;
+            padding: 10px;
+            text-align: center; 
+            margin-top: 15px;
         }
         .hide-timer{
             cursor: pointer;
@@ -325,7 +384,6 @@
             padding: 1%;
             border-radius: 10px;
             margin: 0 auto;
-            
             .timer-element{
                 width: 100%;
                 height: 100%;
@@ -335,22 +393,45 @@
             }:hover{
                
                 transform: scale(1.1);
-                font-size: 18px;
+                font-size: 1.125rem;
                 font-weight: bold;  
                 border: none;              
             }
         }
-        
+        .flag-questions{
+            .quetions-list{
+                margin: 10px 0;
+            }
+            li{
+                padding: 3px 10px;
+                background: whitesmoke;
+                margin: 7px;
+                cursor: pointer;
+                border-radius: 50%;
+                border: 1px solid whitesmoke;
+                width: 30px;
+                height: 30px;
+                font-size: 0.9375rem;
+            }
+            .active{
+                color:white;
+                background: #006EBD;
+            }
+        }
     }
     .settings-tab{
-        padding: 5%;
+        .font-size{
+            background: #f6f6f6;
+            border-radius: 8px;
+            padding: 10px;
+        }
         h4{
-            font-size: 18px;
+            font-size: 1.125rem;
             color: #000000;
             padding: 2% 0;
         }
         h6{
-            font-size: 14px;
+            font-size: 0.875rem;
             color: #666;
             padding: 2%;
         }
@@ -369,6 +450,11 @@
             margin: 5px 0;
         }
         .short-cuts{
+            background: #f6f6f6;
+            border-radius: 8px;
+            padding: 10px;
+            margin-top: 5px;
+
             .select-options{
                 li{
                     width: 60px;
@@ -379,35 +465,35 @@
             }
         }
         .highlight{
+            background: #f6f6f6;
+            border-radius: 8px;
+            padding: 10px;
+            margin-top: 5px;
             .highlight-hints{
-                font-size: 14px;
+                font-size: 0.875rem;
                 margin-bottom: 10px;
-
                 i{
                     margin-right: 10px;
-                    font-size: 20px;
+                    font-size: 1.25rem;
                     color: $primary;
-
-
                 }
                 span{
                     font-weight: 500;
                     margin-right: 5px;
                 }
-
             }
         }
     }
     .performance-tab{
         padding: 5%;
         h4{
-            font-size: 18px;
+            font-size: 1.125rem;
             color: #000000;
             padding: 2% 0;
             margin: 5% 0
         }
         h6{
-            font-size: 14px;
+            font-size: 0.875rem;
             color: #666;
             padding: 2%;
         }
@@ -415,7 +501,7 @@
             list-style: none
 
         }
-        .timing{
+        .msedge-timing{
             li{
                 color: $primary;
                 font-weight: 600;   
@@ -434,27 +520,22 @@
         }
     }
     .expand-area{
-       
         h6{
             color: $primary;
-            font-size: 25px;
+            font-size: 1.5625rem;
             font-weight: bold
         }
-       
     }
-
 }
-
 }
-
-.practice-questions{
+.msedge-practice-questions{
     h6{
         font-weight: 500;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
     .card-header > .nav .nav-link {
         font-weight: 700;
-        font-size: 15px !important;
+        font-size: 0.9375rem!important;
     }
     .question-preference{
         position: relative;
@@ -477,8 +558,30 @@
             }
         }
     }
-    .question-subjects-topics{
-        margin: 40px 0;
+    .msedge-ques-subject-topics{
+        .subjects-lists{
+            padding: 30px 15px 30px 30px;
+        }
+        .select-all{
+            h2{
+                color: #006EBD;
+                margin-bottom: 15px;
+                 font-size: 1.25rem;
+            }
+            .lable{
+                float: right;
+                color: grey;
+                margin-right: 9px;
+                margin-bottom: 10px;
+            }
+            .preference-checkbox{
+                float: right;
+                margin-right: 4px;
+            }
+        }
+        .select-all-checkbox{
+            padding: 0 18px;
+        }
         .subject-list{
             margin-bottom:10px; 
 
@@ -487,157 +590,116 @@
             margin: 0px !important;
         }
         .subject-accord{
-            box-shadow: 0 0 5px #ccc;
-            padding: 10px 0;
+            // box-shadow: 0 0 5px #ccc;
+            padding: 5px 0;
             border-radius: 10px;
-            h6{
-                font-size: 15px;
-                font-weight: 600;
+            // h3{
+            //     font-size: 1.125rem;
+            //     font-weight: 600;
+            //     margin-top: 0 !important;
                 
-            }
+            // }
+            
             button{
                 text-decoration: none !important; 
             }
             input{
                 border: 1px solid #ccc;
                 border-radius: 5px;
-                text-align: center;
+                // text-align: center;
                 color: $primary;
             }
             .topics{
-                margin: 10px 0;
                 .topics-list{
                     margin: 10px 0;
                     p{
-                        font-size: 13px;
-                        font-weight: 700;
+                        font-size: 1rem;
+                        font-weight: 600;
+                        padding-right: 20px;
+                    }
+                    .list-of-topics{
+                        padding-left: 7%;
                     }
                 }
             }
-            .under-line{
-                width: 93%;
-                margin: 0 auto;
-                border-color: $primary !important;
-            }
-            
-
-        }
-        .set-preference{
-            .preference-list-wrap{
-                background-color: #f6f6f6;
-                padding: 15px;
-                h6{
-                    color: #0e6aae;
-                    margin-bottom: 30px;
-                }
-                ul{
-                    padding-left: 20px;
-                }
-                li{
-                    margin-bottom: 15px;
-                    font-size: 16px;
-                    list-style-type: none;
-                    label{
-                        padding-left: 15px;
-                        padding-right: 15px;
-                    }
-                }
+            .select-check-box{
+                margin-top: 2px;
             }
         }
-    }
-    .questions-start{
-        background: #f6f6f6;
-        padding:5px 0;
-        text-align:right;
-        margin-bottom: 20px;    
-        button{
-            background: $primary;
-            padding: 0px;
-            color: #ffffff;
-                li{
-                    list-style: none;
-                    float: left;
-                    padding: 10px 20px;
-                    
-                }
-                li:first-child{
-                    background: #043e69;
-                }
-                li:last-child{
-                    padding:10px 30px;
-                }
+        .msedge-set-preference{
+            h5{
+                color: #006EBD;
+                margin-bottom: 15px;
+            }
         }
     }
 }
-.question-and-answers{
+
+.msedge-preference-list-wrap{
+    padding: 15px;
+    ul{
+        padding-left: 20px;
+    }
+    li{
+        margin-bottom: 15px;
+        font-size: 1rem;
+        list-style: none;
+        padding:0 0 5px 0;
+        label{
+            padding-left: 15px;
+            padding-right: 15px;
+            font-weight: 600;
+        }
+    }
+}
+.msedge-question-and-answers{
     .instructions{
+        // margin: 0px 15px;
         h6{
             font-weight: 600;
         }
-        .instruction-content{
-            padding: 20px;
+        .msedge-instruction-content{
+            padding: 20px 40px !important;
             border: 1px solid #ccc;
             border-radius: 10px;
-            margin: 20px 0;
+            margin: 40px 0;
            p{
             color: #666
            }
         }
-        .instruction-continue{
-            // background: #f6f6f6;
-        padding:5px 0;
-        text-align:right;
-        margin-bottom: 20px;    
-        button{
-            background: $primary;
-            padding: 0px;
-            color: #ffffff;
-                li{
-                    list-style: none;
-                    float: left;
-                    padding: 4px 85px;
-                    
-                }
-                // li:first-child{
-                //     background: #043e69;
-                // // }
-                // li:last-child{
-                //     padding:10px 30px;
-                // }
-        }
-        }
-
     }
-    .mcq-section{
-        h6{
+    .msedge-mcq-section{
+        h3{
             font-weight: 500;
+            font-size: 1.125rem !important;
+            margin: 11px 9px;
         }
-        .your-answer{
+        .msedge-set-flag{
             width: 100%;
-            margin: 10px 0 20px 0;
 
-            .attention-icons{
-                position: absolute;
+            .msedge-attention-icon{
                  top: 0; 
                  right: 20px;
-                 color: #dad0d0;
+                 color: #000;
+                 text-align: right;
                 
                       i{
-                        font-size: 30px;
+                        font-size: 1.875rem ;
                         padding-right:10px;
+                        cursor: pointer;
+                      }
+                      i:hover{
+                        color: #043e69;
                       }
             }
-            
             .correct{
                 color: #81ca72 !important;
-                width: 60%;
+                width: 100%;
                margin: 0 auto;
                position: relative;
                display: flex;
                align-items: center;
                height: 100%;
-
-
                 .icon{
                     width: 30px;
                     height: 30px;
@@ -651,18 +713,17 @@
               h6{
                   margin: 0px;
                   color: #81ca72 !important;
+                  font-size: 1.125rem !important;
               }
         }
         .wrong{
-            color: #db4d65;
-            width: 70%;
+            color: #db4d65 !important;
+            width: 100%;
            margin: 0 auto;
            position: relative;
            display: flex;
            align-items: center;
            height: 100%;
-           
-
             .icon{
                 width: 30px;
                 height: 30px;
@@ -676,36 +737,50 @@
           h6{
               margin: 0px;
               color: #db4d65 !important;
-
+              font-size: 1.125rem !important;
           }
     }
-       
         }
-        .question-choice-section{
-            border: 1px solid #ccc;
-            margin: 20px 0;
+        .msedge-question-choice-section{
+            border: 1px solid #ccc !important;
+            // margin: 20px 0;
+            background: white;
+            border: none;
+            border-radius: 5px;
             .verify-answer-true{
                 .card-header > .nav{
                     display: -webkit-box;
                     height: 100%;
-                    width: 25%;
+                    // width: 25%;
                 }
                 .card{
                     box-shadow: none;
+                    .card-header{
+                        .nav{
+                          width: 100% !important;
+                             display: block !important;
+                          flex-wrap: wrap-reverse !important;
+                         }
+                    }
+                   .card-header > .nav .nav-item{
+                     float: left !important;
+                   }
                 }
+
             }
-            
         }
-        .question-section{
-            padding: 20px;
-            margin-bottom: 10px;
+        .msedge-question-section{
+            padding: 16px;
             p{
-                color: rgb(49, 49, 49);
+                color: black !important;
                 text-align: justify;
-                line-height: 1.5rem;
+                line-height: 30px;
+                margin: 0 !important;
+                font-weight: 300;
+                letter-spacing: 0.4px;
             }  
         }
-        .choice-section{
+        .msedge-choice-section{
             .question-choice{
                 border-top: 1px solid #ccc;
                 cursor: pointer;
@@ -718,22 +793,27 @@
                         display: block;
                         cursor: pointer;
                         .row{
-                            position: relative;
-                        display: flex;
-                        height: 100%;
-                        align-items: center;
+                            // position: relative;
+                        // display: flex;
+                        // height: 100%;
+                        // align-items: center;
                         h4{
                             margin: 0px;
                         }
                         p{
                             text-align: justify;
-                            line-height: 1.5rem;
+                            font-size: 1rem;
+                            color: black !important;
+                            line-height: 25px;
+                            font-weight: 300;
                         }
                         .letter-option{
-                            padding: 10px 15px;
+                            padding:20px 10px;
                             border-right: 1px solid #ccc;
                             h4{
+                                color: #b8b6b6;
                                 text-align: center;
+                                font-size: 1.25rem;
                             }
                         }
                         .selected-one{
@@ -741,72 +821,92 @@
                             color: #ffffff;
                             h4{
                                 color: #ffffff;
-
                             }
                         }
-                      
                         i{
-                            font-size: 25px;
+                            font-size: 1.5625rem;
                         }
                         }
                     }
                 }
             }
         }
-        .question-button-section{
+        .msedge-ques-btn-sec{
             
             margin: 5% 0;
             .stop{
-                padding-right: 10px !important;
                 button{
-                    background: #b6b6b6;
+                    // background: #b6b6b6;
+                    letter-spacing: 2px;
+                    padding: 0;
+                    color: #000;
+                    border: 1px solid #000000;
+                    border-radius: 4px;
+                    background: unset;
+                    // :hover{
+                    //     border: 1px solid #006EBD;
+                    // }
                 }
 
+                :hover{
+                    color: #fff;
+                    background: #006EBD;
+                    // border: 1px solid #006EBD;
+                }
             }
             .answer{
-                padding-left: 10px !important;
+                text-align: end !important;
+
                 button{
-                    background: #43bc7e;
+                    // background: #43bc7e;
+                    letter-spacing: 2px;
+                    padding: 0;
                     svg{
-                        font-size: 17px;
+                        font-size: 1.0625rem;
                     }
                 }
-
+                button:disabled{
+                    background-color: #eeeeee;
+                    border-color: #6c757d;
+                    opacity: 0.65;
+                    color: #000;
+                }
             }
             button{
-                width: 100%;
+                background-color: #006EBD;
+                color: #fff;
                 border-radius: 5px !important;
-                border: none;
-                padding: 8px;
+                border: 1px solid #006EBD;
+                // border: none;
+                text-align: center;
+                // width: 50%;
                 svg{
                     margin-right: 10px;
                 }
             }
-
         }
-        .performance-settings{
+        .msedge-performance-settings{
             .card{
                 box-shadow: 0 0 5px #ccc ;
                 .card-header{
                     padding: 0px !important;
                     background: $primary;
                     border-bottom: none !important;
-                    h6{
-                        color: #ffffff
+                    h4{
+                        color: #006EBD;
                     }
                     .nav{
                         margin: 0px;
                         border-bottom: none !important;
-
-                        
                     }
-                    .expand-toggle{
+                    .msedge-expand-toggle{
                         width: 15%;
                         text-align: center;
                         h6{
-                            font-size: 30px;
+                            font-size: 1.875rem ;
                             margin: 0px;
-
+                            cursor: pointer;
+                            padding: 10px 0;
                         }
                     }
                 }
@@ -814,12 +914,10 @@
             .status{
                 .table{
                     margin: 0px;
-            
-                    
                     tbody{
                         text-align: center;
                         tr:first-child{
-                            font-size: 28px;
+                            font-size: 1.75rem;
                             td{
                                 border-left: 1px solid rgba(221, 219, 219, 0.452);
                             }
@@ -831,9 +929,7 @@
                                 border-left: 1px solid rgba(221, 219, 219, 0.452);
                             }
                         }
-                        
                     }
-            
                 }
             }
             .performance{
@@ -844,12 +940,10 @@
                 }
                 .table{
                     margin: 0px;
-            
-                    
                     tbody{
                         text-align: center;
                         tr:first-child{
-                            font-size: 28px;
+                            font-size: 1.375rem;
                             color: $primary;
                             td{
                                 border-left: 1px solid rgba(221, 219, 219, 0.452);
@@ -862,22 +956,32 @@
                                 border-left: 1px solid rgba(221, 219, 219, 0.452);
                             }
                         }
-                        
                     }
-            
                 }
             }
-            .timing{
+            .msedge-timing{
+                lable{
+                    font-size: 1rem;
+                }
                 h6{
                     padding:8% 3% 3% 3%;
                     font-weight: bold;
                     margin: 0px; 
                 }
-                .timing-content-performance{
+                h4{
+                    margin: 0px !important;
+                }
+                .msedge-timing-content-performance{
+                    margin-top: 15px;
+                    background: #f6f6f6;
+                    border-radius: 8px;
+                    padding: 10px;
                     li{
                         list-style: none;
-                        border-bottom: 1px solid #ccc;
                         padding: 2% 0;
+                        li{
+                            color: $primary;
+                        }
                     }
                     h6{
                         color: $primary;
@@ -889,6 +993,7 @@
                         margin: 0px;
                     }
                 }
+                
             }
             .history{
                 h6{
@@ -921,10 +1026,521 @@
     }
 }
 
-.question-and-answers .mcq-section .question-section p {
+.msedge-question-and-answers .msedge-mcq-section .msedge-question-section p {
     color: #666;
 }
 
-.question-and-answers .mcq-section .choice-section .question-choice .radio label .row p{
+.msedge-question-and-answers .msedge-mcq-section .msedge-choice-section .question-choice .radio label .row p{
     color:#666;
+}
+.msedge-question-and-answers{
+    .extend-btn{
+        padding: 10px 0;
+        background: #006EBD;
+        cursor: pointer;
+    }
+    h6{
+        font-size: 1.4375rem;
+        margin: 0px;
+        color: white;
+    }
+    .inc-font{
+        background: none;
+        color: #006EBD;
+        border: 1px solid #006EBD;
+        border-radius: 5px;
+        padding: 3px 13px;
+    }
+    .highlights{
+        color: white;
+        background-color: red;
+    }
+}
+.msedge-question-progress{
+    .row.p-3{
+        background-color: #fff;
+        .overall-box{
+            .dropdown-overall{
+                border-bottom: 1px solid #eee;
+                cursor: inherit;
+            }
+            .dropdown-subject-sec{
+                padding-top: 10px;
+                .collapse.show{
+                    border-bottom: 1px solid #eee;
+                }
+                .topic{
+                    .topic-name{
+                        padding-left: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+    
+.msedge-questions-start{
+    text-align:right;
+    button{
+        background: white;
+        color:black !important;
+        border: 1px solid #000000;
+        border-radius: 4px;
+        padding: 0px;
+        color: #ffffff;
+            li{
+                list-style: none;
+                float: left;
+                padding: 10px 20px;
+                
+            }
+            li:first-child{
+                border-right: 1px solid #000;
+                padding: 8px 20px;
+                margin: 0;
+            }
+            li:last-child{
+                padding:8px 30px;
+            }
+    }
+    button:hover {
+        background: #006EBD;
+        color:white !important;
+        border: 1px solid $primary;
+    }
+}
+.msedge-question-section::selection {
+  color: red !important;
+  background: yellow !important;
+}
+.msedge-question-choice-section .card{
+    margin-bottom: 0 !important
+}
+.msedge-mcq-section{
+    h3{
+        font-size: 1rem !important;
+    }
+}
+.msedge-questions-steps{
+    ol.progtrckr li {
+        width: 33.33% !important;
+     }
+}
+
+.msedge-highlight-selected{
+    background-color: yellow;
+}
+.msedge-monthly-progress-questions{
+    h2{
+        font-size: 1.125rem;
+        font-weight: 600;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    .msedge-ques-progress-percentage{
+    right: 3px;
+    font-size: 1.25rem;
+    margin-top: -12px
+    }
+    .progress-bar-sm{
+    width: 94%;
+    margin-right: 10px;
+    background-color: rgb(218, 218, 218)
+    }
+    .msedge-overall-content{
+    display: flex;
+    margin-top: 8px;
+    }
+    .msedge-subjcts{
+        margin: 0px;
+        padding: 8px 7px;
+        background-color: rgb(246, 246, 246);
+        color: rgb(0, 112, 192);
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1rem;
+    }
+ }
+
+
+
+.ada-font{
+    font-size: 1rem;
+    font-weight: 500 !important;
+}
+.msedge-ques-subject-topics{
+ h2{
+     font-size: 1.125rem;
+     font-weight: 600;
+ }
+}
+.questions-select-all{
+    label{
+        padding: 4px 0 0 10px!important;
+    }
+}
+.msedge-select-group .form-group{
+    margin-bottom: 0!important;
+}
+
+// Question section
+// .react-tooltip-question{
+//     .tooltip-inner{
+//         max-width: 200px;
+//         padding: 0.25rem 0.5rem;
+//         color: black !important;
+//         text-align: center;
+//         background-color: white !important;
+//         border-radius: 0.25rem;
+//     }
+// }
+.msedge-student-qus-container{
+
+    
+    padding: 30px;
+
+    label.custom-control-label{
+        padding-top: 2px;
+    }
+
+}
+
+.msedge-question-and-answers .msedge-mcq-section .msedge-choice-section .question-choice .radio label .row .selected-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.msedge-question-and-answers .msedge-mcq-section .msedge-choice-section .question-choice .radio label .row p{
+    padding: 5px 0px;
+}
+
+.msedge-qp-closebtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+//  Responsive screen
+@media screen and (max-width: 480px){
+    .msedge-students-alter-heading-font.msedge-students-questions-nowrap{
+        font-size: 14px !important;
+        white-space: unset;
+        display: flex;
+    }
+    .msedge-question-select-all, .msedge-flag-btn{
+        width: 50%;
+    }
+    .msedge-students-alter-heading-font {
+        font-size: 14px;
+    }
+    .msedge-practice-exam-custom .Collapsible {
+        padding: 10px !important;
+    }
+    .msedge-select-all{
+        width: 65%;
+    }
+    .msedge-view-topics{
+        width: 35%;
+    }
+    .msedge-student-qus-container{
+        padding: 10px;
+
+    .msedge-stud-practice-exam-subject{
+        
+        font-size: 1rem !important;
+    }
+
+    .msedge-select-group {
+        padding-right: 1.5rem;
+        top: 10px;
+        padding-left: 1.5rem;
+    }
+
+    .msedge-preference-list-wrap{
+        .custom-checkbox.custom-control{
+            padding-left: unset;
+        }
+    }
+    }
+
+    .msedge-qa-container{
+
+        padding: 0px;
+
+    .msedge-mcq-section .msedge-question-section p {
+        font-size: 0.875rem !important;
+    }
+
+    .msedge-choice-section p{
+        font-size: 0.875rem !important;
+    }
+
+    }
+    .highlight .msedge-exam-switch .has-switch, .short-cuts .msedge-exam-switch .has-switch{
+        margin-top: 0.3rem;
+    }
+
+    .msedge-qa-timertab{
+        h1, h4, td{
+            font-size: 1rem;
+        }
+        
+    }
+    #headingOne label.custom-control-label{
+        font-size: 0.875rem;
+    }
+
+    .letter-option {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .msedge-exam-header .pr-0{
+        padding-right: 4% !important;
+    }
+    .msedge-questions-start button li:last-child {
+        padding: 10px;
+    }
+    .msedge-set-preference{
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    .msedge-question-and-answers .msedge-mcq-section .msedge-set-flag .msedge-attention-icon{
+        padding-left: 5px;
+        padding-top: 5px;
+    }
+    .msedge-set-pref-justify{
+        text-align: left;
+        padding-bottom: 5px;
+    }
+    .msedge-select-all .custom-control{
+        padding-left: 1rem;
+    }
+    .msedge-question-select-all .custom-control{
+        padding-left: 1rem;
+    }
+    .msedge-questions-start{
+        margin-bottom: 1rem;
+    }
+    .pre-created-exam .msedge-questions-start{
+        margin-top: 2.5rem;
+    }
+    
+    
+}
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+
+.incomplete{
+    .search{
+        position: relative;
+    bottom: 1.9375rem;
+    left: -0.21rem;
+    float: right;
+    font-weight: 600;
+    background-color: #ffffff;
+    }
+}
+
+.msedge-pt-30{
+    padding-top: 6px;
+ }
+ .question-progress-students-modal{
+    max-width: 950px;
+}
+
+.msedge-questions-set-preference-alter-checkbox{
+    padding-left: 15px;
+}
+.msedge-questions-set-preference-topic-list{
+    font-size: 14px;
+    padding: 5px 0 0 5px;
+}
+.correct-ans{
+    padding-bottom: 0.2% ;
+}
+.all-card{
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+.msedge-question-and-answers .msedge-questions-start button:hover li:first-child {
+    border-right: 1px solid #ffffff;
+}
+.msedge-questionpart-exam{
+    padding-top: 5px;
+}
+
+.msedge-students-answered-questions{
+    background: #006EBD !important;
+    color:white !important; 
+}
+.msedge-question-and-answers .instructions p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.85) !important;
+}
+
+.msedge-mcq-section .msedge-performance-settings .card-body{
+    padding: 5px;
+}
+
+.msedge-questions-disable-answered-options{
+    pointer-events: none;
+    opacity: 0.9;
+  }
+.msedge_stop_now{
+    .swal-icon--warning{
+        border-color: $primary !important;
+        -webkit-animation: none !important;
+        animation: none;
+    }
+    .swal-icon--warning__body{
+        background-color: $primary !important;
+    }
+    .swal-icon--warning__dot{
+        background-color: $primary !important;
+    }
+}
+
+.msedge-questions-correct-or-incorrect-segment{
+    background-color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.msedge-questions-question-tab{
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.msedge-questions-request-modal-topics{
+    font-weight: 600;
+}
+
+.msedge-questions-request-modal-available-answers{
+    font-weight: 400;
+}
+.msedge-error-model{
+    text-align: right;
+}
+@media (max-width: 425px) {
+    .msedge-question-and-answers .msedge-mcq-section .msedge-set-flag .msedge-attention-icon{        
+        display: flex;
+    }
+    .msedge-question-and-answers .modal .msedge-error-model{
+        text-align: center !important;
+    }
+    .msedge-error-model{
+        text-align: center;
+    }
+}
+
+.msedge-questions-cursor-pointer{
+    cursor: pointer;
+}
+.msedge-questions-add-minus-icon{
+    font-size: 22px;
+}
+
+.msedge-questions-remove-cursor .custom-control-label{
+    cursor: pointer;
+    display: inline-block !important;
+    }
+
+.msedge-questions-topics-list-segment{
+    .custom-control-label{
+        cursor: pointer;
+        display: inline-block !important;
+        }
+}
+
+.msedge-students-questions-nowrap{
+    white-space: nowrap;
+}
+.question-overlay-main{
+    position: relative;
+}
+.overlay-body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.84);;
+    z-index: 10;
+}
+
+.question-overlay{
+    width: 300px;
+    height: 200px;
+    line-height: 200px;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -150px;
+    border-radius: 5px;
+    text-align: center;
+    background: #0e6ebd99;
+    z-index: 11; /* 1px higher than the overlay layer */
+    cursor: pointer;
+    h6{
+        color: #fff !important;
+    margin-top: 30%;
+    }
+
+    i{
+        font-size: 80px !important;
+    color: #ffffff;
+    position: absolute;
+    top: 22%;
+    align-self: center;
+    left: 38%;
+    transition: transform .2s;
+    }
+    button{
+        background: none !important;
+    }
+
+    .icon-overlay{
+        width: 50px ;
+        height: 50px;
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        margin-top: -100px;
+        margin-left: -180px;
+        border-radius: 5px;
+        text-align: center;
+        z-index: 11;
+        border: 1px solid #006EBD;
+        
+        
+    }
+}
+
+.question-overlay:hover{
+    background: $primary;
+    i{
+        transform: scale(1.5);  
+    }
+   
+}
+@media screen and (max-width: 480px){
+
+    .msedge-mobile-card{
+        width: 33%;
+    }
 }

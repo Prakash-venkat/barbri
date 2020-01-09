@@ -1,0 +1,20 @@
+.msedge-message-head {
+  .msedge-message-border {
+    border-top: none;
+    .row {
+      border-top: 1px solid #ccc;
+    }
+  }
+  .top-align {
+    padding-top: 2rem;
+  }
+}
+
+@media (max-width: 1440px) {
+  .top-align {
+    height: unset;
+  }
+}
+.msedge-message-fontsize{
+  font-size: 1rem;
+}

@@ -1,12 +1,7 @@
-import ThemeOptions from './ThemeOptions';
-import RequestReducer from './reducer-requests'
-import Inputs from './reducer-inputs'
-import Admin from './reducer-admin'
-
+import options from "./options";
+import main from "./main";
 
 export default {
-    ThemeOptions,
-    Inputs,
-    RequestReducer,
-    Admin
+    options,
+    main,
 };

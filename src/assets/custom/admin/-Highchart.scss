@@ -1,0 +1,39 @@
+  .itembank_tooltipmsg{
+    box-sizing: border-box;
+    width: auto;
+   
+    padding: 10px;
+    span{
+      padding: 2px;
+    }
+  }
+  .apexcharts-tooltip *{
+    font-family: inherit;
+    width: 360px
+  }
+  .topic-header-section{
+   
+    text-align: center;
+    padding: 10px;
+    background-color: #006ebd;
+    color: white;
+  }
+  .tooltip-body{
+    padding: 3px 11px 3px 11px;
+    height: auto;
+  }
+  .topicelement{
+   
+    font-family: Sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+    position: relative;
+    text-align: left;
+   
+  }
+  .valueelement{
+    text-align: right;
+    
+    padding-left: 10px;
+  }

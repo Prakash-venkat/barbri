@@ -1,24 +1,51 @@
-.font-weight-600{
-    font-weight: 600
+.msedge-margin-width {
+  width: 80%;
+  margin: 0 auto;
 }
 
-.margin-width{
-    width: 80%;
-    margin : 0 auto
+.user-list {
+  // .ReactTable .rt-tbody .rt-td {
+  //   word-break: break-all;
+  // }
+}
+// .ReactTable .rt-tbody .rt-td {
+//   word-break: break-all;
+// }
+.password-show-hide {
+  top: -36px;
+  float: right;
+  position: relative;
+  font-size: 20px;
+  left: 11px;
+  cursor: pointer;
+}
+.css-1szy77t-control {
+  box-shadow: 0 0 0 2px #afd2eb;
+  border-color: 0 0 0 2px #afd2eb;
+}
+.table-action-column {
+  width: 9.375rem !important;
+}
+.msedge-listuser-heading {
+  font-size: 1.5rem !important;
+}
+.user-list-data {
+  min-height: 600px;
 }
 
-.user-list{
-    .ReactTable .rt-tbody .rt-td{
-        word-break: break-all;
-    }
+@media only screen and (min-width: 1441px) {
+  .msedge-itemerror-soon {
+    height: 86vh !important;
+  }
 }
-.ReactTable .rt-tbody .rt-td{
-    word-break: break-all;
-}
-.password-show-hide{
-    top: -36px;
-    float: right;
-    position: relative;
-    font-size: 20px;
-    left: 11px;
+
+.msedge-itemerror-soon {
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+
+  h1 {
+    color: #006ebd;
+  }
 }

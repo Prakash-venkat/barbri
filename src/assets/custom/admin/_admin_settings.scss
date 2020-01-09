@@ -1,97 +1,177 @@
-.settings-admin{
-    // .box-shadow-settings{
-    // box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
-    // margin: 0px 0px;
-    // padding: 0 30px 15px 30px;
-    // }
-    .text-muted,.text-secondary{
-        color: #666 !important;
+.msedge-settings {
+  .text-muted,
+  .text-secondary {
+    color: #666 !important;
+  }
+  .invalid-email {
+    border-radius: 4px;
+    width: 100%;
+    padding: 6px 10px;
+    color: black;
+    margin: 10px 0 0 0;
+    font-size: 14px;
+    border: 1px solid #ff000078;
+  }
+  .msedge-admin-settings-button {
+    padding-bottom: 7px;
+    float: right;
+    margin-right: 0 !important;
+  }
+  .msedge-settings-error {
+    padding: 0% 24% 0% 34% !important;
+  }
+  .msedge-changepassword-adminsettings {
+    p {
+      font-size: 1rem;
+      line-height: 26px;
     }
-    .settings-alignment{
-        padding:15%;
+  }
+  .msedge-adminsettings-changepassword-bottom-section {
+    margin: 2% 0% 0% 0%;
+  }
+  .msedge-adminsettings-changepassword-section {
+    padding: 0% 14% 0% 7%;
+    margin: 0 auto;
+    padding: 3% 1% 1% 1%;
+    label {
+      font-size: 0.875rem;
     }
-    .custom-radio{
-        .custom-control-label{
-            color: #666;
-        }
+  }
+  .exam-space {
+    padding: 0% 16% 0% 7%;
+  }
+  .msedge-settings-align {
+    padding: 13%;
+  }
+  .custom-radio {
+    .custom-control-label {
+      color: #666;
     }
-    .settings-alignment-keyboard
-    {
-        padding: 15% 25%;
-    }
-    .settings-alignment-status{
-        padding:15% 11%;
-    }
-    // .settings-shadow{
-    // margin: 0;
-    // padding: 0;
-    // box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0);
-    // }
-    .radius-setting{
-        border-radius: 15px;
-    }
-   .svg-inline--fa {
+  }
+  .settings-alignment-keyboard {
+    padding: 15% 25%;
+  }
+  .settings-alignment-status {
+    padding: 15% 11%;
+  }
+  .msedge-card-radius {
+    border-radius: 15px;
+  }
+  .svg-inline--fa {
     font-size: 13px;
-}
-.settings-date{
-    padding:20px 15px;
-    h6{
-        color: #000;
+  }
+  .msedge-default-date {
+    padding: 5px 15px;
+    h3 {
+      font-size: 1rem !important;
+      color: rgba(0, 0, 0, 0.85) !important;
+      font-weight: 500;
     }
-    span{
+    h6 {
+      color: #000;
+    }
+    span {
+      color: #666;
+    }
+    .click-here-button {
+      h6 {
         color: #666;
+      }
     }
-    .click-here-button{
-        h6{
-            color: #666;    
-        }
-    }
-}
-.tudent-information-settings{
-        padding: 18% 0%;
-}
-.btn-outline-primary.btn-shadow {
+  }
+  .tudent-information-settings {
+    padding: 18% 0%;
+  }
+  .btn-outline-primary.btn-shadow {
     box-shadow: 0 0 0 0;
     // width: 200px;
     // .fa-lock{
     //     margin-right: 15px !important;
     //     margin-left: -10px;
     // }
-}
+  }
 
-.btn-outline-2x {
-     border-width: 1px; 
-}
-.settings-font-weight{
+  .btn-outline-2x {
+    border-width: 1px;
+  }
+  .settings-font-weight {
     font-weight: 500;
-}
-.card {
-    box-shadow:0 0 5px rgba(204, 204, 204, 0.603); 
-} 
+  }
+  .card {
+    box-shadow: 0 0 5px rgba(204, 204, 204, 0.603);
+  }
 
-.settings-no-border:nth-child(4) {
-    border-right:none !important;
+  .settings-no-border:nth-child(5) {
+    border-right: none !important;
+  }
+  .settings-link-color {
+    border-bottom: 1px solid #006ebd;
+    text-decoration: none;
+  }
+  @media only screen and (max-width: 991px) and (min-width: 768px) {
+    .msedge-settings-align {
+      padding: 8%;
+      margin: 10% 0%;
+    }
+  }
+  @media only screen and (max-width: 430px) {
+    .msedge-settings-align {
+      border-bottom: 1px solid #dee2e6 !important;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .msedge-settings-align {
+      padding: 12% 10% 10% 10%;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    .settings-no-border:nth-child(4) {
+      border-bottom: none !important;
+    }
+  }
+  .msedge-adminsettings-subheading {
+    font-size: 1.25rem !important;
+  }
+  .msedge-settingsadmin-userinfoheading {
+    font-size: 1.25rem !important;
+  }
+  .msedge-userinfo-settings-subheading {
+    font-size: 1.125rem !important;
+  }
+  .settings-admin-modal-size {
+    max-width: 30rem !important;
+  }
+  .msedge-setting-questio-time {
+    padding: 0px 12px 0px 12px;
+    margin-top: 8px;
+  }
+  .msedge-settings-info {
+    margin-left: 3.25rem;
+  }
+  .msedge-settings-time {
+    margin-top: 8px;
+  }
+  .msedge-setting-time-information {
+    font-size: 1rem !important;
+    color: rgba(0, 0, 0, 0.85) !important;
+    font-weight: 500;
+  }
 }
-.settings-link-color{
-border-bottom: 1.5px solid #0e6aae;
-text-decoration: none;
+.eye {
+  position: relative;
+  bottom: 2.1375rem;
+  left: 0.625rem;
+  float: right;
+  font-size: 1.1875rem;
+  font-weight: 600;
 }
-@media only screen and (max-width: 768px) {
-  .settings-alignment {
-    padding: 8%;
-    margin: 10% 0%;
+.settings-ada-font {
+  font-size: 0.9rem;
 }
+.msedge-info-icon {
+  position: relative;
+  bottom: 1.875rem;
+  left: 1.5625rem;
+  float: right;
+  color: #006ebd;
 }
-@media only screen and (max-width: 430px) {
-  .settings-alignment {
-   border-bottom: 1px solid #dee2e6 !important;
-}
-}
-@media only screen and (max-width: 425px) {
-  .settings-no-border:nth-child(4) {
-    border-bottom:none !important;
-}
-}  
-
-}
-

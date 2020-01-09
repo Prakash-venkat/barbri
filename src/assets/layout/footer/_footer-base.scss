@@ -1,23 +1,24 @@
 // Footer base
 
-.app-footer {
+.msedge-footer {
   height: $app-header-height;
 
-  .app-footer__inner {
+  .msedge-footer-inner {
     padding: 0 $layout-spacer-x 0 ($layout-spacer-x / 2);
     height: $app-header-height;
-    transition: all .2s;
+    transition: all 0.2s;
 
     display: flex;
     align-content: center;
     align-items: center;
 
-    .app-footer-left {
+    .msedge-footer-left {
       display: flex;
       align-items: center;
     }
 
-    .app-footer-right {
+    .msedge-footer-right {
+      padding-right: 2.5rem !important;
       margin-left: auto;
       display: flex;
     }
@@ -40,11 +41,11 @@
 }
 
 .dot-btn-wrapper {
-  padding: .5rem;
+  padding: 0.5rem;
   position: relative;
   display: flex;
-  opacity: .7;
-  transition: opacity .2s;
+  opacity: 0.7;
+  transition: opacity 0.2s;
 
   .badge-abs {
     right: 50%;

@@ -3,20 +3,19 @@
 // Sidebar Menu Hover
 
 .closed-sidebar {
-  .app-sidebar {
-    transition: all .3s ease;
+  .msedge-sidebar {
+    transition: all 0.3s ease;
     width: $app-sidebar-width-collapsed;
     min-width: $app-sidebar-width-collapsed;
     flex: 0 0 $app-sidebar-width-collapsed;
     z-index: 13;
 
-    .app-sidebar__inner {
-
+    .msedge-sidebar-inner {
       .app-sidebar__heading {
         text-indent: -999em;
 
         &::before {
-          content: '';
+          content: "";
           position: absolute;
           top: 50%;
           left: 0;
@@ -54,11 +53,10 @@
     }
 
     &:hover {
-      flex: 0 0 $app-sidebar-width !important;
-      width: $app-sidebar-width !important;
+      // flex: 0 0 $app-sidebar-width !important;
+      // width: $app-sidebar-width !important;
 
-      .app-sidebar__inner {
-
+      .msedge-sidebar-inner {
         .app-sidebar__heading {
           text-indent: initial;
           &::before {
@@ -83,7 +81,7 @@
 
         .metismenu-container {
           &.visible {
-            padding: .5em 0 0 2rem;
+            padding: 0.5em 0 0 2rem;
 
             & > .metismenu-item > .metismenu-link {
               height: 2.3em;
@@ -95,15 +93,13 @@
               padding-left: 1em;
             }
           }
-
         }
       }
     }
   }
 
   &:not(.sidebar-mobile-open) {
-
-    .app-sidebar {
+    .msedge-sidebar {
       .scrollbar-container {
         position: static;
         height: auto;
@@ -122,10 +118,10 @@
 
   &:not(.closed-sidebar-mobile) {
     .app-header {
-      .app-header__logo {
+      .msedge-header-logo {
         width: $app-sidebar-width-collapsed;
 
-        .logo-src {
+        .msedge-logo {
           display: none;
         }
 
@@ -134,27 +130,27 @@
         }
       }
     }
-
   }
 
-  &.fixed-sidebar {
-    .app-main__outer {
-      padding-left: $app-sidebar-width-collapsed;
+  &.msedge-fixed-sidebar {
+    .msedge-main-outer {
+      // padding-left: $app-sidebar-width-collapsed;
+      padding-left: 0;
     }
   }
 
-  &.fixed-header:not(.fixed-sidebar) {
-    .app-sidebar {
-      .app-header__logo {
+  &.msedge-fixed-header:not(.msedge-fixed-sidebar) {
+    .msedge-sidebar {
+      .msedge-header-logo {
         visibility: hidden;
       }
     }
   }
 
   &.closed-sidebar-mobile {
-    .app-sidebar,
+    .msedge-sidebar,
     .app-header {
-      .app-header__logo {
+      .msedge-header-logo {
         width: auto;
         display: flex;
 
@@ -164,13 +160,13 @@
       }
     }
 
-    .app-sidebar {
-      .app-header__logo {
+    .msedge-sidebar {
+      .msedge-header-logo {
         display: flex;
         width: $app-sidebar-width-collapsed;
         padding: 0 $layout-spacer-x !important;
 
-        .logo-src {
+        .msedge-logo {
           display: block !important;
           margin: 0 auto;
           width: $logo-width - 76;
@@ -182,13 +178,12 @@
       }
 
       &:hover {
-        .app-header__logo {
+        .msedge-header-logo {
           width: $app-sidebar-width;
 
-          .logo-src {
+          .msedge-logo {
             width: $logo-width;
             margin: 0;
-
           }
         }
       }
@@ -199,8 +194,8 @@
     }
   }
 
-  &.fixed-footer {
-    .app-footer__inner {
+  &.msedge-fixed-footer {
+    .msedge-footer-inner {
       margin-left: 0 !important;
     }
   }

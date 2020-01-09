@@ -30,7 +30,7 @@
 @import "components/bootstrap4/breadcrumb";
 @import "components/bootstrap4/pagination";
 @import "components/bootstrap4/badge";
-@import "components/bootstrap4/jumbotron";
+/* @import "components/bootstrap4/jumbotron"; */
 @import "components/bootstrap4/alert";
 @import "components/bootstrap4/progress";
 @import "components/bootstrap4/media";
@@ -40,10 +40,10 @@
 @import "components/bootstrap4/modal";
 @import "components/bootstrap4/tooltip";
 @import "components/bootstrap4/popover";
-@import "components/bootstrap4/carousel";
+/* @import "components/bootstrap4/carousel"; */
 @import "components/bootstrap4/spinners";
 @import "components/bootstrap4/utilities";
-@import "components/bootstrap4/print";
+/* @import "components/bootstrap4/print"; */
 // LAYOUT
 
 @import "layout/layout";
@@ -82,7 +82,7 @@
 
 // PAGES
 
-@import "pages/userpages";
+/* @import "pages/userpages"; */
 
 // Applications
 
@@ -115,8 +115,6 @@
 // Progress Bar
 @import "components/progress-bar/progress-bar";
 
-// Slick Carousel
-@import "components/slick-carousel/slick/slick";
 
 // Block loading
 @import "components/block-loading/block-loading";
@@ -124,17 +122,9 @@
 // Popovers & Tooltips
 @import "components/popovers-tooltips/popovers-tooltips";
 
-// Sticky Elements
-@import "components/sticky-elements/sticky-elements";
 
 // Calendar
 @import "components/calendar/calendar";
-
-// Splitters
-@import "components/splitters/splitters";
-
-// Tree View
-@import "components/tree-view/tree-view";
 
 // Tables
 @import "components/tables/tables";
@@ -148,27 +138,34 @@
 @import "components/forms/datepicker/datepicker";
 @import "components/forms/rangeslider/rangeslider";
 @import "components/forms/multiselect/multiselect";
-@import "components/forms/wysiwyg/wysiwyg";
 @import "components/forms/toggle-switch/switch";
 @import "components/forms/dropzone/dropzone";
-@import "components/forms/typeahead/typeahead";
 
 // REACT WIDGETS
 
 @import "components/react-widgets/scss/react-widgets";
 
-// DEMO
-
-@import "demo-ui/demo";
 
 // Responsive
 
 @import "layout/responsive/responsive-base";
 
+// ADA
+html {
+  font-size: 100%;
+}
+
 // custom
 @import "custom/custome";
 
-// admin module 
+// landing pages
+
+@import "custom/landingPages/login";
+@import "custom/landingPages/notfound";
+@import "custom/landingPages/signup";
+@import "./custom/landingPages/errorPage";
+
+// admin module
 
 @import "custom/admin/admin_dashboard";
 @import "custom/admin/admin_item_bank";
@@ -179,7 +176,7 @@
 @import "custom/admin/admin_students";
 @import "custom/admin/admin_users";
 @import "custom/admin/admin_video_library";
-
+@import "custom/admin/admin_messages";
 
 // students module
 
@@ -191,6 +188,7 @@
 @import "custom/students/students_settings";
 @import "custom/students/students_support";
 @import "custom/students/students_video_lectures";
+@import "custom/students/student_exam_reports";
 
 // law schools modules
 
@@ -198,12 +196,6 @@
 @import "custom/law-school/law_school_exam_reports";
 @import "custom/law-school/law_school_messages";
 @import "custom/law-school/law_school_students";
-@import "custom/law-school/law_school_support";
 @import "custom/sidebar";
 @import "custom/header-top";
-
-
-
-
-
-
+@import "custom/law-school/_law_school_exam_reports.scss";

@@ -1,0 +1,380 @@
+.login-cntr {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100vh;
+  // background-image: url('/src/assets/utils/images/MultistateEdgePortal_Image.jpg');
+    background-size: cover;
+
+  & > section:first-child {
+    display: grid;
+    height: 100vh;
+    // background-color: #006ebd;
+
+    .login-compo{
+      align-self: center;
+      justify-self: center;
+      background: linear-gradient(to right, transparent, 0%, white, 85%, transparent);
+    } 
+  
+   .set-password-compo{
+    align-self: center;
+    background: linear-gradient(to right, transparent, 0%, white, 85%, transparent);
+   }
+    .card-body{
+      padding: 2rem;
+    }
+
+    .accountyet {
+      font-size: 0.8rem !important;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85) !important;
+  }
+
+    .msedge-questions-start button li:last-child{
+      text-transform: uppercase;
+      font-size: 0.74rem !important;
+      letter-spacing: 1px !important;
+    }
+
+    input[type="checkbox"] {
+      visibility: visible;
+      margin-right: 10px;
+    }
+
+    .welcome-text {
+      letter-spacing: 2px;
+      font-size: 30px;
+      font-weight: 200;
+    }
+
+    .signin-container {
+      padding-top: 1%;
+      padding-bottom: 1%;
+    }
+
+    .signin-text {
+      font-size: 1rem;
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.85) !important;
+    }
+
+    .invalid-email {
+      border-radius: 4px;
+      width: 100%;
+      padding: 6px 10px;
+      color: black;
+      margin: 10px 0 0 0;
+      font-size: 14px;
+      border: 1px solid #ff000078;
+    }
+
+    .welcome-segment {
+      border-bottom: 1px solid #eee;
+      // padding-bottom: 10px;
+    }
+
+    .logged-in {
+      border-bottom: 1px solid #eee;
+      padding-bottom: 10px;
+      margin-bottom: 3px;
+    }
+
+    .login-btn {
+      // width: 70% !important;
+      // padding: 4%;
+      color: #000;
+      background-color: unset;
+      // border-color: #006ebd;
+
+      &:hover {
+        color: #fff;
+        background-color: #006ebd;
+      }
+    }
+
+    #password{
+      background: #ffffff70;
+    }
+  }
+  & > .right-container {
+    display: grid;
+    & > .login-compo {
+      display: grid;
+      margin: 0;
+      align-self: center;
+      // justify-self: center;
+      height: 100%;
+      .logo-image {
+        text-align: right;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        .login-logo {
+          width: 85%;
+        }
+      }
+      & > div:nth-child(2) {
+        display: grid;
+        align-self: center;
+        justify-self: center;
+      }
+      .msedge-questions-start button li:last-child{
+        text-transform: uppercase;
+        font-size: 0.74rem !important;
+        letter-spacing: 1px !important;
+      }
+    }
+    input[type="checkbox"] {
+      visibility: visible;
+      margin-right: 10px;
+    }
+
+    .welcome-text {
+      letter-spacing: 2px;
+      font-size: 30px;
+      font-weight: 200;
+    }
+
+    .signin-container {
+      padding-top: 2%;
+      padding-bottom: 2%;
+    }
+
+    .signin-text {
+      font-size: 1rem;
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.85) !important;
+    }
+
+    .invalid-email {
+      border-radius: 4px;
+      width: 100%;
+      padding: 6px 10px;
+      color: black;
+      margin: 10px 0 0 0;
+      font-size: 14px;
+      border: 1px solid #ff000078;
+    }
+
+    .welcome-segment {
+      border-bottom: 1px solid #eee;
+      padding-bottom: 10px;
+    }
+
+    .logged-in {
+      border-bottom: 1px solid #eee;
+      padding-bottom: 15px;
+      margin-bottom: 5px;
+    }
+    .login-btn {
+      // width: 70% !important;
+      // padding: 4%;
+      color: #000;
+      background-color: unset;
+      // border-color: #006ebd;
+
+      &:hover {
+        color: #fff;
+        background-color: #006ebd;
+      }
+      
+    }
+  }
+}
+
+.msedge-footer .msedge-footer-inner {
+  padding: 0 1.5rem 0 1.8rem;
+}
+
+@media (max-width: 480px) {
+  .login-form-main{
+    .flex-unset{
+      flex-basis: unset;
+    }
+    .recover-link-text{
+      text-align: center !important;
+    }
+  }
+  .login-cntr {
+    background-image: unset !important;
+    grid-template-columns: none;
+    grid-template-rows: repeat(2, 1fr);
+
+    section.right-container {
+      display: none !important;
+    }
+
+    .logo-image {
+      text-align: center !important;
+      position: unset !important;
+      padding-right: unset !important;
+    }
+    .login-logo {
+      width: 50% !important;
+    }
+    .welcome-text,
+    .signin-text,
+    .no-account {
+      text-align: center;
+    }
+    .recover-logo-align {
+      text-align: center !important;
+    }
+    .msedge-footer {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .login-cntr {
+    grid-template-columns: repeat(1, 1fr);
+
+    .login-logo {
+      width: 15% !important;
+    }
+    .logo-image {
+      position: unset !important;
+    }
+
+    section:first-child {
+      // height: 50vh;
+    }
+    .msedge-footer {
+      position: fixed;
+      bottom: -15px;
+    }
+  }
+  .msedge-recover-logo {
+    width: 18%;
+  }
+  .recoverpassword-form-main,
+  .msedge-login-fs {
+    .is-invalid {
+      background-image: none !important;
+    }
+  }
+  .mandatory {
+    color: #d92550;
+    margin-left: 2px;
+  }
+  .text-danger {
+    font-size: 0.813rem;
+  }
+}
+.right-container{
+  // border-left: 1px solid #ced4da
+}
+.login-cntr .right-container button {
+  font-size: 0.875rem !important;
+}
+.msedge-login-btn {
+  li {
+    i {
+      font-size: 1.2rem !important;
+    }
+  }
+  button:hover li:first-child {
+    border-right: 1px solid #fff !important;
+  }
+  button {
+    li:first-child {
+      padding: 5px 20px 5px 20px !important;
+    }
+    .pe-7s-key{
+      top: 2px;
+      position: relative;
+    }
+    .loading-btn {
+      padding: 6px 12px 5px 12px !important;
+    }
+  }
+}
+.msedge-submit-btn {
+  button {
+    li:first-child {
+      padding: 5px 15px 5px 15px !important;
+    }
+    .pe-7s-angle-right-circle{
+      top: 2px;
+      position: relative;
+    }
+    li:last-child {
+      padding: 8px 30px 0px 30px !important;
+    }
+    &:hover {
+      border: 1px solid #006ebd !important;
+    }
+    border: 1px solid #000000 !important;
+  }
+  button[disabled]:hover {
+    background: transparent !important;
+    border-color: #000000 !important;
+    li:first-child {
+      border-right: 1px solid #000 !important;
+    }
+  }
+}
+::placeholder{
+  color: rgba(0, 0, 0, 0.85);
+}
+.no-account {
+  font-size: 1rem !important;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.85) !important;
+}
+.msedge-signup{
+  background-color: unset !important;
+  height: 50vh;
+  align-items: center;
+  h1{
+    text-align: center !important;
+    letter-spacing: 2px;
+    font-size: 28px;
+    font-weight: 200;
+    color: #495057 !important;
+  }
+}
+.msedge-login-password-eye {
+  position: relative;
+  cursor: pointer;
+  bottom: 1.9375rem;
+  left: 0.525rem;
+  float: right;
+  font-size: 1rem;
+  color: #006ebd;
+}
+.welcome-segment-left{
+  padding: 30px;
+  .student_or_lawschool{
+    // margin-top: 140px;
+  }
+}
+.msedge-left{
+  display: grid;
+  align-items: center;
+  justify-content: left;
+}
+.msedge-support-txt{
+  text-align: center !important;
+  letter-spacing: 2px !important;
+  font-size: 26px !important;
+  font-weight: 200 !important;
+  color: #495057 !important;
+  // width: 90%;
+}
+.msedge-account-heading{
+  text-align: left !important;
+}
+
+.msedge-set-password-link-expired-segment{
+  top:50%;
+  left:50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  .msedge-set-password-link-expired-icon{
+    font-size: 100px;
+  }
+}

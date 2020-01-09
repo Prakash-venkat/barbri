@@ -1,173 +1,185 @@
-//Law -school-students for table
-.lawschool-students-list{
-    .card-header > .nav {
+.msedge-lawschool-students-list {
+  .admin-list-word-wrap{
+    word-break: break-word;
+  }
+  .content-progress {
+    .Collapsible .accordion-container .card .btn {
+      letter-spacing: unset !important;
+      font-size: 0.8rem !important;
+    }
+    .msedge-collapse-sec .btn {
+      letter-spacing: unset !important;
+      font-size: 0.8rem !important;
+    }
+  }
+  .card-header > .nav {
     display: -webkit-box;
-     margin-left: -20px;
+    margin-left: -20px;
+  }
+  table {
+    thead {
+      font-size: 1rem;
     }
-    table{
-        thead{
-            font-size: 16px;
-        }
-        thead th{
-            padding: 1.1rem;
-        }
-        tbody{
-            color: #666 !important;
-        }
+    thead th {
+      padding: 1.1rem;
     }
+    tbody {
+      color: #666 !important;
+    }
+  }
 
-.lawschool-box-shadow{
-        box-shadow: 0px 1px rgba(0, 0, 0, 0.1);
-    margin: 0px -27px;
-    padding: 0 30px 15px 30px;
+  .ls-widget-content {
+    width: 75% !important;
+  }
+  .msedge-student-list-active {
+    background-color: #006ebd;
+    color: white;
+  }
+  .border {
+    max-width: unset;
+    flex: 1;
+  }
+  .msedge-student-list-active h1 {
+    font-weight: 500;
+    font-size: 3.125rem;
+    margin-bottom: 5%;
+    color: #ffffff;
+  }
+  .msedge-student-list-active h6 {
+    font-weight: 500;
+    color: #ffffff;
+  }
+  .msedge-answers {
+    h2 {
+      font-weight: 500;
+      color: #006ebd;
+      margin-top: 8px;
+      margin-bottom: 0px;
     }
-.student-total-first{
-        background-color: #0e6aae;
-        color: white;
+    h5 {
+      color: #666;
+      font-size: 1rem;
+      margin: 3px;
     }
-    .border{
-        max-width: unset;
-        flex: 1;
+    h6 {
+      color: #666;
+      font-size: 1rem;
     }
-    .student-total-first h1{
-        font-weight: 500;
-        font-size: 42px;
-      margin-bottom: 6%;
-        color: #ffffff;
-    }
-    .student-total-first h6{
-        font-weight: 500;
-        color: #ffffff;
+  }
 
-    }
-    .student-total{
-       // border: 1px solid #ccc;
-        .col{
-            padding: 4% !important;
-        }
-        .answers h2{
-            font-weight: 500;
-            color: #0e6aae;
-            margin-top: 8px;
-            margin-bottom: 0px;
-        }
-        .answers h5{
-            color: #666;
-            font-size: 16px;
-            margin: 3px;
-        }
-        .answers h6{
-            color: #666;
-            font-size: 16px;
-        }
-    }
-.search{
-            position: relative;
-            bottom: 31px;
-            left: -3px;
-            float: right;
-            font-weight: 600;
-            background-color: #ffffff;
-       }
-       .ReactTable .rt-thead.-filters {
-    display: none;
-}
-}
-.margin-left-20{
-        margin-left: -20px;
-}
-// @media only screen and (max-width: 600px) {
-//     .table-scroll {
-//      overflow-x : scroll !important;
-//     }
-//   }
-//   .column-width{
-//     width: 150px;
-//   }
-
-//   .law-school-student-list{
-//     .student-total-first{
-//         background-color: #3bc47e;
-//         color: white;
-//     }
-//     .border{
-//         max-width: unset;
-//         flex: 1;
-//     }
-//     .student-total-first h1{
-//         font-weight: 500;
-//         font-size: 42px;
-      
-//         color: #ffffff;
-//     }
-//     .student-total-first h6{
-//         font-weight: 500;
-//         color: #ffffff;
-
-//     }
-//     .student-total{
-//        // border: 1px solid #ccc;
-//         .col{
-//             padding: 4% !important;
-//         }
-//         .answers h2{
-//             font-weight: 500;
-//             color: #0e6aae;
-//             margin-top: 8px;
-//             margin-bottom: 0px;
-//         }
-//         .answers h5{
-//             color: #6c757d;
-//             font-size: 15px;
-//             margin: 0px;
-//         }
-//         .answers h6{
-//             color: #6c757d;
-//             font-size: 100%;
-//         }
-//     }
-//     .search{
-//             position: relative;
-//             bottom: 31px;
-//             left: -3px;
-//             float: right;
-//             font-weight: 600;
-//             background-color: #ffffff;
-//        }
-//  }
-.download-report{
-    .bg-white{
-        .txt-large{
-            font-size: 14px;
-            color: #666;
-        }
-        .txt-large:hover{
-            color: #ffffff;
-        }
-    }
-}
-
-.exam-details span{
-    right: 3%;
+  .search {
     position: relative;
+    bottom: 1.9375rem;
+    left: -3px;
+    float: right;
+    font-weight: 600;
+    background-color: #ffffff;
+  }
 }
-
-.btn-outline-secondary{
-    border-color: #d3d3d3;
+.margin-left-20 {
+  margin-left: -20px;
 }
-.txt-large{
-    padding-right: 35px !important;
-}
-.txt-large i{
-    top: 0px;
-    right: unset;
-}
-
-@media only screen and (max-width: 480px){
-    .responsive-view{
-        display: block;
-        width: 100%;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
+.msedge-download-report {
+  .bg-white {
+    .msedge-txt-large {
+      font-size: 1rem;
+      color: #666;
     }
+    .msedge-txt-large:hover {
+      color: #ffffff;
+    }
+  }
+}
+
+.msedge-exam-details span {
+  right: 3%;
+  position: relative;
+}
+
+.btn-outline-secondary {
+  border-color: #d3d3d3;
+}
+.msedge-txt-large {
+  padding-right: 35px !important;
+}
+.msedge-txt-large i {
+  top: 0px;
+  right: unset;
+}
+
+.ReactTable .rt-thead .rt-resizable-header-content {
+  overflow: unset;
+}
+@media only screen and (max-width: 480px) {
+  .msedge-responsive-view {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .msedge-responsive-view {
+    display: flex;
+  }
+  .msedge-lawschool-students-list .border {
+    flex: unset;
+  }
+  .card-header > .nav .nav-link::before {
+    bottom: 0px;
+  }
+  #mySelect {
+    margin-right: unset !important;
+  }
+}
+
+.msedge-lawschool-download-report {
+  font-weight: 500;
+  font-size: 1.1875rem !important;
+  line-height: 24px !important;
+}
+
+.msedge-lawshool-liststudents .msedge-form-control-onsearch {
+  height: calc(1.79em + 0.75rem + 3px);
+}
+
+.msedge-lawschool-students-list .ReactTable .rt-thead .rt-resizable-header-content{
+  font-size: 1rem !important;
+  color: rgba(0, 0, 0, 0.85) !important;
+  font-weight: 500 !important;
+}
+
+.msedge-lawschool-students-list .ReactTable .rt-tbody .rt-td{
+  font-size: 1rem !important;
+  color: rgba(0, 0, 0, 0.85) !important;
+  font-weight: 500 !important;
+}
+
+.msedge-lawschool-students-list .ReactTable .-pagination input, .ReactTable .-pagination select, .ReactTable .rt-thead.-filters input, .ReactTable .rt-thead.-filters select{
+  color: rgba(0, 0, 0, 0.85) !important;
+  font-weight: 500 !important;
+  font-size: 1rem !important;
+}
+
+.msedge-lawschool-students-list .ReactTable .-pagination .-pageInfo{
+  color: rgba(0, 0, 0, 0.85) !important;
+  font-weight: 500 !important;
+  font-size: 1rem !important;
+}
+.msedge-lawschool-students-list .ReactTable .-pagination .-totalPages{
+  font-weight: 500 !important;
+}
+
+.msedge-student-list{
+.msedge-questions-start button{
+  padding: 1px !important;
+}
+}
+
+.msedge-lawschool-students-list{
+  .card-header > .nav {
+    display: block !important;
+  }
+
+  .card-header > .nav .nav-item{
+    float: left;
+  }
 }

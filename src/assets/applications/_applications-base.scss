@@ -1,13 +1,10 @@
 // Applications
 
-$app-layout-sidebar-width         : 270px;
-$app-layout-aside-width           : 60px;
-$app-layout-header-height         : 50px;
-
-
+$app-layout-sidebar-width: 270px;
+$app-layout-aside-width: 60px;
+$app-layout-header-height: 50px;
 
 .app-inner-layout {
-
   &.rm-sidebar {
     .app-inner-layout__wrapper {
       .app-inner-layout__content {
@@ -22,7 +19,7 @@ $app-layout-header-height         : 50px;
     padding: $layout-spacer-x;
     text-align: left;
 
-    .app-page-title {
+    .msedge-title {
       margin: 0;
       padding: 0;
       background: transparent;
@@ -74,7 +71,7 @@ $app-layout-header-height         : 50px;
         margin-left: auto;
       }
 
-      .app-inner-layout__bottom-pane {
+      .msedge-bottom-pane {
         padding: $layout-spacer-x;
         border-top: $gray-200 solid 1px;
       }
@@ -121,10 +118,10 @@ $app-layout-header-height         : 50px;
 }
 
 .app-wrapper-footer {
-  .app-footer {
+  .msedge-footer {
     border-top: $gray-200 solid 1px;
 
-    .app-footer__inner {
+    .msedge-footer-inner {
       border-left: $gray-200 solid 1px;
     }
   }

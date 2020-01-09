@@ -1,0 +1,289 @@
+{
+    "subjects": [
+        {
+            "subjectName": "Civil Procedure",
+            "answered": 0,
+            "question": 0,
+            "percentage": 0,
+            "questionsAnsweredCorrectly": 0,
+            "topics": [
+                {
+                    "topicName": "Appealability and Review",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                },
+                {
+                    "topicName": "Jurisdiction and Venue",
+                    "questions": 0,
+                    "answered":0,
+                    "overall": 0
+                },
+                {
+                    "topicName": "Jury Trials",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                },
+                {
+                    "topicName": "Law Applied by Federal Courts",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                },
+                {
+                    "topicName": "Motions",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                },
+                {
+                    "topicName": "Pretrial Procedures",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                },
+                {
+                    "topicName": "Verdicts and Judgments",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                }
+            ]
+        },
+        {
+            "subjectName": "Constitutional Law",
+            "answered": 0,
+            "question": 0,
+            "percentage": 0,
+            "questionsAnsweredCorrectly": 0,
+            "topics": [
+                {
+                    "topicName": "Individual Rights",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                },
+                {
+                    "topicName": "The Nature of Judicial Review",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                },
+                {
+                    "topicName": "The Relation of Nation and States in a Federal System",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                },
+                {
+                    "topicName": "The Separation of Powers",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                }
+            ]
+        },
+        {
+            "subjectName": "Contracts",
+            "answered": 0,
+            "question": 0,
+            "percentage": 0,
+            "questionsAnsweredCorrectly": 0,
+            "topics": [
+                {
+                    "topicName": "Contract Content and Meaning",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                },
+                {
+                    "topicName": "Defenses to Enforceability",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                },
+                {
+                    "topicName": "Formation of Contracts",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                },
+                {
+                    "topicName": "Performance, Breach, and Discharge",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                },
+                {
+                    "topicName": "Remedies",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                },
+                {
+                    "topicName": "Third-Party Rights",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                }
+            ]
+        },
+        {
+            "subjectName": "Criminal Law and Procedure",
+            "answered":0,
+            "question": 0,
+            "percentage": 0,
+            "questionsAnsweredCorrectly":0,
+            "topics": [
+                {
+                    "topicName": "Constitutional Protection of Accused Persons",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                },
+                {
+                    "topicName": "General Principles",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                },
+                {
+                    "topicName": "Homicide",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                },
+                {
+                    "topicName": "Inchoate Crimes; Parties",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                },
+                {
+                    "topicName": "Other Crimes",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                }
+            ]
+        },
+        {
+            "subjectName": "Evidence",
+            "answered":0,
+            "question": 0,
+            "percentage": 0,
+            "questionsAnsweredCorrectly": 0,
+            "topics": [
+                {
+                    "topicName": "Hearsay and Circumstances of Its Admissibility",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                },
+                {
+                    "topicName": "Ownership of Real Property",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                },
+                {
+                    "topicName": "Real Estate Contracts",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                },
+                {
+                    "topicName": "Rights in Real Property",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                },
+                {
+                    "topicName": "Titles",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                }
+            ]
+        },
+        {
+            "subjectName": "Real Property",
+            "answered": 0,
+            "question": 0,
+            "percentage": 0,
+            "questionsAnsweredCorrectly": 0,
+            "topics": [
+                {
+                    "topicName": "Mortgages and Security Devices",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                },
+                {
+                    "topicName": "Ownership of Real Property",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                },
+                {
+                    "topicName": "Real Estate Contracts",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                },
+                {
+                    "topicName": "Rights in Real Property",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                },
+                {
+                    "topicName": "Titles",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                }
+            ]
+        },
+        {
+            "subjectName": "Torts",
+            "answered": 0,
+            "question": 0,
+            "percentage": 0,
+            "questionsAnsweredCorrectly": 0,
+            "topics": [
+                {
+                    "topicName": "Intentional Torts",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                },
+                {
+                    "topicName": "Negligence",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                },
+                {
+                    "topicName": "Other Torts",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                },
+                {
+                    "topicName": "Rights in Real Property",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                },
+                {
+                    "topicName": "Strict Liability and Products Liability",
+                    "questions": 0,
+                    "answered": 0,
+                    "overall": 0
+                }
+            ]
+        }
+    ]
+}

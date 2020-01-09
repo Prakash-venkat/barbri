@@ -1,0 +1,85 @@
+.message {
+  font-weight: 400;
+}
+.msedge-message-head .msedge-message-border .custom-control .name,
+.msedge-message-head .message-borderArchive .custom-control .name {
+  font-weight: 400;
+}
+@media only screen and (max-width: 767px) {
+  .message {
+    overflow-y: auto !important;
+  }
+  .card-header > .nav .nav-link::before {
+    bottom: -14px;
+  }
+  .card-header:first-child {
+    height: unset !important;
+  }
+}
+
+.msedge-lawschool-listmessage .ReactTable .rt-thead .rt-resizable-header-content{
+  font-size: 1rem !important;
+  color: rgba(0, 0, 0, 0.85) !important;
+  font-weight: 500 !important;
+}
+
+.msedge-lawschool-listmessage .ReactTable .rt-tbody .rt-td{
+  font-size: 1rem !important;
+  color: rgba(0, 0, 0, 0.85) !important;
+  font-weight: 500 !important;
+}
+
+.msedge-lawschool-listmessage .ReactTable .-pagination input, .ReactTable .-pagination select, .ReactTable .rt-thead.-filters input, .ReactTable .rt-thead.-filters select{
+  color: rgba(0, 0, 0, 0.85) !important;
+  font-weight: 500 !important;
+  font-size: 1rem !important;
+}
+
+.msedge-lawschool-listmessage .ReactTable .-pagination .-pageInfo{
+  color: rgba(0, 0, 0, 0.85) !important;
+  font-weight: 500 !important;
+  font-size: 1rem !important;
+}
+.msedge-lawschool-listmessage .ReactTable .-pagination .-totalPages{
+  font-weight: 500 !important;
+}
+
+.msedge-student-content .msedge-border-primary{
+  color: rgba(0, 0, 0, 0.85) !important;
+  font-weight: 500 !important;
+  font-size: 1rem !important;
+}
+
+.msedge-student-content .msedge-info-icon{
+  font-size: 1rem;
+}
+.msedge-student-content .fieldname-font-size, .msedge-admin-form-title p{
+  color: rgba(0, 0, 0, 0.85) !important;
+  font-weight: 500 !important;
+  font-size: 1rem !important;
+}
+
+.msedge-student-content .form-control{
+  color: rgba(0, 0, 0, 0.85) !important;
+  font-weight: 500 !important;
+  font-size: 1rem !important;
+}
+.msedge-addbtn{
+  right: 2%;
+}
+.msedge-lawschool-msg-icon{
+  position: relative;
+    bottom: 2.375rem;
+    left: 1.5625rem;
+    float: right;
+    color: #006ebd;
+    font-size: 1rem;
+}
+.msedge-lawschool-subject-icon{
+  position: relative;
+  bottom: 4rem;
+  left: 1.5625rem;
+  float: right;
+  color: #006ebd;
+  font-size: 1rem;
+}

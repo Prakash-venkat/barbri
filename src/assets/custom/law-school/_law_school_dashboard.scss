@@ -1,349 +1,324 @@
-.law-school-dashboard{
-    background: #eee;
-    .statics-wrapper{
-        padding-top: 0;
-        .count-field{
-            padding-bottom: 0px;
-            display: unset;
-            .first-sec{
-                margin-top: 0.5%;
-            }
-            .second-sec{
-               
-                .form-group{
-                    display: flex;
-                    float: right;
-                    margin-top: 25px;
-                    margin-bottom: 25px;
-                    margin-right: 10%;
-                    .form-control{
-                        width: 150px;
-                        color: #0e6aae;
-                    }
-                    .form-control:focus{
-                        border-color: #ced4da;
-                        box-shadow: unset;
-                    }
-                    label{
-                        margin-right: 10px;
-                        font-size: 16px;
-                        color: #000;
-                        padding-top: 7px;
-                    }
-                }
-            }
-        }
+.msedge-law-school-dashboard {
+  background: #eee;
+  .msedge-statics-wrapper {
+    padding-top: 0;
+
+    .msedge-card-layout{
+
     }
-    .performance-pie-chart{
-        .pie-chart{
-            display: flex;
-            margin-bottom: 30px;
-            height: 365px;
-            .subject-sec{
-                padding-top: 35px;
-                padding-left: 15px;
-                .sub-wise-perfor{
-                    .num{
-                        font-weight: 500;
-                    }
-                }
-            }
-            .inner-piechart-content{
-                top: 48%;
-                left: 50%;
-                transform: translateX(-50%) translateY(-50%);
-            }
-            .rightArrow{
-                right: 33px;
-            }
-        }
+  }
+  .msedge-performance-over-time {
+    // margin-bottom: 30px;
+    .msedge-legend-wrapper {
+      position: absolute;
+      display: flex;
+      left: 50%;
+      transform: translateX(-50%);
+      .msedge-first-item::before,
+      .msedge-second-item::before {
+        content: "aaa";
+        font-size: 0.4375rem;
+        margin-right: 10px;
+        margin-left: 10px;
+        position: relative;
+        top: -2.3px;
+      }
+      .msedge-second-item::before {
+        background-color: #006ebd;
+        color: #006ebd;
+      }
+      .msedge-first-item::before {
+        background-color: #0be365;
+        color: #0be365;
+      }
+      span {
+        font-size: 0.8525rem;
+      }
     }
-    .performance-over-time{
-        margin-bottom: 30px;
-        .head-section{
-            .heading-wrapper{
-                padding: 0 15px 0 0;
+  }
+
+  .msedge-precreated-card-header {
+    h2 {
+      color: #006ebd;
+      font-weight: 600;
+      font-size: 1.25rem;
+    }
+  }
+
+  .msedge-lawschool-overview-time-period{
+    white-space: nowrap;
+  }
+}
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+  .msedge-law-school-dashboard {
+    .msedge-performance-over-time {
+      .msedge-subject-over-time {
+        .msedge-legend-wrapper {
+          font-size: 0.625rem;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .msedge-law-school-dashboard {
+    .msedge-performance-over-time {
+      .msedge-subject-over-time {
+        .msedge-legend-wrapper {
+          font-size: 0.6875rem;
+          padding-right: 0;
+          .first-row,
+          .second-row {
+            div::before {
+              margin: 0 4px;
             }
+          }
         }
-        .recharts-default-legend{
-            text-align: center !important;
-        }
-        .legend-wrapper{
-            position: absolute;
-            display: flex;
-            left: 50%;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+  .msedge-law-school-dashboard {
+    .msedge-statics-wrapper {
+      .count-field {
+        display: flex;
+        flex-direction: column;
+        .msedge-second-sec {
+          .form-group {
+            position: unset;
+            right: unset;
+            padding-left: 15px;
+            margin-left: 50%;
             transform: translateX(-50%);
-            .first-item::before, .second-item::before, .third-item::before, .fourth-item::before,
-            .fiveth-item::before, .sixth-item::before, .seventh-item::before,.eighth-item::before{
-                content: "aaa";
-                font-size: 7px;
-                margin-right: 10px;
-                margin-left: 10px;
-                position: relative;
-                top: -2.3px;
-            }
-            .second-item::before{
-                background-color: #0e6aae;
-                color: #0e6aae;
-            }
-            .first-item::before{
-                background-color: #0be365;
-                color: #0be365;
-            }
+            width: 175px;
+          }
         }
-        .subject-over-time{
-            box-shadow: none;
-            .legend-wrapper{
-                display: block;
-                left: 0;
-                transform: translateX(50px);
-                font-size: 12px;
-                padding-right: 60px;
-                .second-row, .first-row{
-                    display: flex;
-                }
-                .first-item::before, .second-item::before, .third-item::before, .fourth-item::before,
-                .fiveth-item::before, .sixth-item::before, .seventh-item::before,.eighth-item::before{
-                    border-radius: 50%;
-                }
-                .first-item::before{
-                    background-color: #0be365;
-                    color: #0be365;
-                } 
-                .second-item::before{
-                    background-color: #0e6aae;
-                    color: #0e6aae;
-                } 
-                .third-item::before{
-                    background-color: #ff3399;
-                    color: #ff3399;
-                } 
-                .fourth-item::before{
-                    background-color: #82ca9d;
-                    color: #82ca9d;
-                }
-                .fiveth-item::before{
-                    background-color: #003300;
-                    color: #003300;
-                } 
-                .sixth-item::before{
-                    background-color: #ff6666;
-                    color: #ff6666;
-                } 
-                .seventh-item::before{
-                    background-color: #800000;
-                    color: #800000;
-                }
-                .eighth-item::before{
-                    background-color: #0099cc;
-                    color: #0099cc;
-                }
-            }
-            .legend-msg{
-                position: absolute;
-                right: 0;
-                text-align: right;
-                top: 10px;
-                font-size: 12px;
-                color: #0e6aae;
-                padding: 0;
-            }
-        }
+      }
     }
-    .exam-details{
-        padding: 0;
-        .block{
-            .wrapper{
-                height: 167px;
-            }
+    .msedge-performance-over-time {
+      .msedge-subject-over-time {
+        .msedge-legend-wrapper {
+          display: flex;
+          .first-row,
+          .second-row {
+            flex-direction: column;
+          }
         }
-        .block:nth-child(1){
-            margin-bottom: 31px;
+        .legend-msg {
+          display: none;
         }
+      }
+      .recharts-legend-wrapper {
+        padding-left: 0 !important;
+      }
     }
+    .msedge-school-statistics {
+      padding-top: 25px;
+    }
+  }
+  .msedge-inner-piechart-content {
+    top: 50% !important;
+  }
 }
-@media only screen and (max-width: 1199px) and (min-width: 992px){
-    .law-school-dashboard{
-        .performance-pie-chart{
-            .pie-chart{
-                .subject-sec{
-                }
-                .inner-piechart-content{
-                    transform: translateX(-60%) translateY(-50%);
-                }
-            }
-        }
-        .exam-details{
-            .block{
-                .wrapper{
-                    padding: 9px 0;
-                    height: 138px;
-                }
-            }
-            .block:nth-child(1){
-                margin-bottom: 25px;
-            }
-        }
-        .performance-pie-chart{
-            .pie-chart{
-                height: 301px;
-                .subject-sec{
-                    padding-top: 27px;
-                    .sub-wise-perfor{
-                        padding: 6px 8px 0 8px;
-                        font-size: 13px;
-                    }
-                }
-                .inner-piechart-content{
-                    transform: translateX(-60%) translateY(-27%);
-                }
-            }
-        }
-        .performance-over-time{
-            .subject-over-time{
-                .legend-wrapper{
-                    font-size: 10px;
-                }
-            }
-        }  
-    }
-}
-@media only screen and (max-width: 991px) and (min-width: 768px){
-    .law-school-dashboard{
-        .performance-pie-chart{
-            .pie-chart{
-                .subject-sec{
-                }
-                .inner-piechart-content{
-                    transform: translateX(-60%) translateY(-50%);
-                }
-            }
-        }
-        .exam-details{
-            .block{
-                .wrapper{
-                    height: 140px;
-                }
-            }
-            .block:nth-child(1){
-                margin-bottom: 19px;
-            }
-        }
-        .performance-pie-chart{
-            .pie-chart{
-                height: 300px;
-                .subject-sec{
-                    padding-top: 20px;
-                    .sub-wise-perfor{
-                        padding: 6px 8px 0 8px;
-                        font-size: 12px;
-                    }
-                }
-                .inner-piechart-content{
-                    transform: translateX(-66%) translateY(-25%);
-                }
-            }
-        }
-        .performance-over-time{
-            .subject-over-time{
-                .legend-wrapper{
-                    font-size: 11px;
-                    padding-right: 0;
-                    .first-row, .second-row{
-                        div::before{
-                            margin: 0 4px;
-                        }
-                    }
-                }
-            } 
-        } 
-    }
-}
-@media only screen and (max-width: 767px) and (min-width: 320px){
-    .law-school-dashboard{
-        .statics-wrapper{
-            .count-field{
-                display: flex;
-                flex-direction: column;
-                .second-sec{
-                    .form-group{
-                        position: unset;
-                        right: unset;
-                        padding-left: 15px;
-                        margin-left: 50%;
-                        transform: translateX(-50%);
-                        width: 175px;
-                    }
-                }
-            }
-        }
-        .performance-pie-chart{
-            .pie-chart{
-                flex-direction: column;
-                padding: 0;
-                height: unset;
-                .subject-sec{
-                    padding: 0;
-                }
-                .pie-chrt-head{
-                    padding: 20px;
-                }
-            } 
-        }
-        .performance-over-time{
-            .subject-over-time{
-                .legend-wrapper{
-                    display: flex;
-                    .first-row, .second-row{
-                        flex-direction: column;
-                    }
-                }
-                .legend-msg{
-                    display: none;
-                }
-            }
-            .recharts-legend-wrapper{
-                padding-left: 0 !important;
-            }
-        }
-    }
-}
-
 // Sep12 Styles
-.overview-text{
-    color: #0e6aae;
-    letter-spacing: 1px;
-    font-size: 24px;
-    font-weight: 300;
-    margin-bottom: 0.2em;
+.msedge-overview-text {
+  color: #006ebd;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
 }
-.overview-subtext{
-    font-weight: 300;
-    font-size: 14px;
-    color: #000;
-    letter-spacing: 1px;
-    text-transform: capitalize;
+.overview-subtext {
+  font-size: 1rem !important;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.85) !important;
 }
-
-.breadcrumb{
-    background-color: unset;
-    padding: 0.75rem 0;
+.breadcrumb {
+  background-color: unset;
+  padding: 0.75rem 0;
 }
-.Breadcrumb-section nav{
-    float: right;
+.Breadcrumb-section nav {
+  float: right;
 }
-
+.msedge-header-content .msedge-header-right {
+  justify-content: flex-end;
+  padding-right: 0px;
+}
+// .msedge-header-content .msedge-header-left {
+//   padding-top: 1%;
+// }
 // Top header
-.app-header__content .app-header-right{
-    justify-content: flex-end;
-    padding-right: 0px;
+.btn-primary {
+  color: #006ebd;
+  border-color: #006ebd;
+  background-color: unset;
+}
+.btn-primary:hover {
+  color: #fff;
+  border-color: #006ebd;
+  background-color: #006ebd;
+}
+.msedge-toggle-btn {
+  .monthly {
+    font-size: 0.854rem !important;
+    color: #fff;
+    border: 1px solid #006ebd;
+    padding: 0 26px;
+    height: 36px;
+    margin: 0;
+    margin-top: 3px;
+    background-color: #006ebd;
+  }
+  .weekly {
+    font-size: 0.854rem !important;
+    background-color: #fff;
+    color: #999;
+    border: 1px solid #999;
+    padding: 0 26px;
+    height: 36px;
+    margin: 0;
+    margin-top: 3px;
+  }
 }
 
-.top-section{
-    padding-bottom: 5%;
+@media (max-width: 1440px) {
+  .subject-over-time-btn h5 {
+    margin-left: 2.5rem !important;
+  }
+  .performanc-datepicker {
+    margin-right: 5% !important;
+    margin-left: 0% !important;
+  }
 }
 
-.app-header__content .app-header-left{
-    padding-top: 2%;
+@media (max-width: 2560px) {
+  .performanc-datepicker {
+    margin-left: 16%;
+  }
 }
-// Top header
+.performance-chart-lawschool-segment .apexcharts-datalabels-group {
+  display: none !important;
+}
+.performance-chart-lawschool-segment .msedge-radial-bar-main {
+  position: relative;
+}
+.performance-chart-lawschool-segment
+  .msedge-radial-bar-main
+  .msedge-radial-bar-value {
+  position: absolute;
+  top: 39%;
+  left: 48%;
+  color: green;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+.react-datepicker-ignore-onclickoutside {
+  font-size: 0.875rem !important;
+}
+.msedge-qa {
+  position: absolute;
+  top: 35%;
+  right: -11rem !important;
+  font-size: 1rem !important;
+  transform: rotate(90deg);
+  transform-origin: left top 0;
+}
+.msedge-percent-mark {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  font-size: 1.0625rem !important;
+}
+.text-secondary {
+  margin-right: 10px;
+  font-size: 1.125rem !important;
+  color: #000000ad !important;
+  padding-top: 10px;
+}
+
+.msedge-lawschool-chart {
+  border-right: 1px solid #dee2e6 !important;
+}
+.msedge-lawschool-overview-precreatedexam-chart-bar-value {
+  .msedge-lawschool-overview-precreatedexam-chart-bar-value-percentage {
+    position: absolute;
+    left: 50% !important;
+    margin-left: -12px;
+    top: 50% !important;
+    margin-top: -25px;
+    color: green;
+    font-size: 1.125rem;
+    font-weight: 600;
+  }
+
+  .msedge-lawschool-overview-precreatedexam-chart-bar-value-average-score {
+    position: absolute;
+    left: 50% !important;
+    margin-left: -30px !important;
+    top: 50% !important;
+    margin-top: -6px !important;
+    font-weight: 500;
+    text-align: center;
+    font-size: 1rem !important;
+    color: rgba(0, 0, 0, 0.85) !important;
+  }
+}
+.monthly-progress-student{
+     .precreated-information{
+            font-size: 1rem;
+            font-weight: 500;
+        }
+                    .msedge-info-icon-precreate{
+                  bottom: 1.875rem;
+    left: 1.5625rem;
+    color: #70a7cf;
+            }
+      }
+
+.msedge-subjcts {
+  margin: 0px;
+  padding: 8px 7px;
+  background-color: rgb(246, 246, 246);
+  color: rgb(0, 112, 192);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.msedge-lawschool-precreatedexam-segment {
+  .msedge-radial-bar-value {
+    color: green;
+    font-size: 18px;
+    font-weight: 600;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 50% !important;
+    margin-left: -45px;
+    top: 52% !important;
+    margin-top: -20px;
+  }
+}
+
+.msedge-lawschool-overview-no-data-found-segment{
+  padding: 42px 0;
+   font-size: 1rem;
+    font-weight: 500;
+}
+.msedge-no-of-questions-answered {
+  font-size: 1rem !important;
+  color: rgba(0, 0, 0, 0.85) !important;
+  font-weight: 500 !important;
+}
+.msedge-overview-content-header{
+  font-size: 18px;
+  font-weight: 600;
+}
+.lawschool-statistics-card-one{
+  padding: 25px 25px 25px 25px !important;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  min-height: 165px;
+}

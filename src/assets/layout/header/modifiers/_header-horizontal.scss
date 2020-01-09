@@ -1,7 +1,7 @@
 // Header Horizontal
 
 .app-horizontal-header-layout {
-  .app-header__logo {
+  .msedge-header-logo {
     width: auto;
   }
 
@@ -9,7 +9,7 @@
     margin-left: 0.5rem;
   }
 
-  .app-header-right {
+  .msedge-header-right {
     .header-btn-lg:first-child {
       &::before {
         display: none;
@@ -51,7 +51,7 @@
 
         .metismenu-icon {
           margin-right: 0.5rem;
-          opacity: .6;
+          opacity: 0.6;
         }
       }
 

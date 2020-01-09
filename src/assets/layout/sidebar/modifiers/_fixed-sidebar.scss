@@ -1,63 +1,52 @@
 // Fixed Sidebar
 
-.fixed-sidebar {
-  .app-sidebar {
+.msedge-fixed-sidebar {
+  .msedge-sidebar {
     position: fixed;
     bottom: 0;
     top: 0;
   }
 
-  .app-main {
-
-    .app-main__outer {
+  .msedge-main {
+    .msedge-main-outer {
       z-index: 9;
       padding-left: $app-sidebar-width;
-    }
-
-  }
-
-  &.fixed-header {
-    .app-sidebar {
-      .app-header__logo {
-      }
+      // padding-left:0;
     }
   }
 
-  &:not(.fixed-header) {
-    .app-sidebar {
-      .app-header__logo {
+  &:not(.msedge-fixed-header) {
+    .msedge-sidebar {
+      .msedge-header-logo {
         display: flex;
       }
     }
 
     .app-header {
-
       margin-left: $app-sidebar-width;
 
-      .app-header__logo {
+      .msedge-header-logo {
         display: none;
       }
     }
 
-    .app-main {
+    .msedge-main {
       //z-index: 12;
     }
   }
 
   &.closed-sidebar {
-    &:not(.fixed-header) {
-
+    &:not(.msedge-fixed-header) {
       .app-header {
         margin-left: $app-sidebar-width-collapsed;
       }
 
-      .app-sidebar {
-
-        .app-header__logo {
+      .msedge-sidebar {
+        .msedge-header-logo {
           width: $app-sidebar-width-collapsed;
           padding: 0;
 
-          .logo-src {
+          .msedge-logo {
             display: none;
           }
 

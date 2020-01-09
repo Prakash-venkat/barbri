@@ -6,7 +6,7 @@ const TerserPlugin = require('terser-webpack-plugin')
 module.exports = () => ({
     devtool: "nosource-source-map",
     output: {
-        filename: "production.js"
+        filename: 'production.[hash].js'
     },
     optimization: {
         minimizer: [
@@ -30,5 +30,7 @@ module.exports = () => ({
     // resolve: {
     //     extensions: ['*', '.scss', '.css'],
     //   },
-    plugins: [new MiniCssExtractPlugin()]
+    plugins: [new MiniCssExtractPlugin({
+        filename: `main[hash].css`
+    })]
 });

@@ -2,37 +2,30 @@
 
 // Variables
 
-$app-container-bg: #ffffff;
-$app-sidebar-bg: #ffffff;
+$app-container-bg: #eeeeee;
+$msedge-sidebar-bg: #ffffff;
 $app-header-bg: #ffffff;
 
 // $app-header-bg: #fafbfc;
-$app-header-logo-bg: rgba(255, 255, 255, .9);
+$app-header-logo-bg: rgba(255, 255, 255, 0.9);
 
 // Content
 
-.app-theme-white {
-
-  &.app-container {
+.msedge-bg-white {
+  &.msedge-container {
     background: $app-container-bg;
   }
 
-  .app-sidebar {
+  .msedge-sidebar {
     background: #f6f6f6;
   }
 
-  .app-page-title {
-    background: rgba(255, 255, 255, .55);
+  .msedge-title {
+    background: rgba(255, 255, 255, 0.55);
   }
 
-  .app-footer .app-footer__inner,
+  .msedge-footer .msedge-footer-inner,
   .app-header {
     background: $app-header-bg;
   }
-
-  &.fixed-header {
-    .app-header__logo {
-    }
-  }
-
 }

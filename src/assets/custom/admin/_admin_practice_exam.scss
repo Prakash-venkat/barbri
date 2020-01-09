@@ -1,29 +1,62 @@
+.msedge-precreated-exam-main {
+  .msedge-practice-exam-field{
+    width: 80%;
+    margin:0 auto;
+  }
 
-.practice-exam{
-.practice-exam-center{
-     width: 85%;
-        margin: 0 auto;
+  .precreated-exam-taglist{
+    border-bottom: 1px solid #ccc;
+    padding:15px 35px;
+  }
+  .msedge-precreatedexam-subjecttype-toggle{
+    font-weight: bold;
+  }
+  input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
 }
-.practice-exam-text{
-        width: 80%;
-        margin: 0 auto;
-    }
-.exam-space{
-        margin-bottom: 1%;
-    }
-    .info-icon{
-    position: relative;
-    bottom: 30px;
-    left: 25px;
-    float: right;
-    color: #70a7cf
+
+input[type=number] {
+  -moz-appearance:textfield;
 }
-h6{
-        color: $primary;
-       // margin: 30px 0;
-        font-weight: 500;
+}
+
+.msedge-precreatedexam-list-segment-main{
+  .msedge-precreatedexam-table-shakefix{
+    min-height: 400px;
+  }
+}
+.pre_created_popup_width{
+  max-width: 1150px !important;
+}
+.pre_created_card{
+  border-radius: 8px !important;
+  background: white;
+}
+.pre-created-accordion{
+  width: 97%;
+}
+.pre_created_popup_width{
+  .msedge-form-control-onsearch {
+    padding: 0.14rem 2.5rem 0.14rem 0.75rem !important;
+    font-size: 1rem !important;
+  }
+  .no-data-found{
+    font-size: 1.1rem;
+  }
+  .pre-created-popup-question{
+    p{
+      margin: 0 !important;
     }
-    .row-space{
-        margin-bottom: 1%;
-    }
+  }
+}
+.pre-create-card-header{
+  width: 1146px;
+}
+.pre-created-model-header{
+  padding-bottom: 0 !important;
+}
+.pre-created-question-running-count{
+  font-size: 1.2rem;
 }

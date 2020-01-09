@@ -1,260 +1,756 @@
-.student-dashboard{
-    background: #eee;
-    .performance-pie-chart{
-        .pie-chart{
-            display: flex;
-            margin-bottom: 30px;
-            height: 365px;
-            .subject-sec{
-                padding-top: 35px;
-                padding-left: 15px;
-                .sub-wise-perfor{
-                    .num{
-                        font-weight: 500;
-                    }
-                }
-            }
-            .inner-piechart-content{
-                top: 48%;
-                left: 50%;
-                transform: translateX(-50%) translateY(-50%);
-            }
-            .rightArrow{
-                right: 33px;
-            }
+.msedge-student-dashboard {
+  background: #eee;
+  .msedge-pie-chart {
+    display: flex;
+    margin-bottom: 0;
+    .msedge-subject-sec {
+      padding-top: 35px;
+      padding-left: 15px;
+      .msedge-sub-wise-perfor {
+        .msedge-num {
+          font-weight: 500 !important;
         }
+      }
     }
-    .performance-over-time{
-        margin-bottom: 30px;
-        .head-section{
-            .heading-wrapper{
-                padding: 0 15px 0 0;
-            }
-        }
-        .recharts-default-legend{
-            text-align: center !important;
-        }
-        .legend-wrapper{
-            position: absolute;
-            display: flex;
-            left: 50%;
-            transform: translateX(-50%);
-            .first-item::before, .second-item::before, .third-item::before, .fourth-item::before,
-            .fiveth-item::before, .sixth-item::before, .seventh-item::before,.eighth-item::before{
-                content: "aaa";
-                font-size: 7px;
-                margin-right: 10px;
-                margin-left: 10px;
-                position: relative;
-                top: -2.3px;
-            }
-            .second-item::before{
-                background-color: #0e6aae;
-                color: #0e6aae;
-            }
-            .first-item::before{
-                background-color: #0be365;
-                color: #0be365;
-            }
-        }
-        .subject-over-time{
-            box-shadow: none;
-            .legend-wrapper{
-                display: block;
-                left: 0;
-                transform: translateX(50px);
-                font-size: 12px;
-                padding-right: 60px;
-                .second-row, .first-row{
-                    display: flex;
-                }
-                .first-item::before, .second-item::before, .third-item::before, .fourth-item::before,
-                .fiveth-item::before, .sixth-item::before, .seventh-item::before,.eighth-item::before{
-                    border-radius: 50%;
-                }
-                .first-item::before{
-                    background-color: #0be365;
-                    color: #0be365;
-                } 
-                .second-item::before{
-                    background-color: #0e6aae;
-                    color: #0e6aae;
-                } 
-                .third-item::before{
-                    background-color: #ff3399;
-                    color: #ff3399;
-                } 
-                .fourth-item::before{
-                    background-color: #82ca9d;
-                    color: #82ca9d;
-                }
-                .fiveth-item::before{
-                    background-color: #003300;
-                    color: #003300;
-                } 
-                .sixth-item::before{
-                    background-color: #ff6666;
-                    color: #ff6666;
-                } 
-                .seventh-item::before{
-                    background-color: #800000;
-                    color: #800000;
-                }
-                .eighth-item::before{
-                    background-color: #0099cc;
-                    color: #0099cc;
-                }
-            }
-            .legend-msg{
-                position: absolute;
-                right: 0;
-                text-align: right;
-                top: 10px;
-                font-size: 12px;
-                color: #0e6aae;
-                padding: 0;
-            }
-        }
+    .msedge-inner-piechart-content {
+      top: 46%;
+      left: 51%;
+      transform: translateX(-50%) translateY(-50%);
     }
-    .exam-details{
+    span {
+      font-size: 1rem !important;
+      font-weight: 500;
+    }
+    p {
+      font-size: 1rem !important;
+      font-weight: 500;
+    }
+  }
+  .msedge-subject-outline {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 15px 0 20px 0;
+    margin-bottom: 20px;
+  }
+  .msedge-performance-over-time {
+    margin-bottom: 1.875rem;
+    .msedge-head-section {
+      .heading-wrapper {
+        padding: 0 15px 0 0;
+      }
+    }
+    .recharts-default-legend {
+      text-align: center !important;
+    }
+    .msedge-legend-wrapper {
+      position: absolute;
+      display: flex;
+      left: 50%;
+      transform: translateX(-50%);
+      .msedge-first-item::before,
+      .msedge-second-item::before,
+      .third-item::before,
+      .fourth-item::before,
+      .fiveth-item::before,
+      .sixth-item::before,
+      .seventh-item::before,
+      .eighth-item::before {
+        content: "aaa";
+        font-size: 0.4375rem;
+        margin-right: 10px;
+        margin-left: 10px;
+        position: relative;
+        top: -2.3px;
+      }
+      .msedge-second-item::before {
+        font-size: 0.45rem;
+        background-color: #006ebd;
+        color: #006ebd;
+      }
+      .msedge-first-item::before {
+        font-size: 0.45rem;
+        background-color: #0be365;
+        color: #0be365;
+      }
+      span {
+        font-size: 1rem;
+        font-weight: 500;
+      }
+    }
+    .msedge-subject-over-time {
+      box-shadow: none;
+      .msedge-legend-wrapper {
+        display: block;
+        left: 0;
+        transform: translateX(50px);
+        font-size: 12px;
+        padding-right: 60px;
+        .second-row,
+        .first-row {
+          display: flex;
+        }
+        .msedge-first-item::before,
+        .msedge-second-item::before,
+        .third-item::before,
+        .fourth-item::before,
+        .fiveth-item::before,
+        .sixth-item::before,
+        .seventh-item::before,
+        .eighth-item::before {
+          border-radius: 50%;
+        }
+        .msedge-first-item::before {
+          background-color: #006ebd;
+          color: #006ebd;
+        }
+        .msedge-second-item::before {
+          background-color: #006ebd;
+          color: #006ebd;
+        }
+        .third-item::before {
+          background-color: #ff3399;
+          color: #ff3399;
+        }
+        .fourth-item::before {
+          background-color: #82ca9d;
+          color: #82ca9d;
+        }
+        .fiveth-item::before {
+          background-color: #003300;
+          color: #003300;
+        }
+        .sixth-item::before {
+          background-color: #ff6666;
+          color: #ff6666;
+        }
+        .seventh-item::before {
+          background-color: #800000;
+          color: #800000;
+        }
+        .eighth-item::before {
+          background-color: #0099cc;
+          color: #0099cc;
+        }
+      }
+      .legend-msg {
+        position: absolute;
+        right: 0;
+        text-align: right;
+        top: 10px;
+        font-size: 12px;
+        color: #006ebd;
         padding: 0;
-        .block{
-            .wrapper{
-                height: 167px;
-            }
-        }
-        .block:nth-child(1){
-            margin-bottom: 31px;
-        }
+      }
     }
+  }
+  .msedge-exam-details {
+    padding: 0;
+    .msedge-block:nth-child(1) {
+      margin-bottom: 30px;
+    }
+  }
 }
-@media only screen and (max-width: 1199px) and (min-width: 992px){
-    .student-dashboard{
-        .performance-pie-chart{
-            .pie-chart{
-                .subject-sec{
-                }
-                .inner-piechart-content{
-                    transform: translateX(-60%) translateY(-50%);
-                }
-            }
-        }
-        .exam-details{
-            .block{
-                .wrapper{
-                    padding: 9px 0;
-                    height: 138px;
-                }
-            }
-            .block:nth-child(1){
-                margin-bottom: 25px;
-            }
-        }
-        .performance-pie-chart{
-            .pie-chart{
-                height: 301px;
-                .subject-sec{
-                    padding-top: 27px;
-                    .sub-wise-perfor{
-                        padding: 6px 8px 0 8px;
-                        font-size: 13px;
-                    }
-                }
-                .inner-piechart-content{
-                    transform: translateX(-60%) translateY(-27%);
-                }
-            }
-        }
-        .performance-over-time{
-            .subject-over-time{
-                .legend-wrapper{
-                    font-size: 10px;
-                }
-            }
-        }  
-    }
+.msedge-pie-chart {
+  h2 {
+    font-weight: 600;
+    font-size: 1.25rem;
+  }
+  span {
+    font-size: 0.875rem;
+  }
 }
-@media only screen and (max-width: 991px) and (min-width: 768px){
-    .student-dashboard{
-        .performance-pie-chart{
-            .pie-chart{
-                .subject-sec{
-                }
-                .inner-piechart-content{
-                    transform: translateX(-60%) translateY(-50%);
-                }
-            }
-        }
-        .exam-details{
-            .block{
-                .wrapper{
-                    height: 140px;
-                }
-            }
-            .block:nth-child(1){
-                margin-bottom: 19px;
-            }
-        }
-        .performance-pie-chart{
-            .pie-chart{
-                height: 300px;
-                .subject-sec{
-                    padding-top: 20px;
-                    .sub-wise-perfor{
-                        padding: 6px 8px 0 8px;
-                        font-size: 12px;
-                    }
-                }
-                .inner-piechart-content{
-                    transform: translateX(-66%) translateY(-25%);
-                }
-            }
-        }
-        .performance-over-time{
-            .subject-over-time{
-                .legend-wrapper{
-                    font-size: 11px;
-                    padding-right: 0;
-                    .first-row, .second-row{
-                        div::before{
-                            margin: 0 4px;
-                        }
-                    }
-                }
-            } 
-        } 
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+  .msedge-student-dashboard {
+    .pie-chart {
+      .msedge-inner-piechart-content {
+        transform: translateX(-60%) translateY(-50%);
+      }
     }
+    .msedge-exam-details {
+      .msedge-block {
+        .msedge-wrapper {
+          padding: 9px 0;
+          height: 138px;
+        }
+      }
+      .msedge-block:nth-child(1) {
+        margin-bottom: 25px;
+      }
+    }
+    .pie-chart {
+      height: 301px;
+      .msedge-subject-sec {
+        padding-top: 27px;
+        .msedge-sub-wise-perfor {
+          padding: 6px 8px 0 8px;
+          font-size: 13px;
+        }
+      }
+      .msedge-inner-piechart-content {
+        transform: translateX(-60%) translateY(-27%);
+      }
+    }
+    .msedge-performance-over-time {
+      .msedge-subject-over-time {
+        .msedge-legend-wrapper {
+          font-size: 10px;
+        }
+      }
+    }
+  }
 }
-@media only screen and (max-width: 767px) and (min-width: 320px){
-    .student-dashboard{
-        .performance-pie-chart{
-            .pie-chart{
-                flex-direction: column;
-                padding: 0;
-                height: unset;
-                .subject-sec{
-                    padding: 0;
-                }
-                .pie-chrt-head{
-                    padding: 20px;
-                }
-            } 
-        }
-        .performance-over-time{
-            .subject-over-time{
-                .legend-wrapper{
-                    display: flex;
-                    .first-row, .second-row{
-                        flex-direction: column;
-                    }
-                }
-                .legend-msg{
-                    display: none;
-                }
-            }
-            .recharts-legend-wrapper{
-                padding-left: 0 !important;
-            }
-        }
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .msedge-student-dashboard {
+    .pie-chart {
+      .msedge-inner-piechart-content {
+        transform: translateX(-60%) translateY(-50%);
+      }
     }
+    .msedge-exam-details {
+      .msedge-block:nth-child(1) {
+        margin-bottom: 19px;
+      }
+    }
+    .pie-chart {
+      height: 325px;
+      .msedge-subject-sec {
+        padding-top: 20px;
+        .msedge-sub-wise-perfor {
+          padding: 6px 8px 0 8px;
+          font-size: 12px;
+        }
+      }
+      .msedge-inner-piechart-content {
+        transform: translateX(-66%) translateY(-25%);
+      }
+    }
+
+    .msedge-performance-over-time {
+      .msedge-subject-over-time {
+        .msedge-legend-wrapper {
+          font-size: 11px;
+          padding-right: 0;
+          .first-row,
+          .second-row {
+            div::before {
+              margin: 0 4px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .msedge-statics-wrapper .msedge-block-wrapper h5 {
+    font-size: 10px !important;
+  }
+  .msedge-card-layout .msedge-first-section p,
+  .msedge-card-layout .msedge-second-section p {
+    font-size: 10px !important;
+  }
+}
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+  .msedge-student-dashboard {
+    .pie-chart {
+      flex-direction: column;
+      padding: 0;
+      height: unset;
+      .msedge-subject-sec {
+        padding: 0;
+      }
+      .pie-chrt-head {
+        padding: 20px;
+      }
+
+      .msedge-inner-piechart-content {
+        top: 50%;
+        left: 50%;
+      }
+      .pie-chart-graph {
+        height: 240px !important;
+      }
+    }
+    .msedge-performance-over-time {
+      .msedge-subject-over-time {
+        .msedge-legend-wrapper {
+          display: flex;
+          .first-row,
+          .second-row {
+            flex-direction: column;
+          }
+        }
+        .legend-msg {
+          display: none;
+        }
+      }
+      .recharts-legend-wrapper {
+        padding-left: 0 !important;
+      }
+    }
+  }
+
+  .subject-over-time-btn h5 {
+    margin-left: 6rem !important;
+  }
+  .msedge-performance-over-time h4 {
+    text-align: center;
+    margin-left: unset !important;
+  }
+}
+// Das
+.rt-resizable-header-content {
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  color: rgba(0, 0, 0, 0.85) !important;
+}
+.recharts-cartesian-axis-ticks {
+  font-size: 0.875rem !important;
+}
+.ReactTable .-pagination .-btn {
+  font-size: 1rem !important;
+  font-weight: 500;
+}
+.ReactTable .-pagination .-pageInfo {
+  display: unset;
+  height: unset;
+  font-size: 1rem !important;
+}
+.select-wrap {
+  font-size: 1rem !important;
+}
+.msedge-toggle-btn {
+  .monthly {
+    color: #fff;
+    border: 1px solid #006ebd;
+    padding: 0 26px;
+    height: 36px;
+    margin: 0;
+    margin-top: 3px;
+    background-color: #006ebd;
+  }
+  .weekly {
+    background-color: #fff;
+    color: #999;
+    border: 1px solid #999;
+    padding: 0 26px;
+    height: 36px;
+    margin: 0;
+    margin-top: 3px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .subject-datepicker {
+    margin-left: 5% !important;
+  }
+  .subject-over-time-btn h5 {
+    margin-left: 2.5rem;
+  }
+  .performanc-datepicker {
+    margin-right: 5% !important;
+    margin-left: 0% !important;
+  }
+}
+
+@media (max-width: 1920px) {
+  .subject-datepicker {
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 2560px) {
+  .subject-datepicker {
+    margin-left: 20%;
+  }
+  .performanc-datepicker {
+    margin-left: 16%;
+  }
+}
+@media (max-width: 425px) {
+  .msedge-examreport-download{
+    top: 28px;
+  }
+  .subject-datepicker {
+    margin-left: 0% !important;
+  }
+  .msedge-overview-chartresponce {
+    margin-left: unset !important;
+    margin-right: unset !important;
+  }
+
+  .msedge-student-subovertime {
+    margin-left: unset !important;
+  }
+
+  .msedge-progrss-allsub {
+    text-align: center;
+  }
+  .msedge-reponsive-performance{
+    text-align: center;
+  }
+  .msedge-students-overview-custom-legend-segment-right{
+    top: 95% !important;
+    font-size: 0.75rem !important;
+  }
+  .msedge-students-overview-custom-legend-segment-left{
+    font-size: 0.75rem !important;
+    right: -60px !important;
+  }
+}
+.msedge-performance-chart-students-segment .msedge-radial-bar-main {
+  position: relative;
+}
+
+.msedge-performance-chart-students-segment
+  .msedge-radial-bar-main
+  .msedge-radial-bar-value {
+  position: absolute;
+  top: 39%;
+  left: 46%;
+  color: green;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.msedge-performance-chart-students-segment .msedge-no-of-questions-answered {
+  text-align: center;
+  font-size: 1.125rem;
+  padding: 0;
+  margin: 0;
+}
+.msedge-students-bar-value {
+  position: absolute;
+  left: 43%;
+  top: 37%;
+  font-size: 18px;
+  font-weight: 600;
+}
+.msedge-performance-chart-students-segment .msedge-radial-bar-main {
+  display: block !important;
+  .apexcharts-datalabel-value {
+    fill: $primary !important;
+  }
+}
+@media (min-width: 769px) {
+  .msedge-examreport-download{
+    top: 28px;
+  }
+  .msedge-performance-chart-students-segment {
+    // .msedge-students-radialbar {
+    //   padding-top: 90px;
+    // }
+    .msedge-students-bar-value {
+      position: absolute;
+      left: 45%;
+      top: 45%;
+      color: green;
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+}
+@media (min-width: 1600px) {
+  .msedge-performance-chart-students-segment {
+    .msedge-students-bar-value {
+      left: 47%;
+      top: 45%;
+    }
+  }
+}
+@media (min-width: 1800px) {
+  .msedge-performance-chart-students-segment {
+    .msedge-students-bar-value {
+      left: 48%;
+      top: 45%;
+    }
+  }
+}
+
+.msedge-card-layout h2 {
+  color: $dashbord-heading-color;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: initial;
+}
+.msedge-card-layout {
+  h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.85) !important;
+  }
+  p {
+    font-size: 0.875rem !important;
+  }
+}
+
+.msedge-subject-outline h2 {
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 24px;
+}
+.msedge-head-section h2 {
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 24px;
+}
+.msedge-exam-reports h2 {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 24px;
+  margin-left: 1rem;
+}
+.msedge-breadcrumb-section {
+  a {
+    svg {
+      font-size: 0.875rem !important;
+    }
+  }
+  li {
+    font-size: 0.875rem !important;
+  }
+}
+.msedge-exam-details {
+  span.msedge-num {
+    font-size: 1.5625rem !important;
+  }
+  span.msedge-heading {
+    font-size: 1rem !important;
+  }
+  span.msedge-msg {
+    font-size: 0.875rem !important;
+  }
+  svg {
+    font-size: 1rem !important;
+  }
+}
+// Das
+.month-week-active {
+  font-size: 0.854rem !important;
+  border: 1px solid #006ebd !important;
+  background: #006ebd;
+  color: #fff !important;
+  padding: 0 26px !important;
+  height: 36px !important;
+  margin: 0 !important;
+  margin-top: 3px !important;
+}
+.month-week {
+  font-size: 0.854rem !important;
+  border: 1px solid rgb(153, 153, 153) !important;
+  color: rgb(153, 153, 153) !important;
+  background: #fff !important;
+  color: #006ebd !important;
+  padding: 0 26px !important;
+  height: 36px !important;
+  margin: 0 !important;
+  margin-top: 3px !important;
+}
+.msedge-qa {
+  position: absolute;
+  top: 35%;
+  right: -11rem !important;
+  font-size: 1rem !important;
+  transform: rotate(90deg);
+  transform-origin: left top 0;
+}
+.msedge-percent-mark {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  font-size: 1.0625rem !important;
+}
+.react-datepicker-ignore-onclickoutside {
+  font-size: 0.875rem !important;
+}
+
+.msedge-student-segment-overview {
+  .msedge-overview-content-header-main {
+    color: #006ebd;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: initial;
+  }
+}
+
+.msedge-student-segment-overview {
+  .msedge-overview-content-header {
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+.msedge-overview-chartresponce {
+  margin-left: 3rem;
+  margin-right: 1rem;
+}
+.msedge-student-subovertime {
+  margin-left: 3rem;
+}
+
+.msedge-student-overview-segment-all-subjects {
+  .msedge-lawschool-bar-value {
+    position: absolute;
+    top: 50% !important;
+    left: 50% !important;
+    color: green;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
+.msedge-overview-exam-reports {
+  font-size: 1rem;
+  font-weight: 500;
+  .card-header{
+        .nav{
+          width: 100% !important;
+             display: block !important;
+          flex-wrap: wrap-reverse !important;
+         }
+    }
+   .card-header > .nav .nav-item{
+     float: left !important;
+   }
+}
+
+.msedge-student-dashboard .prt-4 {
+  padding-right: 0px;
+}
+
+.msedge-student-overview-examreview {
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.msedge-student-dashboard .msedge-overview-exam-reports .table {
+  color: rgba(0, 0, 0, 0.85) !important;
+}
+
+.msedge-students-overview-question-progress{
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 5px;
+  padding: 5px 0 17px 0;
+}
+
+.msedge-students-overview-question-progress:last-child{
+  border-bottom: none;
+}
+
+.msedge-students-overview-question-progress-subjectname{
+  color:#006EBD;
+}
+
+.msedge-questions-overview-question-progress-answered-questions{
+  font-size: 1rem;
+    font-weight: 500;
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+
+.msedge-student-examperform{
+  padding-top: 1rem !important;
+}
+.ptb-16 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.msedge-student-report{
+  margin-top: 0.5%;
+}
+.msedge-overview-exam-reports span:last-child{
+  font-weight: bold;
+}
+
+.msedge-students-overview-custom-legend-segment-left{
+  position: absolute;
+  top: 45%;
+  font-size: 1rem;
+  font-weight: 500;
+  transform: rotate(-90deg);
+  right: -80px;
+ 
+.msedge-students-overview-custom-legend-left{
+    height: 10px;
+    width: 10px;
+    background-color:#0AE364;
+    display: inline-block;
+    margin-right: 8px;
+  }
+}
+ 
+.msedge-students-overview-custom-legend-segment-right{
+  position: absolute;
+  top: 75%;
+  left: 1%;
+  font-size: 1rem;
+  font-weight: 500;
+  transform: rotate(-90deg);
+  transform-origin: left top 0;
+}
+ 
+.msedge-students-overview-custom-legend-right{
+  height: 10px;
+  width: 10px;
+  background-color:#006DBD;
+  display: inline-block;
+  margin-right: 8px;
+
+}
+
+.msedge-overview-report{
+  box-shadow: unset;
+  border: 1px solid #efefef;
+}
+.msedge-overview-report:hover{
+  box-shadow: 0px 0px 25px 10px #ccc;
+}
+// 12 Nov Stutent module border-radious unset
+.msedge-student-dashboard .msedge-statics-wrapper .msedge-block-wrapper, 
+.msedge-student-dashboard .msedge-pie-chart, 
+.msedge-student-dashboard .msedge-performance-over-time, 
+.msedge-student-overview-examreview, .msedge-overview-report, 
+.msedge-student-qus-container .card,
+.msedge-practice-questions .msedge-ques-subject-topics .subject-accord,
+.msedge-practice-questions .msedge-ques-subject-topics .Collapsible,
+.msedge-question-and-answers .msedge-mcq-section .msedge-question-choice-section,
+.msedge-monthly-progress-questions.pie-chart .card,
+.exam-practice-container .card,
+.msedge-practice-questions .pre-create .row .msedge-open-update-list, .color-box,
+.msedge-qa-bg-container,
+.msedge-mcq-section .msedge-performance-settings .timer-tab .timer, .timer-tab-questions,
+.msedge-mcq-section .msedge-performance-settings .settings-tab .font-size,
+.msedge-mcq-section .msedge-performance-settings .settings-tab .short-cuts,
+.msedge-mcq-section .msedge-performance-settings .settings-tab .highlight,
+.modal-content,
+.msedge-timing-performance-timetakenforexam-main,
+.card-header:first-child,
+.msedge-settings .border.card, .msedge-main-card.card, .msedge-general-settings .card,
+.msedge-message-head .card,
+.card.msedge-cardsec
+{
+  border-radius: unset !important;
+}
+
+.msedge-question-progress-align-self-tag{
+  position: relative;
+  align-self:center
+}
+@media screen and (max-width: 480px){
+  .msedge-student-dashboard .msedge-statics-wrapper .msedge-block-wrapper{
+    padding: 25px 25px 25px 25px !important;
+  }
+  .msedge-card-layout .msedge-second-section{
+    margin-top: 0.8rem !important;
+  }
+  #allBatch.form-control{
+    padding: 0.375rem 0.50rem;
+  }
+  .msedge-students-overview-question-progress-subjectname{
+    margin-bottom: 0px;
+    margin-top: 8px;
+  }
+  .msedge-student-dashboard .custom-tooltip, .msedge-law-school-dashboard .custom-tooltip{
+    z-index: 10;
+    width: 250px;
+  }
+  .recharts-tooltip-wrapper.recharts-tooltip-wrapper-left.recharts-tooltip-wrapper-top{
+
+    z-index: 10 !important;
+  }
 }

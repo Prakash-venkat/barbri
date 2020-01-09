@@ -1,0 +1,17 @@
+image: node:10.15.1
+pipelines:
+  default: # Pipelines that are triggered manually via the Bitbucket GUI
+      - step:
+          name: Build
+          script:
+          - npm
+          - npm run prod
+          artifacts: # defining build/ as an artifact
+          - build/**
+      - step:
+          name: Deploy
+          script:
+            - apt-get update
+            - apt-get install ncftp
+            - ncftpput -v -u "$FTP_USERNAME" -p "$FTP_PASSWORD" -R //199.217.116.51/
+            - echo Finished uploading /build files to 

@@ -1,0 +1,199 @@
+.msedge-student-exam-reports {
+  .msedge-exam-reports-inner {
+    background-color: white;
+    margin-top: 30px;
+  }
+  // td {
+  //   width: 20% !important;
+  // }
+  .msedge-delete-icon,
+  .msedge-download-icon {
+    cursor: pointer;
+    font-size: 20px;
+  }
+}
+
+.ant-table-row-expand-icon-cell {
+  padding: 0 !important;
+  width: 96px !important;
+  a {
+    color: #006ebd !important;
+  }
+}
+.review-icon {
+  margin-left: 5px;
+  // color: #083f67 !important;
+  // color: #006EBD !important
+}
+.review-icon-down {
+  margin-left: 7px;
+  // color: #083f67 !important;
+  // color: #006EBD !important
+}
+.review-option {
+  padding: 13px 28px !important;
+  h4 {
+    color: #b8b6b6;
+  }
+}
+// .exam-details-review{
+//   padding-bottom: 12px !important;
+// }
+.msedge-exam-final-report
+  .ant-table-tbody
+  .ant-table-expanded-row
+  td
+  .card
+  .card-body
+  .choices
+  .row {
+  border-top: none !important;
+}
+.ant-table-thead > tr > th .anticon-filter,
+.ant-table-thead > tr > th .ant-table-filter-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 15px !important;
+  height: 100%;
+  color: #006ebd !important;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+
+.msedge-timing-performance-accordian-back {
+  background-color: #efefef;
+}
+.timingsubjectDetails{
+  background-color: #fff !important;
+  font-weight: 300;
+
+}
+.timingsubjectDetails .msedge-exam-topics{
+  font-size: 15px !important;
+}
+
+.msedge-examreport-examname{
+  font-weight: 500;
+  color: #006ebd;
+  font-size: 1rem;
+}
+.main-card-report{
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.exams-details-with-date{
+  // border-bottom: 1px solid #ccc;
+  padding: 5px;
+  background-color: #f6f6f6;
+  .score{
+      color: #ada9a9;
+  }
+  .persentage{
+      font-size: 1.6rem;
+      color: #fff;
+  }
+
+}
+.header-section{
+  border-bottom: 1px solid #f6f6f6;
+  padding: 5px 0;
+  background: #417eb3;
+  // border-radius: 10px 10px 0px 0px
+}
+.progress-bar-section{
+  // padding: 10px 0px 10px 0px;
+  padding: 15px 0px 0px 0px;
+}
+.score-title{
+margin-top: 14px;
+}
+.content-title{
+  color: #fff !important
+}
+.data-content{
+  color: #fff;
+}
+.correct-answers-section{
+  // border-bottom: 1px solid #ccc;
+}
+.questio-answer-exam-date{
+  padding: 6px 4px 6px 4px;
+ 
+}
+.exam-date-data{
+  padding: 0px 6px 0px 6px;
+  align-self: flex-end;
+}
+
+.questio-answer-exam{
+  // padding: 6px 4px 6px 4px;
+  padding: 0px 6px 0px 6px;
+}
+.main-card-report:hover{
+  transform: scale(0.9);
+  transition: .3s ease-out;
+}
+.exam-report-chart-color{
+#apexcharts-radialbarTrack-0{
+  stroke: #ffffff !important;
+}}
+.msedge-center{
+  text-align: right;
+}
+.pleft-4{
+  padding-left: 1.5rem;
+}
+@media screen and (max-width: 480px){
+  .exam-review-sec{
+    padding: 5% 0% 0% 10% !important;
+  }
+  .msedge-search-hide{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    z-index: 10;
+    padding-left: 15px !important;
+    
+  }
+
+  .msedge-search-hide-two{
+    display: flex;
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .msedge-anttable-mobile{
+    padding-top: 37%;
+  }
+  .msedge-overview-exam-reports .table-top-header{
+    padding: 6% 4% 0% 9% !important;
+  }
+  .msedge-overview-exam-reports .msedge-column-height{
+    width: 100%;
+  }
+  .msedge-overview-exam-reports .ant-table-tbody p{
+    width: 240px;
+  }
+  .msedge-overview-exam-reports .ant-table-thead > tr > th, .ant-table-tbody > tr > td{
+    padding: 16px 40px;
+  }
+  .msedge-center{
+    text-align: left;
+  }
+  .msedge-right-align{
+    text-align: right;
+  }
+  .msedge-mobile-leftside{
+    text-align: left;
+  }
+  .pleft-4{
+    padding-left: unset;
+    padding-top: 10px;
+  }
+}
