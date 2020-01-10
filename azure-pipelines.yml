@@ -26,7 +26,7 @@ stages:
         command: buildAndPush
         repository: app
         dockerfile: '**/dockerfile'
-        containerRegistry: AzureContainerRegistry
+        containerRegistry: otapnew
         tags: |
           $(Build.BuildId)
           latest
