@@ -1,7 +1,7 @@
 version: '3.7'
 services: 
   webapp:
-    image: httpd
+    image: otapnew.azurecr.io/otapnew5623:39
     build: .
     ports: 
       - "4400:80"
