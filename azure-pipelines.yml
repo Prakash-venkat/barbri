@@ -24,7 +24,7 @@ stages:
       displayName: Build and push image to container registry
       inputs:
         command: buildAndPush
-        repository: demos/BlazorServerWithDocker
+        repository: app
         dockerfile: '**/dockerfile'
         containerRegistry: AzureContainerRegistry
         tags: |
