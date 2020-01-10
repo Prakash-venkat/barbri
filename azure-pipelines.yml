@@ -1,5 +1,5 @@
 # Docker
-# Build a Docker image 
+# Build and push an image to Azure Container Registry
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
 trigger:
@@ -10,9 +10,10 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
+  dockerRegistryServiceConnection: '38759ea8-124e-47f6-9e50-548102988d28'
   imageRepository: 'otap'
   containerRegistry: 'otapnew.azurecr.io'
-  dockerfilePath: '**/dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
   
   # Agent VM image name
