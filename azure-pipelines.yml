@@ -11,7 +11,7 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   imageRepository: 'otap'
-  containerRegistry: 'otapnew'
+  containerRegistry: 'otapnew.azurecr.io'
   dockerfilePath: '**/dockerfile'
   tag: '$(Build.BuildId)'
   
