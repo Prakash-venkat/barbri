@@ -13,10 +13,10 @@ variables:
 
 stages:
 - stage: Build
-  displayName: Build image
+  displayName: Build and push stage
   jobs:  
   - job: Build
-    displayName: Build
+    displayName: Build job
     pool:
       vmImage: 'ubuntu-latest'
     steps:
@@ -24,7 +24,7 @@ stages:
       displayName: Build and push image to container registry
       inputs:
         command: buildAndPush
-        repository: otapconnection
+        repository: otap
         dockerfile: '**/dockerfile'
         containerRegistry: otapnew
         tags: |
